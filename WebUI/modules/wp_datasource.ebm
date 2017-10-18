@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_datasource" id="9B52D1E750A74F42B681C18204B8EB0F" version="658" row_count="10" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="9B52D1E750A74F42B681C18204B8EB0F">
+			<attribute name="app_module_id" value="9B52D1E750A74F42B681C18204B8EB0F"/>
+			<attribute name="app_module_name" value="wp_datasource"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="5541"/>
+		</object>
+		<object type="data_source" primary-key="data_source_id" primary-key-value="CD33A431678D4F109B635AF8FEB055B7">
+			<attribute name="code_page_id" value="Latin 1 ISO"/>
+			<attribute name="data_source_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="data_source_name" value="WP"/>
+			<attribute name="data_source_type_id" value="TYPE_SQL"/>
+			<attribute name="masked_attributes" value="2"/>
+			<attribute name="transaction_methods_class_id" value="SQLDataProviderImpl"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="0FE30C1ADF31498F8B9DC8103AC83A59">
+			<attribute name="display_text" value="4000"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="CB9D37057B0E4CD7B7A58C091F731200"/>
+			<attribute name="property_value_id" value="0FE30C1ADF31498F8B9DC8103AC83A59"/>
+			<attribute name="string_value" value="4000"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="5F58784070624DF99FC7D1EE0F95B9E1">
+			<attribute name="display_text" value="1433"/>
+			<attribute name="int_value" value="1433"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverPort6SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="5F58784070624DF99FC7D1EE0F95B9E1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="652465B156E642049D592EFD5023C3AF">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="25ADD14530C942D28380DA221776BFF5"/>
+			<attribute name="property_value_id" value="652465B156E642049D592EFD5023C3AF"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="7EF4B6D199BB46BE83BB0BD965C13909">
+			<attribute name="display_text" value="mssql_datadirect"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverType7SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="7EF4B6D199BB46BE83BB0BD965C13909"/>
+			<attribute name="string_value" value="mssql_datadirect"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="93E956FE1B164B88BD6C427D659278FF">
+			<attribute name="display_text" value="ENCRYPTED TEXT"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabasePassword4SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="93E956FE1B164B88BD6C427D659278FF"/>
+			<attribute name="string_value" value="{3DES}dwBgDIylAtY="/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="C43AE384157D4A01B4D0C5106D89CCFD">
+			<attribute name="display_text" value="WM920"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseName3SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="C43AE384157D4A01B4D0C5106D89CCFD"/>
+			<attribute name="string_value" value="WM920"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="F0BD5792EE0C4F178EF2731BE68A73B3">
+			<attribute name="display_text" value="USDADMMA1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverName2SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="F0BD5792EE0C4F178EF2731BE68A73B3"/>
+			<attribute name="string_value" value="USDADMMA1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="FC0A0ECE4CB6484487D79249A3E1762B">
+			<attribute name="display_text" value="wmwhse1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseUser1SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="FC0A0ECE4CB6484487D79249A3E1762B"/>
+			<attribute name="string_value" value="wmwhse1"/>
+		</object>
+	</module>
+</root>

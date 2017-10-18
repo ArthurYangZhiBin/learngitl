@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_waveworkbench_ext" id="899EE6C8947E42BABB4C77078F8A58C6" version="658" row_count="14" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="899EE6C8947E42BABB4C77078F8A58C6">
+			<attribute name="app_module_id" value="899EE6C8947E42BABB4C77078F8A58C6"/>
+			<attribute name="app_module_name" value="wp_waveworkbench_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="23676"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="05098BF53C7F426893C46892CD95FDA3">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_waveworkbench.computed.wp_waveworkbench_alerts"/>
+			<attribute name="extension_id" value="05098BF53C7F426893C46892CD95FDA3"/>
+			<attribute name="extension_name" value="wp_waveworkbench_alerts"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_waveworkbench.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="98AAD0554E5C466EB6A76214ED7BFECD">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_waveworkbench.ui.WaveworkbenchHelp"/>
+			<attribute name="extension_id" value="98AAD0554E5C466EB6A76214ED7BFECD"/>
+			<attribute name="extension_name" value="WaveworkbenchHelp"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_waveworkbench.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E993A5F9D3094C3187812E21B2EAF735">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_waveworkbench.ui.Waveworkbenchcomputedeventtype"/>
+			<attribute name="extension_id" value="E993A5F9D3094C3187812E21B2EAF735"/>
+			<attribute name="extension_name" value="Waveworkbenchcomputedeventtype"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_waveworkbench.ui"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="1CD971973AD647239003D0A753653A01">
+			<attribute name="event_category_id" value="0843BD8CB0A64C9A8A30DBE9B4358717"/>
+			<attribute name="extension_event_category_id" value="1CD971973AD647239003D0A753653A01"/>
+			<attribute name="extension_id" value="E993A5F9D3094C3187812E21B2EAF735"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="3D1FA6DD9506494B9499EB6736D00246">
+			<attribute name="extension_id" value="1D7AC83A74EE40A8BE9D9BEE10E2EF54"/>
+			<attribute name="extension_instance_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="object_id" value="6487256C44B043EAA8CEB0B88C56CF77"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="C8E422A25F7C4E1880F98F1E7A0D71DD">
+			<attribute name="event_type_mapping_id" value="9F2565F7893F4DE7854701A575AA9A17"/>
+			<attribute name="extension_instance_event_id" value="C8E422A25F7C4E1880F98F1E7A0D71DD"/>
+			<attribute name="extension_instance_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="extension_instance_priority" value="120"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="3155334017AE411B897FB890BB5F5588">
+			<attribute name="label_id" value="3155334017AE411B897FB890BB5F5588"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wp_waveworkbench_alerts"/>
+			<attribute name="object_id" value="05098BF53C7F426893C46892CD95FDA3"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="wp_waveworkbench_alerts"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="AB4BEA28B23049E8B87FDB7F25F597FD">
+			<attribute name="label_id" value="AB4BEA28B23049E8B87FDB7F25F597FD"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveworkbenchHelp"/>
+			<attribute name="object_id" value="98AAD0554E5C466EB6A76214ED7BFECD"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveworkbenchHelp"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D5091EFECC8045C6946FD5BD3189692B">
+			<attribute name="label_id" value="D5091EFECC8045C6946FD5BD3189692B"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Waveworkbenchcomputedeventtype"/>
+			<attribute name="object_id" value="E993A5F9D3094C3187812E21B2EAF735"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="Waveworkbenchcomputedeventtype"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="19B7F3B018E6482595C725D066C12BB0">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="9D4E07D2EBED43FABF29F4758BDD950D"/>
+			<attribute name="property_value_id" value="19B7F3B018E6482595C725D066C12BB0"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="236D3E00BC3B4851952716B86DC04E4F">
+			<attribute name="display_text" value="FACILITYID"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2DAFFCEA00234739B1CC9344A180F316"/>
+			<attribute name="property_value_id" value="236D3E00BC3B4851952716B86DC04E4F"/>
+			<attribute name="string_value" value="FACILITYID"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="4B531652CD024ECAA4FDA38C3EEBD3FE">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2BDAF5311CE04E91AE06D242F6D18BB7"/>
+			<attribute name="property_value_id" value="4B531652CD024ECAA4FDA38C3EEBD3FE"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="6A59E2BC3E52417D8594C468897C8130">
+			<attribute name="display_text" value="USERID"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3D1FA6DD9506494B9499EB6736D00246"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="8F6D2694795E4130B2531AB7805210F2"/>
+			<attribute name="property_value_id" value="6A59E2BC3E52417D8594C468897C8130"/>
+			<attribute name="string_value" value="USERID"/>
+		</object>
+	</module>
+</root>

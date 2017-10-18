@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_cx_shared_lookup" id="866AF1B334F04644894F130C6F996A03" version="658" row_count="9" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="866AF1B334F04644894F130C6F996A03">
+			<attribute name="app_module_id" value="866AF1B334F04644894F130C6F996A03"/>
+			<attribute name="app_module_name" value="wm_cx_shared_lookup"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="2115"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="7148ACC0CB664D158A5FB2B64C239017">
+			<attribute name="attribute_domain_id" value="7148ACC0CB664D158A5FB2B64C239017"/>
+			<attribute name="attribute_domain_name" value="wm_cx_container_quality_type_ad"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_COMPUTED"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="D9FE109D00F6430A969B2CAA8348ABE2">
+			<attribute name="attribute_domain_id" value="D9FE109D00F6430A969B2CAA8348ABE2"/>
+			<attribute name="attribute_domain_name" value="wm_cx_adjustment_type_ad"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_COMPUTED"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="93D68810B30E4A828672525A8EB54AB8">
+			<attribute name="extension_id" value="527888B1D1134687ABF7B43E49B2076F"/>
+			<attribute name="extension_instance_id" value="93D68810B30E4A828672525A8EB54AB8"/>
+			<attribute name="object_id" value="7148ACC0CB664D158A5FB2B64C239017"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="A8FC2892778B4A00A1387B8208A093C7">
+			<attribute name="extension_id" value="527888B1D1134687ABF7B43E49B2076F"/>
+			<attribute name="extension_instance_id" value="A8FC2892778B4A00A1387B8208A093C7"/>
+			<attribute name="object_id" value="D9FE109D00F6430A969B2CAA8348ABE2"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="000E1921C6264EF19B2B42860025229A">
+			<attribute name="event_type_mapping_id" value="BC49B4CCADB244EA8F55CB4C55B62222"/>
+			<attribute name="extension_instance_event_id" value="000E1921C6264EF19B2B42860025229A"/>
+			<attribute name="extension_instance_id" value="93D68810B30E4A828672525A8EB54AB8"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="E49717ACDDC64978906CF154534B5C74">
+			<attribute name="event_type_mapping_id" value="BC49B4CCADB244EA8F55CB4C55B62222"/>
+			<attribute name="extension_instance_event_id" value="E49717ACDDC64978906CF154534B5C74"/>
+			<attribute name="extension_instance_id" value="A8FC2892778B4A00A1387B8208A093C7"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="23B6886D0065482A96057BDA155E57BF">
+			<attribute name="display_text" value="CNTRGRADE"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="93D68810B30E4A828672525A8EB54AB8"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="D55AA9E224DE4FC2A26DAFE8920FA8A7"/>
+			<attribute name="property_value_id" value="23B6886D0065482A96057BDA155E57BF"/>
+			<attribute name="string_value" value="CNTRGRADE"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="73031C14967F4489949F794398D89AB0">
+			<attribute name="display_text" value="CXADJTYPE"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="A8FC2892778B4A00A1387B8208A093C7"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="D55AA9E224DE4FC2A26DAFE8920FA8A7"/>
+			<attribute name="property_value_id" value="73031C14967F4489949F794398D89AB0"/>
+			<attribute name="string_value" value="CXADJTYPE"/>
+		</object>
+	</module>
+</root>

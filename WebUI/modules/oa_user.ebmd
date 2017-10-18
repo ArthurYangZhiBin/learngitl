@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="oa_user" id="5C2CC827A48C459091E235DB62F1F758" version="658" row_count="3" module-type="0" isdelta="1">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="5C2CC827A48C459091E235DB62F1F758">
+			<attribute name="app_module_id" value="5C2CC827A48C459091E235DB62F1F758"/>
+			<attribute name="app_module_name" value="oa_user"/>
+			<attribute name="is_system_module_flag" value="1"/>
+			<attribute name="masked_attribute" value="32"/>
+			<attribute name="module_version" value="700000000"/>
+			<attribute name="transaction_id" value="8298"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="0FDEFFB52AAC4014BC218D43CB692D74">
+			<attribute name="bio_attribute_id" value="0FDEFFB52AAC4014BC218D43CB692D74"/>
+			<attribute name="bio_attribute_name" value="user_data"/>
+			<attribute name="bio_attribute_type" value="BIO"/>
+			<attribute name="bio_class_id" value="40315603F4684061AA33DAA7497A52B6"/>
+			<attribute name="destination_bio_id" value="17FB2B21CBCE4DD689290E945BC2E6FA"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="mapped_field" value="user_data_e_user_rel"/>
+			<attribute name="mapping_type" value="RELATION"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="rel_mapped_bio" primary-key="rel_mapped_bio_id" primary-key-value="695440FAAB4F4D80AEBC9DDF52867596">
+			<attribute name="bio_attribute_id" value="0FDEFFB52AAC4014BC218D43CB692D74"/>
+			<attribute name="cascade_delete_flag" value="1"/>
+			<attribute name="left_to_right_flag" value="1"/>
+			<attribute name="rel_mapped_bio_id" value="695440FAAB4F4D80AEBC9DDF52867596"/>
+			<attribute name="relationship_id" value="24C51CABAF08420EB59F45850798E1A0"/>
+		</object>
+	</module>
+</root>

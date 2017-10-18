@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_connectivity_config_bio" id="4C18CAB5A7DB412BA0D24A7ED869794D" version="658" row_count="23" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="4C18CAB5A7DB412BA0D24A7ED869794D">
+			<attribute name="app_module_id" value="4C18CAB5A7DB412BA0D24A7ED869794D"/>
+			<attribute name="app_module_name" value="wp_connectivity_config_bio"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="0"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="3B7C9AD945994329A9E7269175A2F737">
+			<attribute name="bio_attribute_id" value="3B7C9AD945994329A9E7269175A2F737"/>
+			<attribute name="bio_attribute_name" value="WHSEID"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="WHSEID"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="ABC7945A69534713AB09D44B49FAD99A">
+			<attribute name="bio_attribute_id" value="ABC7945A69534713AB09D44B49FAD99A"/>
+			<attribute name="bio_attribute_name" value="FACILITYNAME"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="FACILITYNAME"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="DDAF39D79778433D8811F49118E25DAE">
+			<attribute name="bio_attribute_id" value="DDAF39D79778433D8811F49118E25DAE"/>
+			<attribute name="bio_attribute_name" value="SERIALKEY"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="SERIALKEY"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="E9225A8CE18A44C09E124831F2AC35DD">
+			<attribute name="bio_attribute_id" value="E9225A8CE18A44C09E124831F2AC35DD"/>
+			<attribute name="bio_attribute_name" value="CONNECTIONSTRING"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="CONNECTIONSTRING"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="73FE3A95D9AA427CAB913ACE913A71CE">
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="bio_class_name" value="wp_connectivityconfig"/>
+			<attribute name="createable_flag" value="1"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="2C8DE61A284A412B9D56C36031017910">
+			<attribute name="bio_class_id" value="73FE3A95D9AA427CAB913ACE913A71CE"/>
+			<attribute name="bio_display_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="bio_display_name" value="wp_connectivityconfig"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="0AD0D691622B415EA114D108C2CA9708">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="DDAF39D79778433D8811F49118E25DAE"/>
+			<attribute name="bio_display_attribute_id" value="0AD0D691622B415EA114D108C2CA9708"/>
+			<attribute name="bio_display_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="979905A0394C4D8E9B89207CAF9EA0E3">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="ABC7945A69534713AB09D44B49FAD99A"/>
+			<attribute name="bio_display_attribute_id" value="979905A0394C4D8E9B89207CAF9EA0E3"/>
+			<attribute name="bio_display_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="9A87975CCC66449B962456C7297C8ACE">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="E9225A8CE18A44C09E124831F2AC35DD"/>
+			<attribute name="bio_display_attribute_id" value="9A87975CCC66449B962456C7297C8ACE"/>
+			<attribute name="bio_display_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="9D7E77A68B2349C28CC2D906E4F73E1B">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="3B7C9AD945994329A9E7269175A2F737"/>
+			<attribute name="bio_display_attribute_id" value="9D7E77A68B2349C28CC2D906E4F73E1B"/>
+			<attribute name="bio_display_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="0D11A16750C2453898E5FE08A88AC3E8">
+			<attribute name="data_field_id" value="0D11A16750C2453898E5FE08A88AC3E8"/>
+			<attribute name="data_field_name" value="FACILITYNAME"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="FACILITYNAME"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="50"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="309CA0FCC27745A983149C993798C481">
+			<attribute name="data_field_id" value="309CA0FCC27745A983149C993798C481"/>
+			<attribute name="data_field_name" value="SERIALKEY"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_INT"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="SERIALKEY"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="0"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="AD5854CF227E4F2D800FA2C38D552DE2">
+			<attribute name="data_field_id" value="AD5854CF227E4F2D800FA2C38D552DE2"/>
+			<attribute name="data_field_name" value="CONNECTIONSTRING"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="CONNECTIONSTRING"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="50"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="FAFD76FDA06D4969BAEB27A1E02DB299">
+			<attribute name="data_field_id" value="FAFD76FDA06D4969BAEB27A1E02DB299"/>
+			<attribute name="data_field_name" value="WHSEID"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="WHSEID"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="30"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_recordset" primary-key="data_recordset_id" primary-key-value="E7F64634684646FA8EB6F8C8CEDE151D">
+			<attribute name="auto_pk_dm_gen_flag" value="0"/>
+			<attribute name="caching_type" value="uow"/>
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="data_recordset_name" value="wp_connectivityconfig"/>
+			<attribute name="data_source_id" value="CD33A431678D4F109B635AF8FEB055B7"/>
+			<attribute name="delete_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="fetch_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="has_pk_flag" value="1"/>
+			<attribute name="insert_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="is_logical_delete_default" value="0"/>
+			<attribute name="locking_strategy" value="none"/>
+			<attribute name="primary_key_auto_flag" value="0"/>
+			<attribute name="query_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="recordset_physical_name" value="wp_facilities"/>
+			<attribute name="supports_logical_delete" value="0"/>
+			<attribute name="update_method_class_id" value="SQLDataProviderImpl"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="0349E52085894057AEADEEB9A6265CB9">
+			<attribute name="bio_attribute_id" value="E9225A8CE18A44C09E124831F2AC35DD"/>
+			<attribute name="data_field_id" value="AD5854CF227E4F2D800FA2C38D552DE2"/>
+			<attribute name="field_mapped_attribute_id" value="0349E52085894057AEADEEB9A6265CB9"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="14D4AA5D983042FF85F86C01A60A3151">
+			<attribute name="bio_attribute_id" value="DDAF39D79778433D8811F49118E25DAE"/>
+			<attribute name="data_field_id" value="309CA0FCC27745A983149C993798C481"/>
+			<attribute name="field_mapped_attribute_id" value="14D4AA5D983042FF85F86C01A60A3151"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="362CA41BEC704959848D63F73666A267">
+			<attribute name="bio_attribute_id" value="ABC7945A69534713AB09D44B49FAD99A"/>
+			<attribute name="data_field_id" value="0D11A16750C2453898E5FE08A88AC3E8"/>
+			<attribute name="field_mapped_attribute_id" value="362CA41BEC704959848D63F73666A267"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="86E314B0EEE7421E91A9428F4D062930">
+			<attribute name="bio_attribute_id" value="3B7C9AD945994329A9E7269175A2F737"/>
+			<attribute name="data_field_id" value="FAFD76FDA06D4969BAEB27A1E02DB299"/>
+			<attribute name="field_mapped_attribute_id" value="86E314B0EEE7421E91A9428F4D062930"/>
+		</object>
+		<object type="field_set" primary-key="field_set_id" primary-key-value="16C0CEFE145547BEBF9DAFE5DF6F4759">
+			<attribute name="data_recordset_id" value="E7F64634684646FA8EB6F8C8CEDE151D"/>
+			<attribute name="field_set_id" value="16C0CEFE145547BEBF9DAFE5DF6F4759"/>
+			<attribute name="field_set_name" value="PK_WHSEID"/>
+			<attribute name="index_flag" value="0"/>
+			<attribute name="key_type" value="PRIMARY_KEY"/>
+		</object>
+		<object type="field_set_def" primary-key="field_set_def_id" primary-key-value="69DFE990609E467AA6D92EEAFC9EBFFA">
+			<attribute name="data_field_id" value="FAFD76FDA06D4969BAEB27A1E02DB299"/>
+			<attribute name="field_set_def_id" value="69DFE990609E467AA6D92EEAFC9EBFFA"/>
+			<attribute name="field_set_def_listorder" value="1"/>
+			<attribute name="field_set_id" value="16C0CEFE145547BEBF9DAFE5DF6F4759"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0F985EE0DE004C3FA9B982C44FC69046">
+			<attribute name="label_id" value="0F985EE0DE004C3FA9B982C44FC69046"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wp_connectivityconfig"/>
+			<attribute name="object_id" value="2C8DE61A284A412B9D56C36031017910"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wp_connectivityconfig"/>
+		</object>
+	</module>
+</root>

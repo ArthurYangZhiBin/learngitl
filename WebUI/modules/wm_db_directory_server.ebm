@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_db_directory_server" id="C905A6EF6BEE44A08F4CA9A14C4E733A" version="658" row_count="23" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="C905A6EF6BEE44A08F4CA9A14C4E733A">
+			<attribute name="app_module_id" value="C905A6EF6BEE44A08F4CA9A14C4E733A"/>
+			<attribute name="app_module_name" value="wm_db_directory_server"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="1851"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="1A715968492341BEB02D17C6D9A23DC7">
+			<attribute name="bio_attribute_id" value="1A715968492341BEB02D17C6D9A23DC7"/>
+			<attribute name="bio_attribute_name" value="fully_qualified_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="fully_qualified_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="20550E4234E2451AB06AD63AE457CD21">
+			<attribute name="bio_attribute_id" value="20550E4234E2451AB06AD63AE457CD21"/>
+			<attribute name="bio_attribute_name" value="e_sso_user_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="e_sso_user_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="989288F6AAC142499E5E780FF3CE8E58">
+			<attribute name="bio_attribute_id" value="989288F6AAC142499E5E780FF3CE8E58"/>
+			<attribute name="bio_attribute_name" value="sso_user_name"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="sso_user_name"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="D5D4B81A541B4C2DAD9B115A75070468">
+			<attribute name="bio_attribute_id" value="D5D4B81A541B4C2DAD9B115A75070468"/>
+			<attribute name="bio_attribute_name" value="sso_hash_password"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="sso_hash_password"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="1407A7FB6C8045F49BC7E74644252977">
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="bio_class_name" value="wm_e_sso_user"/>
+			<attribute name="createable_flag" value="1"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="F1EBB38E29C54D75AA83D544C7E80102">
+			<attribute name="bio_class_id" value="1407A7FB6C8045F49BC7E74644252977"/>
+			<attribute name="bio_display_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="bio_display_name" value="wm_e_sso_user"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="0FE35092AC3547C29315034A3C93E6C8">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="20550E4234E2451AB06AD63AE457CD21"/>
+			<attribute name="bio_display_attribute_id" value="0FE35092AC3547C29315034A3C93E6C8"/>
+			<attribute name="bio_display_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="467FF8828E60439CB959B0AE9D1AF1E7">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="1A715968492341BEB02D17C6D9A23DC7"/>
+			<attribute name="bio_display_attribute_id" value="467FF8828E60439CB959B0AE9D1AF1E7"/>
+			<attribute name="bio_display_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="6470C5DADF2B4AEDAA8724C1F47C21E8">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="989288F6AAC142499E5E780FF3CE8E58"/>
+			<attribute name="bio_display_attribute_id" value="6470C5DADF2B4AEDAA8724C1F47C21E8"/>
+			<attribute name="bio_display_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="A111CB113B134794B69030254C27E68C">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="D5D4B81A541B4C2DAD9B115A75070468"/>
+			<attribute name="bio_display_attribute_id" value="A111CB113B134794B69030254C27E68C"/>
+			<attribute name="bio_display_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="150011107D1149CD91563153C309A425">
+			<attribute name="data_field_id" value="150011107D1149CD91563153C309A425"/>
+			<attribute name="data_field_name" value="e_sso_user_id"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_GUID"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="e_sso_user_id"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="16"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="4930FA8B8C24437180269BDC57C6A823">
+			<attribute name="data_field_id" value="4930FA8B8C24437180269BDC57C6A823"/>
+			<attribute name="data_field_name" value="sso_user_name"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="sso_user_name"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="100"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="A07E0CAEF5EC481DB82E4CBEF26377B2">
+			<attribute name="data_field_id" value="A07E0CAEF5EC481DB82E4CBEF26377B2"/>
+			<attribute name="data_field_name" value="fully_qualified_id"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="fully_qualified_id"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="255"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="AC762401626849EAB4FC73D02F850486">
+			<attribute name="data_field_id" value="AC762401626849EAB4FC73D02F850486"/>
+			<attribute name="data_field_name" value="sso_hash_password"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="sso_hash_password"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="255"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_recordset" primary-key="data_recordset_id" primary-key-value="580E2048C6204499900E26C0753A0D5D">
+			<attribute name="auto_pk_dm_gen_flag" value="1"/>
+			<attribute name="caching_type" value="uow"/>
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="data_recordset_name" value="wm_e_sso_user"/>
+			<attribute name="data_source_id" value="DATA_SOURCE_SQL"/>
+			<attribute name="delete_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+			<attribute name="fetch_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="has_pk_flag" value="1"/>
+			<attribute name="insert_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+			<attribute name="is_logical_delete_default" value="0"/>
+			<attribute name="locking_strategy" value="none"/>
+			<attribute name="primary_key_auto_flag" value="1"/>
+			<attribute name="query_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="recordset_physical_name" value="e_sso_user"/>
+			<attribute name="supports_logical_delete" value="0"/>
+			<attribute name="update_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="0F15C7ED905C4857A08B18DF28DEEAA8">
+			<attribute name="bio_attribute_id" value="20550E4234E2451AB06AD63AE457CD21"/>
+			<attribute name="data_field_id" value="150011107D1149CD91563153C309A425"/>
+			<attribute name="field_mapped_attribute_id" value="0F15C7ED905C4857A08B18DF28DEEAA8"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="1BC0F8C2AE9140978CDA32A8ADD2F957">
+			<attribute name="bio_attribute_id" value="D5D4B81A541B4C2DAD9B115A75070468"/>
+			<attribute name="data_field_id" value="AC762401626849EAB4FC73D02F850486"/>
+			<attribute name="field_mapped_attribute_id" value="1BC0F8C2AE9140978CDA32A8ADD2F957"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="6F4768395BB349D59C868914F89F399B">
+			<attribute name="bio_attribute_id" value="1A715968492341BEB02D17C6D9A23DC7"/>
+			<attribute name="data_field_id" value="A07E0CAEF5EC481DB82E4CBEF26377B2"/>
+			<attribute name="field_mapped_attribute_id" value="6F4768395BB349D59C868914F89F399B"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="88D69C2FEE264F929D8B4B12F07C5A13">
+			<attribute name="bio_attribute_id" value="989288F6AAC142499E5E780FF3CE8E58"/>
+			<attribute name="data_field_id" value="4930FA8B8C24437180269BDC57C6A823"/>
+			<attribute name="field_mapped_attribute_id" value="88D69C2FEE264F929D8B4B12F07C5A13"/>
+		</object>
+		<object type="field_set" primary-key="field_set_id" primary-key-value="D33C7A4EA08E4F7EB737EDF101362BBC">
+			<attribute name="data_recordset_id" value="580E2048C6204499900E26C0753A0D5D"/>
+			<attribute name="field_set_id" value="D33C7A4EA08E4F7EB737EDF101362BBC"/>
+			<attribute name="field_set_name" value="PK__e_sso_user__3F115E1A"/>
+			<attribute name="index_flag" value="0"/>
+			<attribute name="key_type" value="PRIMARY_KEY"/>
+		</object>
+		<object type="field_set_def" primary-key="field_set_def_id" primary-key-value="F0CC5637A8E34F74959728013F71EF69">
+			<attribute name="data_field_id" value="150011107D1149CD91563153C309A425"/>
+			<attribute name="field_set_def_id" value="F0CC5637A8E34F74959728013F71EF69"/>
+			<attribute name="field_set_def_listorder" value="1"/>
+			<attribute name="field_set_id" value="D33C7A4EA08E4F7EB737EDF101362BBC"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2D645BF2BE804652B237585170CC7120">
+			<attribute name="label_id" value="2D645BF2BE804652B237585170CC7120"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_e_sso_user"/>
+			<attribute name="object_id" value="F1EBB38E29C54D75AA83D544C7E80102"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wm_e_sso_user"/>
+		</object>
+	</module>
+</root>

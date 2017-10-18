@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_userpreference" id="9511A5971FB446B59A13E5BB8F6BF905" version="658" row_count="4" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="9511A5971FB446B59A13E5BB8F6BF905">
+			<attribute name="app_module_id" value="9511A5971FB446B59A13E5BB8F6BF905"/>
+			<attribute name="app_module_name" value="wm_userpreference"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="30018"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="95E1D39A88A044279213E20EB8715539">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.userpreferences.ui.UserPreferenceReset"/>
+			<attribute name="extension_id" value="95E1D39A88A044279213E20EB8715539"/>
+			<attribute name="extension_name" value="UserPreferenceReset1"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.userpreferences.ui"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="8C853E4701024DB09AE1D78E42ACE10E">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="8C853E4701024DB09AE1D78E42ACE10E"/>
+			<attribute name="extension_id" value="95E1D39A88A044279213E20EB8715539"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1EBEAD130E3E43A897A31D24D177D35F">
+			<attribute name="label_id" value="1EBEAD130E3E43A897A31D24D177D35F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="UserPreferenceReset"/>
+			<attribute name="object_id" value="95E1D39A88A044279213E20EB8715539"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="UserPreferenceReset"/>
+		</object>
+	</module>
+</root>

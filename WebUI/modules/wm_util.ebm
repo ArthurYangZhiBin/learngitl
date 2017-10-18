@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_util" id="CFBC2240CFC34E6BACD7EDFFA5A8AA2A" version="658" row_count="14" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="CFBC2240CFC34E6BACD7EDFFA5A8AA2A">
+			<attribute name="app_module_id" value="CFBC2240CFC34E6BACD7EDFFA5A8AA2A"/>
+			<attribute name="app_module_name" value="wm_util"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="6803"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4CCF3965E7424A40A81FA4440DAE8F67">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.util.duplicate.PopulateBio"/>
+			<attribute name="extension_id" value="4CCF3965E7424A40A81FA4440DAE8F67"/>
+			<attribute name="extension_name" value="PopulateBio"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.util.duplicate"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="7DD4959A87914891B08442FEC296DA18">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.util.duplicate.CopyBio"/>
+			<attribute name="extension_id" value="7DD4959A87914891B08442FEC296DA18"/>
+			<attribute name="extension_name" value="CopyBio"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.util.duplicate"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0D524FEED3114142B212432C35AF4163">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="0D524FEED3114142B212432C35AF4163"/>
+			<attribute name="extension_id" value="4CCF3965E7424A40A81FA4440DAE8F67"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="6244540183D14052A188331F770F1F97">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="6244540183D14052A188331F770F1F97"/>
+			<attribute name="extension_id" value="7DD4959A87914891B08442FEC296DA18"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="60ADAC79FC3644E0830538CC264FB948">
+			<attribute name="extension_id" value="4CCF3965E7424A40A81FA4440DAE8F67"/>
+			<attribute name="extension_instance_id" value="60ADAC79FC3644E0830538CC264FB948"/>
+			<attribute name="object_id" value="309230993A23405FB8CB650054E0AA76"/>
+			<attribute name="object_type_id" value="form_widget"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="87AFAD2809364954BD2378EFEBB4BC84">
+			<attribute name="event_type_mapping_id" value="15526"/>
+			<attribute name="extension_instance_event_id" value="87AFAD2809364954BD2378EFEBB4BC84"/>
+			<attribute name="extension_instance_id" value="60ADAC79FC3644E0830538CC264FB948"/>
+			<attribute name="extension_instance_priority" value="102"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="15B431C75EE5466E99FD58BA54125093">
+			<attribute name="label_id" value="15B431C75EE5466E99FD58BA54125093"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="CopyBio"/>
+			<attribute name="object_id" value="7DD4959A87914891B08442FEC296DA18"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="CopyBio"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B37FCAB0D2E04E36AE9158652F220B8B">
+			<attribute name="label_id" value="B37FCAB0D2E04E36AE9158652F220B8B"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Bio type"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="C0874DCBD3B84C9FB345D4F18DD9E0AC"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C825AF0D09994D659DBF33AE6FFD61A8">
+			<attribute name="label_id" value="C825AF0D09994D659DBF33AE6FFD61A8"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="PopulateBio"/>
+			<attribute name="object_id" value="4CCF3965E7424A40A81FA4440DAE8F67"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="PopulateBio"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="C0874DCBD3B84C9FB345D4F18DD9E0AC">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="4CCF3965E7424A40A81FA4440DAE8F67"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="C0874DCBD3B84C9FB345D4F18DD9E0AC"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="370E992C6B0F4ABA9C546ECC8BE5D9AE">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Duplicate failed since temporary was not found"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="Duplicate failed since temporary was not found"/>
+			<attribute name="text_message_id" value="370E992C6B0F4ABA9C546ECC8BE5D9AE"/>
+			<attribute name="text_name" value="WMEXP_TEMP_NOTFOUND"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="3B4A38BD3C484D148EA1669FB4FF598F">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Could not implementation of Duplicate for this type"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="Could not find implementation of Duplicate for this type"/>
+			<attribute name="text_message_id" value="3B4A38BD3C484D148EA1669FB4FF598F"/>
+			<attribute name="text_name" value="WMEXP_UNDEFINED_BIO"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="F5A02DC2DC3F4E7FACFD35559DE02785">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Failed to populate new record"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="Failed to populate new record"/>
+			<attribute name="text_message_id" value="F5A02DC2DC3F4E7FACFD35559DE02785"/>
+			<attribute name="text_name" value="WMEXP_POPULATE_FAILED"/>
+		</object>
+	</module>
+</root>

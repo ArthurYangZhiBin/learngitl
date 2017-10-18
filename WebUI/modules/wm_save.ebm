@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_save" id="1E234BD3D1324431BB4B83427257A5DD" version="658" row_count="27" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="1E234BD3D1324431BB4B83427257A5DD">
+			<attribute name="app_module_id" value="1E234BD3D1324431BB4B83427257A5DD"/>
+			<attribute name="app_module_name" value="wm_save"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="8968"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="389BB3A0B72B446581E358771B911B95">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.ValidateNoSpace"/>
+			<attribute name="extension_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="extension_name" value="ValidateNoSpace"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E101EEC2712240739267B03B8D218527">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.MakeAttributesUppercase"/>
+			<attribute name="extension_id" value="E101EEC2712240739267B03B8D218527"/>
+			<attribute name="extension_name" value="MakeAttributesUppercase"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0885DE7A69BF4E68A440F18AB4BF7F4D">
+			<attribute name="event_category_id" value="E01D519CF69144D098CF2C32F04CBEFC"/>
+			<attribute name="extension_event_category_id" value="0885DE7A69BF4E68A440F18AB4BF7F4D"/>
+			<attribute name="extension_id" value="E101EEC2712240739267B03B8D218527"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="86C02A3523BD45B6BADA37E57D154079">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="86C02A3523BD45B6BADA37E57D154079"/>
+			<attribute name="extension_id" value="389BB3A0B72B446581E358771B911B95"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="063A250AB08F48069C6377838650B727">
+			<attribute name="label_id" value="063A250AB08F48069C6377838650B727"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Tabs"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="71A1FE1B1EE34CF7AA97C526B25AFEA9"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="3CB24A4F913647F98215EC147A1F340E">
+			<attribute name="label_id" value="3CB24A4F913647F98215EC147A1F340E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Attributes to Make Uppercase"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="6EFEFB8E713F4BB28330CEABAEA36360"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5EA33140B4F44037B64E670158419BB7">
+			<attribute name="label_id" value="5EA33140B4F44037B64E670158419BB7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Form Names"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="DA3440576A254E39A3C073DE0182B0E1"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="805EE52DCBE84065B7D23828887E6EC6">
+			<attribute name="label_id" value="805EE52DCBE84065B7D23828887E6EC6"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Shell Form"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="78016AD9D42D43CA9DBBEA2ABAB76F4B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="82D72C01972E41829E95CF62E4835A4F">
+			<attribute name="label_id" value="82D72C01972E41829E95CF62E4835A4F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Widget Names"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="22F27AEA95BE4FD8B83387E40FA893AF"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BD1541C1F315495D878974F2A09F634E">
+			<attribute name="label_id" value="BD1541C1F315495D878974F2A09F634E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ValidateNoSpace"/>
+			<attribute name="object_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ValidateNoSpace"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C8AEF1207147470E8112EA953787B0DD">
+			<attribute name="label_id" value="C8AEF1207147470E8112EA953787B0DD"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="MakeAttributesUppercase"/>
+			<attribute name="object_id" value="E101EEC2712240739267B03B8D218527"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="MakeAttributesUppercase"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="22F27AEA95BE4FD8B83387E40FA893AF">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="22F27AEA95BE4FD8B83387E40FA893AF"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="widgetNames"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="6EFEFB8E713F4BB28330CEABAEA36360">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="E101EEC2712240739267B03B8D218527"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="6EFEFB8E713F4BB28330CEABAEA36360"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="Attributes"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="71A1FE1B1EE34CF7AA97C526B25AFEA9">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="71A1FE1B1EE34CF7AA97C526B25AFEA9"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="tabs"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="78016AD9D42D43CA9DBBEA2ABAB76F4B">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="78016AD9D42D43CA9DBBEA2ABAB76F4B"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="shellForm"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="DA3440576A254E39A3C073DE0182B0E1">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="389BB3A0B72B446581E358771B911B95"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="DA3440576A254E39A3C073DE0182B0E1"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="formNames"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="05990E5335FE4731A766985163034DBC">
+			<attribute name="parameter_default_value_id" value="05990E5335FE4731A766985163034DBC"/>
+			<attribute name="parameter_id" value="22F27AEA95BE4FD8B83387E40FA893AF"/>
+			<attribute name="property_value_id" value="737C6BE436A94E4E98F5489B44D9A370"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="517A50904DD541F49D337376AA23C47E">
+			<attribute name="parameter_default_value_id" value="517A50904DD541F49D337376AA23C47E"/>
+			<attribute name="parameter_id" value="6EFEFB8E713F4BB28330CEABAEA36360"/>
+			<attribute name="property_value_id" value="1FB94CBA0D7F4D55BB6F0F8D5806C40D"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="5901CF506F3B4067A4CC4ACB2042076F">
+			<attribute name="parameter_default_value_id" value="5901CF506F3B4067A4CC4ACB2042076F"/>
+			<attribute name="parameter_id" value="DA3440576A254E39A3C073DE0182B0E1"/>
+			<attribute name="property_value_id" value="0E07389334154A4CAB70380D0334F602"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="91F8C982DBEB414BBDF60FADA20133DE">
+			<attribute name="parameter_default_value_id" value="91F8C982DBEB414BBDF60FADA20133DE"/>
+			<attribute name="parameter_id" value="71A1FE1B1EE34CF7AA97C526B25AFEA9"/>
+			<attribute name="property_value_id" value="2833F6BFC933452290FECC34E93F8DC2"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="0E07389334154A4CAB70380D0334F602">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="DA3440576A254E39A3C073DE0182B0E1"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="DA3440576A254E39A3C073DE0182B0E1"/>
+			<attribute name="property_value_id" value="0E07389334154A4CAB70380D0334F602"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="1FB94CBA0D7F4D55BB6F0F8D5806C40D">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="6EFEFB8E713F4BB28330CEABAEA36360"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="6EFEFB8E713F4BB28330CEABAEA36360"/>
+			<attribute name="property_value_id" value="1FB94CBA0D7F4D55BB6F0F8D5806C40D"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2833F6BFC933452290FECC34E93F8DC2">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="71A1FE1B1EE34CF7AA97C526B25AFEA9"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="71A1FE1B1EE34CF7AA97C526B25AFEA9"/>
+			<attribute name="property_value_id" value="2833F6BFC933452290FECC34E93F8DC2"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="737C6BE436A94E4E98F5489B44D9A370">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="22F27AEA95BE4FD8B83387E40FA893AF"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="22F27AEA95BE4FD8B83387E40FA893AF"/>
+			<attribute name="property_value_id" value="737C6BE436A94E4E98F5489B44D9A370"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="A269452EE81543D997A48DAF3EF81204">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="The following field(s) cannot be blank: {0}"/>
+			<attribute name="text_message_id" value="A269452EE81543D997A48DAF3EF81204"/>
+			<attribute name="text_name" value="WMEXP_NO_BLANKS_ALLOWED"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="D56A2FB1CA7545E7A431B6BDC4DFEC72">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Unable to Save, Must be at a Data Entry Screen to Save"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="Unable to Save, Must be at a Data Entry Screen to Save"/>
+			<attribute name="text_message_id" value="D56A2FB1CA7545E7A431B6BDC4DFEC72"/>
+			<attribute name="text_name" value="WMEXP_SAVE_ERROR"/>
+		</object>
+	</module>
+</root>

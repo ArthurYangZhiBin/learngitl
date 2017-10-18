@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_header_detail_save" id="47B7ABF20FEB4E299ED1CE9F06ACCA53" version="658" row_count="14" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="47B7ABF20FEB4E299ED1CE9F06ACCA53">
+			<attribute name="app_module_id" value="47B7ABF20FEB4E299ED1CE9F06ACCA53"/>
+			<attribute name="app_module_name" value="wm_header_detail_save"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="198"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="63E031DD4C7B4A15BFB9E6749F557B34">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.HeaderDetailSave"/>
+			<attribute name="extension_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="extension_name" value="HeaderDetailSave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="75A36D64D8154D358289DDB4226E6368">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="75A36D64D8154D358289DDB4226E6368"/>
+			<attribute name="extension_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1330224FEC154CE0BEA7189BCB34BB1E">
+			<attribute name="label_id" value="1330224FEC154CE0BEA7189BCB34BB1E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="hold header data"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="6B57860BB6B14428AFF35EE2CEC07392"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="14DBC4475149475A9077A338A79DF136">
+			<attribute name="label_id" value="14DBC4475149475A9077A338A79DF136"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="hold detail data"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="68EC662E364249EC93ABF63DDD5726A3"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="414AABEE827F40CCA2EA742D470BCEFE">
+			<attribute name="label_id" value="414AABEE827F40CCA2EA742D470BCEFE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="HeaderDetailSave"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="HeaderDetailSave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B2F098C337CF4AD49C60F561BB8CE6AD">
+			<attribute name="label_id" value="B2F098C337CF4AD49C60F561BB8CE6AD"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="toggle wedgit name"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="4C2BF27DC78347F2AF06E93993861DB4"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BA225995A871417E907526F831DC3E87">
+			<attribute name="label_id" value="BA225995A871417E907526F831DC3E87"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="attribute name in header bio for detail"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="D356EF4539CB486497AFE6C52C94ACD6"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F433D9BABB784B768916F39A12B05A96">
+			<attribute name="label_id" value="F433D9BABB784B768916F39A12B05A96"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="detail tab name in detail toggle"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="1B5BCE18D5504FD1BBDA686EAFD22193"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="1B5BCE18D5504FD1BBDA686EAFD22193">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="1B5BCE18D5504FD1BBDA686EAFD22193"/>
+			<attribute name="parameter_listorder" value="5"/>
+			<attribute name="parameter_name" value="detailFormTab"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="4C2BF27DC78347F2AF06E93993861DB4">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="4C2BF27DC78347F2AF06E93993861DB4"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="toggleSlot"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="68EC662E364249EC93ABF63DDD5726A3">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="68EC662E364249EC93ABF63DDD5726A3"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="shellSlot2"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="6B57860BB6B14428AFF35EE2CEC07392">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="6B57860BB6B14428AFF35EE2CEC07392"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="shellSlot1"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="D356EF4539CB486497AFE6C52C94ACD6">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="63E031DD4C7B4A15BFB9E6749F557B34"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="D356EF4539CB486497AFE6C52C94ACD6"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="detailBiocollection"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+	</module>
+</root>

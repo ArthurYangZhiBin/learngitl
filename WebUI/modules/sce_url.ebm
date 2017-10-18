@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="sce_url" id="28ADAAF8EE4A4708A460A8DA317DD236" version="658" row_count="4" module-type="0">
+		<object type="app_application" primary-key="app_application_id" primary-key-value="D3719A87943D47EAB94FC4D4746283A6">
+			<attribute name="app_application_id" value="D3719A87943D47EAB94FC4D4746283A6"/>
+			<attribute name="app_application_name" value="sceapp"/>
+			<attribute name="context_id" value="/solutions/INFORSCE/scewebui"/>
+			<attribute name="form_id" value="D48078A8D215411AB4EB843DB29B4444"/>
+			<attribute name="is_default" value="0"/>
+			<attribute name="is_portal" value="0"/>
+			<attribute name="screen_id" value="Login_Screen"/>
+			<attribute name="url" value="sceapp.ctrl"/>
+		</object>
+		<object type="app_module" primary-key="app_module_id" primary-key-value="28ADAAF8EE4A4708A460A8DA317DD236">
+			<attribute name="app_module_id" value="28ADAAF8EE4A4708A460A8DA317DD236"/>
+			<attribute name="app_module_name" value="sce_url"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="1149"/>
+		</object>
+		<object type="profile_role_mapping" primary-key="profile_role_mapping_id" primary-key-value="62C1016D0C5B40DA8ED4501541F42D62">
+			<attribute name="profile_role_mapping_id" value="62C1016D0C5B40DA8ED4501541F42D62"/>
+			<attribute name="user_profile_id" value="8048F4AFC89844BFA9E8DA11E877E0A8"/>
+			<attribute name="user_role_id" value="D3719A87943D47EAB94FC4D4746283A6"/>
+		</object>
+		<object type="user_profile" primary-key="user_profile_id" primary-key-value="8048F4AFC89844BFA9E8DA11E877E0A8">
+			<attribute name="masked_attributes" value="1"/>
+			<attribute name="system_profile_flag" value="0"/>
+			<attribute name="user_profile_id" value="8048F4AFC89844BFA9E8DA11E877E0A8"/>
+			<attribute name="user_profile_name" value="sceapp"/>
+		</object>
+	</module>
+</root>

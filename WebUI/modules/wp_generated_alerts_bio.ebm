@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_generated_alerts_bio" id="36CFAE85EECB4735BE47AB48026F9EBC" version="658" row_count="33" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="36CFAE85EECB4735BE47AB48026F9EBC">
+			<attribute name="app_module_id" value="36CFAE85EECB4735BE47AB48026F9EBC"/>
+			<attribute name="app_module_name" value="wp_generated_alerts_bio"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="2367"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="16964E76F5A9487991B46543D949EF4D">
+			<attribute name="bio_attribute_id" value="16964E76F5A9487991B46543D949EF4D"/>
+			<attribute name="bio_attribute_name" value="EVENTTYPENUM"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EVENTTYPENUM"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="7010BA69418A408E8DEF0BD25527F224">
+			<attribute name="bio_attribute_id" value="7010BA69418A408E8DEF0BD25527F224"/>
+			<attribute name="bio_attribute_name" value="EVENTTYPE"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EVENTTYPE"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="7AAFC6A89B9E4F239EF5FEA61C48FF96">
+			<attribute name="bio_attribute_id" value="7AAFC6A89B9E4F239EF5FEA61C48FF96"/>
+			<attribute name="bio_attribute_name" value="DESCRIPTION"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="DESCRIPTION"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="86F7E1C7D4EC469CB8F4B9BC63D8DDF5">
+			<attribute name="bio_attribute_id" value="86F7E1C7D4EC469CB8F4B9BC63D8DDF5"/>
+			<attribute name="bio_attribute_name" value="EVENTTIME"/>
+			<attribute name="bio_attribute_type" value="DATE"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EVENTTIME"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="9471F4FC9B8E46C5836CBBCC1A5A3BE9">
+			<attribute name="bio_attribute_id" value="9471F4FC9B8E46C5836CBBCC1A5A3BE9"/>
+			<attribute name="bio_attribute_name" value="USERID"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="USERID"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="B02D6ED82EAC44B4A3A286AD48E94588">
+			<attribute name="bio_attribute_id" value="B02D6ED82EAC44B4A3A286AD48E94588"/>
+			<attribute name="bio_attribute_name" value="FACILITYID"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="FACILITYID"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="B4330745859A4DFD83E27416D13F8B96">
+			<attribute name="bio_attribute_id" value="B4330745859A4DFD83E27416D13F8B96"/>
+			<attribute name="bio_attribute_name" value="NOTIFIED"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="NOTIFIED"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="C8C9CA4B94A54D06A7763A601437B656">
+			<attribute name="bio_attribute_id" value="C8C9CA4B94A54D06A7763A601437B656"/>
+			<attribute name="bio_attribute_name" value="EVENTID"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EVENTID"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="F02B5A59057C44B9BC6C86F35432A75E">
+			<attribute name="bio_attribute_id" value="F02B5A59057C44B9BC6C86F35432A75E"/>
+			<attribute name="bio_attribute_name" value="EVENTDETAILS"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EVENTDETAILS"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="9C2FC572C3C2430ABFEFE2B0C1478741">
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="bio_class_name" value="wp_generatedalerts"/>
+			<attribute name="createable_flag" value="1"/>
+			<attribute name="data_recordset_id" value="0D0994F88FE74AD0870070183BB33BDC"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="EE770D21555F4044B0AD276FEC1FC168">
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="bio_display_name" value="wp_generatedalerts"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="3B8579FDD4994B8692953BE88F0D6F97">
+			<attribute name="bda_listorder" value="6"/>
+			<attribute name="bio_attribute_id" value="16964E76F5A9487991B46543D949EF4D"/>
+			<attribute name="bio_display_attribute_id" value="3B8579FDD4994B8692953BE88F0D6F97"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="4902AFFC162E4B4EB3A4A4D24DAABCE9">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="7AAFC6A89B9E4F239EF5FEA61C48FF96"/>
+			<attribute name="bio_display_attribute_id" value="4902AFFC162E4B4EB3A4A4D24DAABCE9"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="5539A7432CE54BA3B4D157545983B603">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="86F7E1C7D4EC469CB8F4B9BC63D8DDF5"/>
+			<attribute name="bio_display_attribute_id" value="5539A7432CE54BA3B4D157545983B603"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_date_picker"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="6C871DB1465E4112821AAE92EE93EA47">
+			<attribute name="bda_listorder" value="7"/>
+			<attribute name="bio_attribute_id" value="B02D6ED82EAC44B4A3A286AD48E94588"/>
+			<attribute name="bio_display_attribute_id" value="6C871DB1465E4112821AAE92EE93EA47"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="79133501582D4CBABF7C912417D76DC9">
+			<attribute name="bda_listorder" value="9"/>
+			<attribute name="bio_attribute_id" value="9471F4FC9B8E46C5836CBBCC1A5A3BE9"/>
+			<attribute name="bio_display_attribute_id" value="79133501582D4CBABF7C912417D76DC9"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="A6969C336DDE41F98B3DF860AED5DA55">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="F02B5A59057C44B9BC6C86F35432A75E"/>
+			<attribute name="bio_display_attribute_id" value="A6969C336DDE41F98B3DF860AED5DA55"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="AC343E0E75D3453589A16BECC4FC0F56">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="C8C9CA4B94A54D06A7763A601437B656"/>
+			<attribute name="bio_display_attribute_id" value="AC343E0E75D3453589A16BECC4FC0F56"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="EB19B73FC759409CA4F2E4EBE94783F2">
+			<attribute name="bda_listorder" value="8"/>
+			<attribute name="bio_attribute_id" value="B4330745859A4DFD83E27416D13F8B96"/>
+			<attribute name="bio_display_attribute_id" value="EB19B73FC759409CA4F2E4EBE94783F2"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="FA977C4D40A746F2A5A7A62E82B1557C">
+			<attribute name="bda_listorder" value="5"/>
+			<attribute name="bio_attribute_id" value="7010BA69418A408E8DEF0BD25527F224"/>
+			<attribute name="bio_display_attribute_id" value="FA977C4D40A746F2A5A7A62E82B1557C"/>
+			<attribute name="bio_display_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_sorting" primary-key="bio_sorting_id" primary-key-value="54B781C667DB4BE69793C36766B3AE2D">
+			<attribute name="bio_class_id" value="9C2FC572C3C2430ABFEFE2B0C1478741"/>
+			<attribute name="bio_sorting_id" value="54B781C667DB4BE69793C36766B3AE2D"/>
+			<attribute name="bio_sorting_name" value="EVENTTIME"/>
+		</object>
+		<object type="bio_sorting_def" primary-key="bio_sorting_def_id" primary-key-value="61E1305D8E4C42F7B288F04F4535DF17">
+			<attribute name="bio_attribute_id" value="86F7E1C7D4EC469CB8F4B9BC63D8DDF5"/>
+			<attribute name="bio_sorting_def_id" value="61E1305D8E4C42F7B288F04F4535DF17"/>
+			<attribute name="bio_sorting_def_listorder" value="1"/>
+			<attribute name="bio_sorting_id" value="54B781C667DB4BE69793C36766B3AE2D"/>
+			<attribute name="desc_flag" value="1"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="02E7863F75BF4867BC137D7FEDE46A59">
+			<attribute name="bio_attribute_id" value="B02D6ED82EAC44B4A3A286AD48E94588"/>
+			<attribute name="data_field_id" value="8072CA6E9D164EC08598B683EF4EDBB6"/>
+			<attribute name="field_mapped_attribute_id" value="02E7863F75BF4867BC137D7FEDE46A59"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="150298814A9B437E83D63F8375886348">
+			<attribute name="bio_attribute_id" value="7AAFC6A89B9E4F239EF5FEA61C48FF96"/>
+			<attribute name="data_field_id" value="AC6DF816CDE04C1AB73D06C1CA54F012"/>
+			<attribute name="field_mapped_attribute_id" value="150298814A9B437E83D63F8375886348"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="4E29C01A273B4C0EB93F67CA5F5F0797">
+			<attribute name="bio_attribute_id" value="B4330745859A4DFD83E27416D13F8B96"/>
+			<attribute name="data_field_id" value="10F158349BB542229CAE78B11EF2D341"/>
+			<attribute name="field_mapped_attribute_id" value="4E29C01A273B4C0EB93F67CA5F5F0797"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="80B49FB813C1423593ED21171C816486">
+			<attribute name="bio_attribute_id" value="86F7E1C7D4EC469CB8F4B9BC63D8DDF5"/>
+			<attribute name="data_field_id" value="E6FF71A213A04461A1CB283005B4C050"/>
+			<attribute name="field_mapped_attribute_id" value="80B49FB813C1423593ED21171C816486"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="82F222F56EC445359A541DEB58898B6B">
+			<attribute name="bio_attribute_id" value="F02B5A59057C44B9BC6C86F35432A75E"/>
+			<attribute name="data_field_id" value="15733C8295CC4D398EF7A1CFBD526F78"/>
+			<attribute name="field_mapped_attribute_id" value="82F222F56EC445359A541DEB58898B6B"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="9CD1AC6BADA649C4B0385E8441D0355D">
+			<attribute name="bio_attribute_id" value="16964E76F5A9487991B46543D949EF4D"/>
+			<attribute name="data_field_id" value="B668B2042E5945EA91CBF704D26374A2"/>
+			<attribute name="field_mapped_attribute_id" value="9CD1AC6BADA649C4B0385E8441D0355D"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="CAAC604CF1804D73816787E8261D732B">
+			<attribute name="bio_attribute_id" value="9471F4FC9B8E46C5836CBBCC1A5A3BE9"/>
+			<attribute name="data_field_id" value="1B98790EDBAD4519B75C343A8DDA755D"/>
+			<attribute name="field_mapped_attribute_id" value="CAAC604CF1804D73816787E8261D732B"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="DEC747D1B150420A996AEFF3EE962959">
+			<attribute name="bio_attribute_id" value="C8C9CA4B94A54D06A7763A601437B656"/>
+			<attribute name="data_field_id" value="2586BE459FA641CB98431BABA6DC4E8E"/>
+			<attribute name="field_mapped_attribute_id" value="DEC747D1B150420A996AEFF3EE962959"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="FB3A9527B06E4DAA94F98100A3DE0924">
+			<attribute name="bio_attribute_id" value="7010BA69418A408E8DEF0BD25527F224"/>
+			<attribute name="data_field_id" value="554639BA3CEB4E82978A30BC65950445"/>
+			<attribute name="field_mapped_attribute_id" value="FB3A9527B06E4DAA94F98100A3DE0924"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9B08C7F6441342278433D22C7B3DE67A">
+			<attribute name="label_id" value="9B08C7F6441342278433D22C7B3DE67A"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wp_generatedalerts"/>
+			<attribute name="object_id" value="EE770D21555F4044B0AD276FEC1FC168"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wp_generatedalerts"/>
+		</object>
+	</module>
+</root>

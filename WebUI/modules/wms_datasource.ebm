@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wms_datasource" id="82F97CC4AC4E43629BCE324CD2CE91FB" version="658" row_count="28" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="82F97CC4AC4E43629BCE324CD2CE91FB">
+			<attribute name="app_module_id" value="82F97CC4AC4E43629BCE324CD2CE91FB"/>
+			<attribute name="app_module_name" value="wms_datasource"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="29465"/>
+		</object>
+		<object type="data_source" primary-key="data_source_id" primary-key-value="465F281770F24158A09A05D08D404E3B">
+			<attribute name="code_page_id" value="Latin 1 ISO"/>
+			<attribute name="data_source_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="data_source_name" value="ADMIN"/>
+			<attribute name="data_source_type_id" value="TYPE_SQL"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="transaction_methods_class_id" value="SQLDataProviderImpl"/>
+		</object>
+		<object type="data_source" primary-key="data_source_id" primary-key-value="527BFD43AD7B4F01AF4F6141251AC603">
+			<attribute name="code_page_id" value="Latin 1 ISO"/>
+			<attribute name="data_source_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="data_source_name" value="BILLING"/>
+			<attribute name="data_source_type_id" value="TYPE_SQL"/>
+			<attribute name="masked_attributes" value="2"/>
+			<attribute name="transaction_methods_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+		</object>
+		<object type="data_source" primary-key="data_source_id" primary-key-value="BD012F969329434487724099D69F5D59">
+			<attribute name="code_page_id" value="Latin 1 ISO"/>
+			<attribute name="data_source_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="data_source_name" value="PRD1"/>
+			<attribute name="data_source_type_id" value="TYPE_SQL"/>
+			<attribute name="masked_attributes" value="6"/>
+			<attribute name="transaction_methods_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="026F063DB08E492DB7E0A97AC83BCA06">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="25ADD14530C942D28380DA221776BFF5"/>
+			<attribute name="property_value_id" value="026F063DB08E492DB7E0A97AC83BCA06"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="0BE61819844F47DFA68252905F4751C8">
+			<attribute name="display_text" value="mssql_datadirect"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverType7SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="0BE61819844F47DFA68252905F4751C8"/>
+			<attribute name="string_value" value="mssql_datadirect"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="10A0644242AB46D7823C4F895F0F4729">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="25ADD14530C942D28380DA221776BFF5"/>
+			<attribute name="property_value_id" value="10A0644242AB46D7823C4F895F0F4729"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="234ABB7BE5D1406E87F34B3375402334">
+			<attribute name="display_text" value="mssql_datadirect"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverType7SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="234ABB7BE5D1406E87F34B3375402334"/>
+			<attribute name="string_value" value="mssql_datadirect"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2AC217103C1D40B1BB7F57B7F7003DB0">
+			<attribute name="display_text" value="ENCRYPTED TEXT"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabasePassword4SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="2AC217103C1D40B1BB7F57B7F7003DB0"/>
+			<attribute name="string_value" value="{3DES}dwBgDIylAtY="/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2C24087B1DD644C88004C7E7BD4D38C1">
+			<attribute name="display_text" value="WM920"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseName3SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="2C24087B1DD644C88004C7E7BD4D38C1"/>
+			<attribute name="string_value" value="WM920"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="390D3531D84347358B686F636A71F027">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="25ADD14530C942D28380DA221776BFF5"/>
+			<attribute name="property_value_id" value="390D3531D84347358B686F636A71F027"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="5C2E6D28064F4B23B3D75AFE90209927">
+			<attribute name="display_text" value="WM920"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseName3SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="5C2E6D28064F4B23B3D75AFE90209927"/>
+			<attribute name="string_value" value="WM920"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="6A13B02065234FC799BB6C278D7DA2E5">
+			<attribute name="display_text" value="BILLING"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="CB9D37057B0E4CD7B7A58C091F731200"/>
+			<attribute name="property_value_id" value="6A13B02065234FC799BB6C278D7DA2E5"/>
+			<attribute name="string_value" value="BILLING"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="7AE8EC9315654D76931BC7687E7C2704">
+			<attribute name="display_text" value="wmsadmin"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseUser1SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="7AE8EC9315654D76931BC7687E7C2704"/>
+			<attribute name="string_value" value="wmsadmin"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="7AF9A30922E6469B953D8DA013651896">
+			<attribute name="display_text" value="WM920"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseName3SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="7AF9A30922E6469B953D8DA013651896"/>
+			<attribute name="string_value" value="WM920"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="B75F5DDE7704478A8B2DA3E0DA6580A0">
+			<attribute name="display_text" value="USDADMMA1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverName2SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="B75F5DDE7704478A8B2DA3E0DA6580A0"/>
+			<attribute name="string_value" value="USDADMMA1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="B9F8E19F5D9E4064BA65629F2F492CA5">
+			<attribute name="display_text" value="mssql_datadirect"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverType7SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="B9F8E19F5D9E4064BA65629F2F492CA5"/>
+			<attribute name="string_value" value="mssql_datadirect"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="BB11E362723F4F30A4AFE2001B233B90">
+			<attribute name="display_text" value="billing"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseUser1SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="BB11E362723F4F30A4AFE2001B233B90"/>
+			<attribute name="string_value" value="billing"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="C0E5B06956AE41D095F75B8141557D05">
+			<attribute name="display_text" value="1433"/>
+			<attribute name="int_value" value="1433"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverPort6SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="C0E5B06956AE41D095F75B8141557D05"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="C2B8B37D52FF4375B24E18F9A2B54A79">
+			<attribute name="display_text" value="ADMIN"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="CB9D37057B0E4CD7B7A58C091F731200"/>
+			<attribute name="property_value_id" value="C2B8B37D52FF4375B24E18F9A2B54A79"/>
+			<attribute name="string_value" value="ADMIN"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="CD99E4B9ADD646E7B0B5B9D4F79A55E5">
+			<attribute name="display_text" value="wmwhse1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabaseUser1SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="CD99E4B9ADD646E7B0B5B9D4F79A55E5"/>
+			<attribute name="string_value" value="wmwhse1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D39AFCF3A70047C5BD59C1E18C9CBFD3">
+			<attribute name="display_text" value="USDADMMA1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverName2SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="D39AFCF3A70047C5BD59C1E18C9CBFD3"/>
+			<attribute name="string_value" value="USDADMMA1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="DD1170974F4F4509A2EF86D24BC7EEAF">
+			<attribute name="display_text" value="ENCRYPTED TEXT"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabasePassword4SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="DD1170974F4F4509A2EF86D24BC7EEAF"/>
+			<attribute name="string_value" value="{3DES}dwBgCaynH4sZ"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="DF1C0001C0174CF6BC8A8A6726FBC13B">
+			<attribute name="display_text" value="USDADMMA1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverName2SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="DF1C0001C0174CF6BC8A8A6726FBC13B"/>
+			<attribute name="string_value" value="USDADMMA1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="E6AB65642454437C92A5864A666422F0">
+			<attribute name="display_text" value="ENCRYPTED TEXT"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="527BFD43AD7B4F01AF4F6141251AC603"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="padatabasePassword4SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="E6AB65642454437C92A5864A666422F0"/>
+			<attribute name="string_value" value="{3DES}BCR5Au+m"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="E781683FCD1C41A7A532EA22D8C9A3D4">
+			<attribute name="display_text" value="1433"/>
+			<attribute name="int_value" value="1433"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="465F281770F24158A09A05D08D404E3B"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverPort6SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="E781683FCD1C41A7A532EA22D8C9A3D4"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="ECD918E72B9E4FEB8BBC09B479A60DA0">
+			<attribute name="display_text" value="PRD1_WH1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="CB9D37057B0E4CD7B7A58C091F731200"/>
+			<attribute name="property_value_id" value="ECD918E72B9E4FEB8BBC09B479A60DA0"/>
+			<attribute name="string_value" value="PRD1_WH1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="FF3EC71A6B4A4E308D1DFC13F6FD842E">
+			<attribute name="display_text" value="1433"/>
+			<attribute name="int_value" value="1433"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="object_type_id" value="data_source"/>
+			<attribute name="parameter_id" value="paserverPort6SQLTYPE_SQL"/>
+			<attribute name="property_value_id" value="FF3EC71A6B4A4E308D1DFC13F6FD842E"/>
+		</object>
+	</module>
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_user_messages" id="5B97469065EA4CC695F9C1EBCC279972" version="658" row_count="7" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="5B97469065EA4CC695F9C1EBCC279972">
+			<attribute name="app_module_id" value="5B97469065EA4CC695F9C1EBCC279972"/>
+			<attribute name="app_module_name" value="wm_user_messages"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="10"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="0EC1EE4F650C446B8DD391A5B6EE97DA">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Tax Rate {0}"/>
+			<attribute name="text_message_id" value="0EC1EE4F650C446B8DD391A5B6EE97DA"/>
+			<attribute name="text_name" value="Tax_Rate_Validation"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="24F4185A5BF24A29A1E998AB1D8B5F3E">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="You did not select any item for {0}"/>
+			<attribute name="text_message_id" value="24F4185A5BF24A29A1E998AB1D8B5F3E"/>
+			<attribute name="text_name" value="WMEXP_NOTHING_SELECTED_WARNING"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="4161E418CDFD47F389B88455363991D2">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="You can only delete header from header list for {0}"/>
+			<attribute name="text_message_id" value="4161E418CDFD47F389B88455363991D2"/>
+			<attribute name="text_name" value="WMEXP_DELETE_FROM_HEADER_VIEW"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="9D29EEA059C24CADAD9300CCD11F9C03">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="8"/>
+			<attribute name="short_text" value="You have not selected any thing to delete {0}"/>
+			<attribute name="text_message_id" value="9D29EEA059C24CADAD9300CCD11F9C03"/>
+			<attribute name="text_name" value="TXT_DELETE_NOTHING_SELECTED_WARNING"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="B06CD9325B81473AB2E723C83D83F365">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="You can only delete detail from detail list for {0}"/>
+			<attribute name="text_message_id" value="B06CD9325B81473AB2E723C83D83F365"/>
+			<attribute name="text_name" value="WMEXP_DELETE_FROM_DETAIL_VIEW"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="F30E11200F154BAB93C3DA51ECAB3EAF">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="You can only have single select for {0}"/>
+			<attribute name="text_message_id" value="F30E11200F154BAB93C3DA51ECAB3EAF"/>
+			<attribute name="text_name" value="WMEXP_SINGLE_SELECT_VALIDATION"/>
+		</object>
+	</module>
+</root>

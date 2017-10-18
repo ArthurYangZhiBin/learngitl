@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_datalayer" id="6FAACCD6C00648B4A4A65255449ACF2B" version="658" row_count="52" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="6FAACCD6C00648B4A4A65255449ACF2B">
+			<attribute name="app_module_id" value="6FAACCD6C00648B4A4A65255449ACF2B"/>
+			<attribute name="app_module_name" value="wm_datalayer"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="17155"/>
+		</object>
+		<object type="dp_impl_class_type" primary-key="data_provider_impl_class_id" primary-key-value="7E32C50303CC4277AC0D564081BA3C34">
+			<attribute name="data_provider_impl_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+			<attribute name="data_source_type_id" value="TYPE_SQL"/>
+			<attribute name="default_implementation_flag" value="1"/>
+			<attribute name="implementation_class_name" value="com.ssaglobal.scm.wms.datalayer.WmsDataProviderImpl"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="108D318C07EB45A3B8064AF6CD368B11">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.MandatoryColumnExtension"/>
+			<attribute name="extension_id" value="108D318C07EB45A3B8064AF6CD368B11"/>
+			<attribute name="extension_name" value="MandatoryColumnExtension"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="A64767738FC64074A65431631B408F3C">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.SerializedDefaultNumberGenerator"/>
+			<attribute name="extension_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="extension_name" value="SerializedDefaultNumberGenerator"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.KeyGenBioWrapper"/>
+			<attribute name="extension_id" value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0"/>
+			<attribute name="extension_name" value="KeyGenBioWrapper"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E98F904313AB48B88BFB15D19DAA841D">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.uiextensions.SerializedDefaultValueGenerator"/>
+			<attribute name="extension_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="extension_name" value="SerializedDefaultValueGenerator"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.uiextensions"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0AA1CD485E1E42B28430CD4EFDECFE6C">
+			<attribute name="event_category_id" value="E01D519CF69144D098CF2C32F04CBEFC"/>
+			<attribute name="extension_event_category_id" value="0AA1CD485E1E42B28430CD4EFDECFE6C"/>
+			<attribute name="extension_id" value="108D318C07EB45A3B8064AF6CD368B11"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="50EA805B858E490A8D521202126B1C38">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="50EA805B858E490A8D521202126B1C38"/>
+			<attribute name="extension_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="CC918BD10496406385529D8EDD0659A6">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="CC918BD10496406385529D8EDD0659A6"/>
+			<attribute name="extension_id" value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="EFCCF427E6A443D18F99F3B486C17CE0">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="EFCCF427E6A443D18F99F3B486C17CE0"/>
+			<attribute name="extension_id" value="A64767738FC64074A65431631B408F3C"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0B008A04A5054FFEA137532C3842A00E">
+			<attribute name="label_id" value="0B008A04A5054FFEA137532C3842A00E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the bio, required if headerOrDetail is header"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="9414F51C914D477DAA6F5A4732B6F4D8"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="175EDDB88A20465ABD808BB6ACC64FC0">
+			<attribute name="label_id" value="175EDDB88A20465ABD808BB6ACC64FC0"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SHIPMENT ORDER ONLY: Slot name to find Shipment Order Detail List form"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="C6E65130EF444AE2824AFFAF20589D2B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="178E06A01B5C41A7BA2340B3E7B00734">
+			<attribute name="label_id" value="178E06A01B5C41A7BA2340B3E7B00734"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="size of the value to be generated"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="962E1BBE5B9D42209BB5695DCBFDF97A"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2620868394F748218BC14A5B08D0881F">
+			<attribute name="label_id" value="2620868394F748218BC14A5B08D0881F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the list tab identifier of the toggle slot"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="F0B1061254FD42C1ACBA9E366E921A91"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="291C34B6D10F4D8886D9EF2729C1EFAD">
+			<attribute name="label_id" value="291C34B6D10F4D8886D9EF2729C1EFAD"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Boolean value that is true only for the Shipment Order screen"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="D7C0491A494E4514BB6740CFB5CE9EDC"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2A38C811396A47DCA3CDCDCED2BF6E1A">
+			<attribute name="label_id" value="2A38C811396A47DCA3CDCDCED2BF6E1A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SerializedDefaultNumberGenerator"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SerializedDefaultNumberGenerator"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2C6836ECCE294FBDB9BAD3180BEF6C30">
+			<attribute name="label_id" value="2C6836ECCE294FBDB9BAD3180BEF6C30"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Query string to filter the bio collection"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="4F15AE7645CB4EA3B3DDA33EFBC2AC5B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5201FEC0C68E4FB2A34627CB37EA5791">
+			<attribute name="label_id" value="5201FEC0C68E4FB2A34627CB37EA5791"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the form widget to hold the generated number"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="F16960F20A2A43CCB21B89AD591135DF"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="56E28D11CDAF48F987F35176DDD99F57">
+			<attribute name="label_id" value="56E28D11CDAF48F987F35176DDD99F57"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of toggle-form_slot"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="EDF612C5C6A9453BB4E54131128576F4"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="6F2D9169555F40D387BD962A88B6E2AB">
+			<attribute name="label_id" value="6F2D9169555F40D387BD962A88B6E2AB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Line Number Field in detail form"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="6C6E58E180744CB5AE682E6F7843E7BC"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="8CF58EA4E83544408063C70CB984E67F">
+			<attribute name="label_id" value="8CF58EA4E83544408063C70CB984E67F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="MandatoryColumnExtension"/>
+			<attribute name="object_id" value="108D318C07EB45A3B8064AF6CD368B11"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="MandatoryColumnExtension"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="922F60008DEC48798497AC9EE78C40D0">
+			<attribute name="label_id" value="922F60008DEC48798497AC9EE78C40D0"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="KeyGenBioWrapper"/>
+			<attribute name="object_id" value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="KeyGenBioWrapper"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="95D63E2FA3CE444EB5EA5A3438D1C378">
+			<attribute name="label_id" value="95D63E2FA3CE444EB5EA5A3438D1C378"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the key"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="5A7FD61BFF0D4B0F9F5236316E60EDFE"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="993DA236E42B40309BFC3ABE50C8B7E9">
+			<attribute name="label_id" value="993DA236E42B40309BFC3ABE50C8B7E9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="if headerOrDetail is &quot;header&quot; then this is the name of the shell's header slot"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="23DD05CCB8DF4C138429418EC2BA8396"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9E8468090F744203A330E6799AD7CDF5">
+			<attribute name="label_id" value="9E8468090F744203A330E6799AD7CDF5"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="value &quot;header&quot; or &quot;detail&quot; depending on where the form containing the widget effected is located"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="493E1976E2C24F7296E6CF0DF18BF0DB"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="AEDCD611CA52448B9EA6BB5AB5DE224A">
+			<attribute name="label_id" value="AEDCD611CA52448B9EA6BB5AB5DE224A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the widget where the generated value should go"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="EAE37942AF404712A6C9DCEEDBB6945E"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B1C19ED2036E4D64AA22F1CBAEFF8FEA">
+			<attribute name="label_id" value="B1C19ED2036E4D64AA22F1CBAEFF8FEA"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SerializedDefaultValueGenerator"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SerializedDefaultValueGenerator"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B6737E08000C47CEB3E677389F2431D7">
+			<attribute name="label_id" value="B6737E08000C47CEB3E677389F2431D7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the toggle form"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="41BED2488B3C4D4B8E276E2450CED5A8"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BD8BAC3A4EAB4108A92449953075D473">
+			<attribute name="label_id" value="BD8BAC3A4EAB4108A92449953075D473"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="if headerOrDetail is &quot;header&quot; then this is the name of the biocollection populating the detail section"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="1DF64078CE234FB788D6A6663149A9CD"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C14B336A20CC4966AF66BA1CE68988B2">
+			<attribute name="label_id" value="C14B336A20CC4966AF66BA1CE68988B2"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of the bio field corresponding to the serialized value"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="D74FD7C2BE2140AD81486D407ED2E9FE"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="1DF64078CE234FB788D6A6663149A9CD">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="1DF64078CE234FB788D6A6663149A9CD"/>
+			<attribute name="parameter_listorder" value="7"/>
+			<attribute name="parameter_name" value="bioCollection"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="23DD05CCB8DF4C138429418EC2BA8396">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="23DD05CCB8DF4C138429418EC2BA8396"/>
+			<attribute name="parameter_listorder" value="8"/>
+			<attribute name="parameter_name" value="shellSlot1"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="41BED2488B3C4D4B8E276E2450CED5A8">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="41BED2488B3C4D4B8E276E2450CED5A8"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="toggleFormName"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="493E1976E2C24F7296E6CF0DF18BF0DB">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="493E1976E2C24F7296E6CF0DF18BF0DB"/>
+			<attribute name="parameter_listorder" value="6"/>
+			<attribute name="parameter_name" value="headerOrDetail"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="4F15AE7645CB4EA3B3DDA33EFBC2AC5B">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="4F15AE7645CB4EA3B3DDA33EFBC2AC5B"/>
+			<attribute name="parameter_listorder" value="5"/>
+			<attribute name="parameter_name" value="queryString"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+
+		<object type="parameter" primary-key="parameter_id" primary-key-value="5A7FD61BFF0D4B0F9F5236316E60EDFE">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="5A7FD61BFF0D4B0F9F5236316E60EDFE"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="KEYNAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="6C6E58E180744CB5AE682E6F7843E7BC">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="6C6E58E180744CB5AE682E6F7843E7BC"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="fieldName"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="9414F51C914D477DAA6F5A4732B6F4D8">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="9414F51C914D477DAA6F5A4732B6F4D8"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="bioName"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="962E1BBE5B9D42209BB5695DCBFDF97A">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="962E1BBE5B9D42209BB5695DCBFDF97A"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="keySize"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="C6E65130EF444AE2824AFFAF20589D2B">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="C6E65130EF444AE2824AFFAF20589D2B"/>
+			<attribute name="parameter_listorder" value="6"/>
+			<attribute name="parameter_name" value="soContainerSlot"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="D74FD7C2BE2140AD81486D407ED2E9FE">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="D74FD7C2BE2140AD81486D407ED2E9FE"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="bioField"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="D7C0491A494E4514BB6740CFB5CE9EDC">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="D7C0491A494E4514BB6740CFB5CE9EDC"/>
+			<attribute name="parameter_listorder" value="5"/>
+			<attribute name="parameter_name" value="isShipmentOrder"/>
+			<attribute name="property_value_type_id" value="PVT_BOOLEAN"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="EAE37942AF404712A6C9DCEEDBB6945E">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A8D0EC7C8DA14D2CBAA9738DBE7F81A0"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="EAE37942AF404712A6C9DCEEDBB6945E"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="WIDGETNAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="EDF612C5C6A9453BB4E54131128576F4">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="EDF612C5C6A9453BB4E54131128576F4"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="toggleSlot"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="F0B1061254FD42C1ACBA9E366E921A91">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="E98F904313AB48B88BFB15D19DAA841D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="F0B1061254FD42C1ACBA9E366E921A91"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="listTabID"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="F16960F20A2A43CCB21B89AD591135DF">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="A64767738FC64074A65431631B408F3C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="F16960F20A2A43CCB21B89AD591135DF"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="fieldName"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="2C1C493625464FA281BA42F259BDC898">
+			<attribute name="parameter_default_value_id" value="2C1C493625464FA281BA42F259BDC898"/>
+			<attribute name="parameter_id" value="D7C0491A494E4514BB6740CFB5CE9EDC"/>
+			<attribute name="property_value_id" value="D843F698DD0F4D8AA46CD269055B1639"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="237851EAB0C44996AEBAA00C3EFB570D">
+			<attribute name="display_text" value="List"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="6C014477221F460CBEF5C4DAC1A588DD"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="F0B1061254FD42C1ACBA9E366E921A91"/>
+			<attribute name="property_value_id" value="237851EAB0C44996AEBAA00C3EFB570D"/>
+			<attribute name="string_value" value="List"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9733D6DB36FA4D5B9A14591C2A63B0DE">
+			<attribute name="display_text" value="wm_preallocatestrategydetail_toggle_slot"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="6C014477221F460CBEF5C4DAC1A588DD"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="EDF612C5C6A9453BB4E54131128576F4"/>
+			<attribute name="property_value_id" value="9733D6DB36FA4D5B9A14591C2A63B0DE"/>
+			<attribute name="string_value" value="wm_preallocatestrategydetail_toggle_slot"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9B7FB5E5E8114D10A8F7942F2E125263">
+			<attribute name="display_text" value="PREALLOCATESTRATEGYLINENUMBER"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="6C014477221F460CBEF5C4DAC1A588DD"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="6C6E58E180744CB5AE682E6F7843E7BC"/>
+			<attribute name="property_value_id" value="9B7FB5E5E8114D10A8F7942F2E125263"/>
+			<attribute name="string_value" value="PREALLOCATESTRATEGYLINENUMBER"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9DC1623E2F9C49409567CF78315D67BF">
+			<attribute name="display_text" value="RECEIPTKEY"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="ED224BCAB384431BA6C5FF2BC0874A40"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="EAE37942AF404712A6C9DCEEDBB6945E"/>
+			<attribute name="property_value_id" value="9DC1623E2F9C49409567CF78315D67BF"/>
+			<attribute name="string_value" value="RECEIPTKEY"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D843F698DD0F4D8AA46CD269055B1639">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D7C0491A494E4514BB6740CFB5CE9EDC"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="D7C0491A494E4514BB6740CFB5CE9EDC"/>
+			<attribute name="property_value_id" value="D843F698DD0F4D8AA46CD269055B1639"/>
+		</object>
+	</module>
+</root>

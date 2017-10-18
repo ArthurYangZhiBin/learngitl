@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wavemgmt_confirmwave_ext" id="8028FD668CE847CEBB68B0DBFBA02DD4" version="658" row_count="66" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="8028FD668CE847CEBB68B0DBFBA02DD4">
+			<attribute name="app_module_id" value="8028FD668CE847CEBB68B0DBFBA02DD4"/>
+			<attribute name="app_module_name" value="wp_wavemgmt_confirmwave_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="563"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="07FC708B302E4C8DB3AF343331D2E2FC">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action.ConfirmWaveAddOrderToWave"/>
+			<attribute name="extension_id" value="07FC708B302E4C8DB3AF343331D2E2FC"/>
+			<attribute name="extension_name" value="ConfirmWaveAddOrderToWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="0AB5EEEA4B40453F88BE83D3756C7228">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.ConfirmWaveUpdateOrder"/>
+			<attribute name="extension_id" value="0AB5EEEA4B40453F88BE83D3756C7228"/>
+			<attribute name="extension_name" value="ConfirmWaveUpdateOrder"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="1FF0CEEB2E9442ED9F54401BE42AE844">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.ConfirmWaveConfirmWave"/>
+			<attribute name="extension_id" value="1FF0CEEB2E9442ED9F54401BE42AE844"/>
+			<attribute name="extension_name" value="ConfirmWaveConfirmWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="5C4DEC8A893946468B29F87FFC9C2216">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.ConfirmWaveUpdateWave"/>
+			<attribute name="extension_id" value="5C4DEC8A893946468B29F87FFC9C2216"/>
+			<attribute name="extension_name" value="ConfirmWaveUpdateWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="62F9A768315A4D4683C3652192B38B4F">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.SetWaveKeyIntoContext"/>
+			<attribute name="extension_id" value="62F9A768315A4D4683C3652192B38B4F"/>
+			<attribute name="extension_name" value="SetWaveKeyIntoContext"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="70351B0DD1BF4F299FB56D631D46B326">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action.ConfirmWavePreSaveValidation"/>
+			<attribute name="extension_id" value="70351B0DD1BF4F299FB56D631D46B326"/>
+			<attribute name="extension_name" value="ConfirmWavePreSaveValidation"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="7188E2E52E4C4B2F966414A4DC88EE9A">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.ConfirmWaveRemoveOrder"/>
+			<attribute name="extension_id" value="7188E2E52E4C4B2F966414A4DC88EE9A"/>
+			<attribute name="extension_name" value="ConfirmWaveRemoveOrder"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="7768E796C5254B78B5A903D88BDDB513">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action.ConfirmWaveAddOrderSetContext"/>
+			<attribute name="extension_id" value="7768E796C5254B78B5A903D88BDDB513"/>
+			<attribute name="extension_name" value="ConfirmWaveAddOrderSetContext"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="AA3459AAA7AA41E39884BFAA378431E2">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui.ConfirmWaveDeleteWave"/>
+			<attribute name="extension_id" value="AA3459AAA7AA41E39884BFAA378431E2"/>
+			<attribute name="extension_name" value="ConfirmWaveDeleteWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="B066A6B8044943CCA357295EA27D9E69">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action.ConfirmWaveAddOrderNavSelect"/>
+			<attribute name="extension_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="extension_name" value="ConfirmWaveAddOrderNavSelect"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="B436177BFE7248328B2819C4F1573394">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.computed.WPConfirmWaveTotalFields"/>
+			<attribute name="extension_id" value="B436177BFE7248328B2819C4F1573394"/>
+			<attribute name="extension_name" value="WPConfirmWaveTotalFields"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_confirmwave.computed"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="1997B2C53F5641E4B4CD6FB53BE829B0">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="1997B2C53F5641E4B4CD6FB53BE829B0"/>
+			<attribute name="extension_id" value="1FF0CEEB2E9442ED9F54401BE42AE844"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="382BD5F65AAC47EFA94432EBF44D9F03">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="382BD5F65AAC47EFA94432EBF44D9F03"/>
+			<attribute name="extension_id" value="62F9A768315A4D4683C3652192B38B4F"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="3A0F25A90C3B4C029F66F445F08CB08B">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="3A0F25A90C3B4C029F66F445F08CB08B"/>
+			<attribute name="extension_id" value="7768E796C5254B78B5A903D88BDDB513"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="3ACD9D33023E4EE5B6432FA755533CD8">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="3ACD9D33023E4EE5B6432FA755533CD8"/>
+			<attribute name="extension_id" value="AA3459AAA7AA41E39884BFAA378431E2"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5D7167B0A20B406DBA957EF707B17AFD">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5D7167B0A20B406DBA957EF707B17AFD"/>
+			<attribute name="extension_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="720B1C9058C04F1D9D5A0963478AE40B">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="720B1C9058C04F1D9D5A0963478AE40B"/>
+			<attribute name="extension_id" value="7188E2E52E4C4B2F966414A4DC88EE9A"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="7FBC5597BCAB40EF922A23E7E3F35465">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="7FBC5597BCAB40EF922A23E7E3F35465"/>
+			<attribute name="extension_id" value="5C4DEC8A893946468B29F87FFC9C2216"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="C4005B6798174BC09756C6EAE8F6AC8D">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="C4005B6798174BC09756C6EAE8F6AC8D"/>
+			<attribute name="extension_id" value="07FC708B302E4C8DB3AF343331D2E2FC"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="CC1C76F01E07451F874D2684252C44DB">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="CC1C76F01E07451F874D2684252C44DB"/>
+			<attribute name="extension_id" value="70351B0DD1BF4F299FB56D631D46B326"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="DABAD6DD88C94BF58127EE0A67E4995C">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="DABAD6DD88C94BF58127EE0A67E4995C"/>
+			<attribute name="extension_id" value="0AB5EEEA4B40453F88BE83D3756C7228"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="FD33D21A54784395A4948D6563E269FB">
+			<attribute name="extension_id" value="1D7AC83A74EE40A8BE9D9BEE10E2EF54"/>
+			<attribute name="extension_instance_id" value="FD33D21A54784395A4948D6563E269FB"/>
+			<attribute name="object_id" value="1BF28946188247FC9B60A3DFE2F73E02"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="5E74765F79D046AFA5870054D3FEA3C4">
+			<attribute name="event_type_mapping_id" value="9F2565F7893F4DE7854701A575AA9A17"/>
+			<attribute name="extension_instance_event_id" value="5E74765F79D046AFA5870054D3FEA3C4"/>
+			<attribute name="extension_instance_id" value="FD33D21A54784395A4948D6563E269FB"/>
+			<attribute name="extension_instance_priority" value="120"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="01E1DD4B36184391BB9CFE36E95F10CF">
+			<attribute name="label_id" value="01E1DD4B36184391BB9CFE36E95F10CF"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveRemoveOrder"/>
+			<attribute name="object_id" value="7188E2E52E4C4B2F966414A4DC88EE9A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveRemoveOrder"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="16F9C46E4E9E401C8839E8FA93DDF198">
+			<attribute name="label_id" value="16F9C46E4E9E401C8839E8FA93DDF198"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveUpdateWave"/>
+			<attribute name="object_id" value="5C4DEC8A893946468B29F87FFC9C2216"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveUpdateWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5E268AEBB1EF419DB199D5F1F648B5E6">
+			<attribute name="label_id" value="5E268AEBB1EF419DB199D5F1F648B5E6"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Saved Filter Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="E5E653AA4BC74C7099F5CDF6EF2A63F4"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="659E560C919D44BCB7F55289A87BA16A">
+			<attribute name="label_id" value="659E560C919D44BCB7F55289A87BA16A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWavePreSaveValidation"/>
+			<attribute name="object_id" value="70351B0DD1BF4F299FB56D631D46B326"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWavePreSaveValidation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7FA3C3E85F144FF8ABB678412BFF7250">
+			<attribute name="label_id" value="7FA3C3E85F144FF8ABB678412BFF7250"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveAddOrderSetContext"/>
+			<attribute name="object_id" value="7768E796C5254B78B5A903D88BDDB513"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveAddOrderSetContext"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="8CB74CF4FE944C259D48BCD8B286F300">
+			<attribute name="label_id" value="8CB74CF4FE944C259D48BCD8B286F300"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPConfirmWaveTotalFields"/>
+			<attribute name="object_id" value="B436177BFE7248328B2819C4F1573394"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPConfirmWaveTotalFields"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="90C32191200F48569EB0B10323A55D77">
+			<attribute name="label_id" value="90C32191200F48569EB0B10323A55D77"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveDeleteWave"/>
+			<attribute name="object_id" value="AA3459AAA7AA41E39884BFAA378431E2"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveDeleteWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="A4D33891E8274C7A8F98436D2BB77A51">
+			<attribute name="label_id" value="A4D33891E8274C7A8F98436D2BB77A51"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Self Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="C3EF489255854C0CBC839A2695E0263A"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B15F66DF94224C08BBDD84C4B888D161">
+			<attribute name="label_id" value="B15F66DF94224C08BBDD84C4B888D161"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SetWaveKeyIntoContext"/>
+			<attribute name="object_id" value="62F9A768315A4D4683C3652192B38B4F"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SetWaveKeyIntoContext"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C6AFDFDDFF3D46148DE82E71B9664712">
+			<attribute name="label_id" value="C6AFDFDDFF3D46148DE82E71B9664712"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Specific Order Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="71843892A1CA4795BF2D26B4E869A288"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D2FEE1AA6CD5423B934E6FFC66233910">
+			<attribute name="label_id" value="D2FEE1AA6CD5423B934E6FFC66233910"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Form to look for the Wavekey On - If not specified uses the Context"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="3E17E8B9EDA54ABF866F562191ECEA33"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="DB9A29E3024D4EA180A78DFE6D848D93">
+			<attribute name="label_id" value="DB9A29E3024D4EA180A78DFE6D848D93"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveConfirmWave"/>
+			<attribute name="object_id" value="1FF0CEEB2E9442ED9F54401BE42AE844"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveConfirmWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E4FA74C5069A4BB09578BE3445B4B574">
+			<attribute name="label_id" value="E4FA74C5069A4BB09578BE3445B4B574"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Query Builder Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="FE1A4187FC454DB3AADCF378A25134FB"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F2DDDC9100D4449683DE805888EB33AC">
+			<attribute name="label_id" value="F2DDDC9100D4449683DE805888EB33AC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveAddOrderNavSelect"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveAddOrderNavSelect"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F3C8EC187FA8497AA1A5B9414C8CC389">
+			<attribute name="label_id" value="F3C8EC187FA8497AA1A5B9414C8CC389"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveUpdateOrder"/>
+			<attribute name="object_id" value="0AB5EEEA4B40453F88BE83D3756C7228"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveUpdateOrder"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F9444592C2B349F58BE773709C4F5EC8">
+			<attribute name="label_id" value="F9444592C2B349F58BE773709C4F5EC8"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Graphical Filter Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="85F1BAC3D43E48719FDEF65EE937E460"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="FF59A048B7D443F988FA48C2BE7CA9A9">
+			<attribute name="label_id" value="FF59A048B7D443F988FA48C2BE7CA9A9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConfirmWaveAddOrderToWave"/>
+			<attribute name="object_id" value="07FC708B302E4C8DB3AF343331D2E2FC"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConfirmWaveAddOrderToWave"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="3E17E8B9EDA54ABF866F562191ECEA33">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="7188E2E52E4C4B2F966414A4DC88EE9A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="3E17E8B9EDA54ABF866F562191ECEA33"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="WAVEFORM"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="71843892A1CA4795BF2D26B4E869A288">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="71843892A1CA4795BF2D26B4E869A288"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="SONAVIGATION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="85F1BAC3D43E48719FDEF65EE937E460">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="85F1BAC3D43E48719FDEF65EE937E460"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="GFNAVIGATION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="C3EF489255854C0CBC839A2695E0263A">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="C3EF489255854C0CBC839A2695E0263A"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="SELFNAVIGATION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="E5E653AA4BC74C7099F5CDF6EF2A63F4">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="E5E653AA4BC74C7099F5CDF6EF2A63F4"/>
+			<attribute name="parameter_listorder" value="5"/>
+			<attribute name="parameter_name" value="SFNAVIGATION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="FE1A4187FC454DB3AADCF378A25134FB">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="B066A6B8044943CCA357295EA27D9E69"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="FE1A4187FC454DB3AADCF378A25134FB"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="QBNAVIGATION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="1279F159C0CB4473A3185CAF78817404">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="C5811416D7BB4232933A067206E569FD"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="1279F159C0CB4473A3185CAF78817404"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="18433B0F9264428E89429517C8483E53">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="object_type_id" value="property_value"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="18433B0F9264428E89429517C8483E53"/>
+			<attribute name="string_value" value="ORDERKEY"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="236459FD8690497AB0F6D1C671A4B65F">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="object_type_id" value="property_value"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="236459FD8690497AB0F6D1C671A4B65F"/>
+			<attribute name="string_value" value="SEGMENTID"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2DBB4F92C4EB400FABDF5FDB1F59329C">
+			<attribute name="display_text" value="wp_wave"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="C5811416D7BB4232933A067206E569FD"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="3586BCC7E9BC4D5DB5C2B79C9667130E"/>
+			<attribute name="property_value_id" value="2DBB4F92C4EB400FABDF5FDB1F59329C"/>
+			<attribute name="string_value" value="wp_wave"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="42F3567F54C148F5AD8BA92AE5556285">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="object_type_id" value="property_value"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="42F3567F54C148F5AD8BA92AE5556285"/>
+			<attribute name="string_value" value="SOURCEWMS"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="8009B5250E094DEAA941113C30B81D5B">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="AE1B703E78B3474080D378EAD720586C"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="914403AC7FA144CD899D80C3E4BD58DB">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="object_type_id" value="property_value"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="914403AC7FA144CD899D80C3E4BD58DB"/>
+			<attribute name="string_value" value="DC_ID"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="961E9CF1821E44AFA43C66222DEA1C9F">
+			<attribute name="display_text" value="wp_wave.STATUS &lt;= '2'"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BE046017301440B8AB60CCD29D5A74E7"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="C92FD58A9CCD49CEBC9F6FB0855125ED"/>
+			<attribute name="property_value_id" value="961E9CF1821E44AFA43C66222DEA1C9F"/>
+			<attribute name="string_value" value="wp_wave.STATUS &lt;= '2'"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9D677E08E47C48B6B8E4DC383443BB3D">
+			<attribute name="display_text" value="WHSEID"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="FD33D21A54784395A4948D6563E269FB"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2DAFFCEA00234739B1CC9344A180F316"/>
+			<attribute name="property_value_id" value="9D677E08E47C48B6B8E4DC383443BB3D"/>
+			<attribute name="string_value" value="WHSEID"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9E8FB46032ED43C7A20DDE64FDA1B474">
+			<attribute name="display_text" value="PARENT"/>
+			<attribute name="enumerated_value_id" value="MODAL_TARGET_NAVIGATION_TYPE_PAR"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="41CB8D2908054EABB33D7265ED8CBC28"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="9FEE2ADB640A477B9BD4C0AC177AFC94"/>
+			<attribute name="property_value_id" value="9E8FB46032ED43C7A20DDE64FDA1B474"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="A48C16F3B4134066AEDA4872725A99B9">
+			<attribute name="display_text" value="wp_orderheader"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="AE1B703E78B3474080D378EAD720586C"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="3586BCC7E9BC4D5DB5C2B79C9667130E"/>
+			<attribute name="property_value_id" value="A48C16F3B4134066AEDA4872725A99B9"/>
+			<attribute name="string_value" value="wp_orderheader"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="B7C6556054924FFCABEBCA856DC8A633">
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="object_type_id" value="property_value"/>
+			<attribute name="parameter_id" value="FC6A3D8D6A1F4BC79A0E0216D440F0C3"/>
+			<attribute name="property_value_id" value="B7C6556054924FFCABEBCA856DC8A633"/>
+			<attribute name="string_value" value="WHSEID"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="BA47935B3DD54D9B8447CE6EBBFFB914">
+			<attribute name="display_text" value="wp_wave"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="BE046017301440B8AB60CCD29D5A74E7"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="object_value_id" value="7DEA33BD7F8E44198DE66784EF3F46E6"/>
+			<attribute name="object_value_type" value="bio_class"/>
+			<attribute name="parameter_id" value="patype1QueryActionQueryAction"/>
+			<attribute name="property_value_id" value="BA47935B3DD54D9B8447CE6EBBFFB914"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="FC23A7F690684BC088CAB466512C204C">
+			<attribute name="display_text" value="WHSEID"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EF86ED09BC924C4B9FAC7D23FCE70624"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2DAFFCEA00234739B1CC9344A180F316"/>
+			<attribute name="property_value_id" value="FC23A7F690684BC088CAB466512C204C"/>
+			<attribute name="string_value" value="WHSEID"/>
+		</object>
+		<object type="vector_value" primary-key="vector_value_id" primary-key-value="2975CE03AB304BD1B6066B3968D9A8F1">
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="vector_element_id" value="914403AC7FA144CD899D80C3E4BD58DB"/>
+			<attribute name="vector_value_id" value="2975CE03AB304BD1B6066B3968D9A8F1"/>
+			<attribute name="vector_value_listorder" value="1"/>
+		</object>
+		<object type="vector_value" primary-key="vector_value_id" primary-key-value="5AD841D3027A421F9AF0A3BA6FD083EE">
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="vector_element_id" value="18433B0F9264428E89429517C8483E53"/>
+			<attribute name="vector_value_id" value="5AD841D3027A421F9AF0A3BA6FD083EE"/>
+			<attribute name="vector_value_listorder" value="2"/>
+		</object>
+		<object type="vector_value" primary-key="vector_value_id" primary-key-value="7C119F4A02D14628967CCEC03B6C43D6">
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="vector_element_id" value="42F3567F54C148F5AD8BA92AE5556285"/>
+			<attribute name="vector_value_id" value="7C119F4A02D14628967CCEC03B6C43D6"/>
+			<attribute name="vector_value_listorder" value="4"/>
+		</object>
+		<object type="vector_value" primary-key="vector_value_id" primary-key-value="C1F31C5890A546B18609B110CE7BEEA7">
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="vector_element_id" value="236459FD8690497AB0F6D1C671A4B65F"/>
+			<attribute name="vector_value_id" value="C1F31C5890A546B18609B110CE7BEEA7"/>
+			<attribute name="vector_value_listorder" value="3"/>
+		</object>
+		<object type="vector_value" primary-key="vector_value_id" primary-key-value="C7CFF26972B44858AC0E60A5B7C3551D">
+			<attribute name="property_value_id" value="8009B5250E094DEAA941113C30B81D5B"/>
+			<attribute name="vector_element_id" value="B7C6556054924FFCABEBCA856DC8A633"/>
+			<attribute name="vector_value_id" value="C7CFF26972B44858AC0E60A5B7C3551D"/>
+			<attribute name="vector_value_listorder" value="5"/>
+		</object>
+	</module>
+</root>

@@ -1,0 +1,148 @@
+/*******************************************************************************
+ *                         NOTICE                            
+ *                                                                                
+ * THIS SOFTWARE IS THE PROPERTY OF AND CONTAINS             
+ * CONFIDENTIAL INFORMATION OF INFOR AND/OR ITS AFFILIATES   
+ * OR SUBSIDIARIES AND SHALL NOT BE DISCLOSED WITHOUT PRIOR  
+ * WRITTEN PERMISSION. LICENSED CUSTOMERS MAY COPY AND       
+ * ADAPT THIS SOFTWARE FOR THEIR OWN USE IN ACCORDANCE WITH  
+ * THE TERMS OF THEIR SOFTWARE LICENSE AGREEMENT.            
+ * ALL OTHER RIGHTS RESERVED.                                                     
+ *                                                           
+ * (c) COPYRIGHT 2009 INFOR.  ALL RIGHTS RESERVED.           
+ * THE WORD AND DESIGN MARKS SET FORTH HEREIN ARE            
+ * TRADEMARKS AND/OR REGISTERED TRADEMARKS OF INFOR          
+ * AND/OR ITS AFFILIATES AND SUBSIDIARIES. ALL RIGHTS        
+ * RESERVED.  ALL OTHER TRADEMARKS LISTED HEREIN ARE         
+ * THE PROPERTY OF THEIR RESPECTIVE OWNERS.                  
+ *******************************************************************************/
+
+package com.ssaglobal.scm.wms.wm_asnreceipts.ui;
+
+// Import 3rd party packages and classes
+
+// Import Epiphany packages and classes
+import java.util.ArrayList;
+
+import com.epiphany.shr.data.bio.Query;
+import com.epiphany.shr.ui.action.ActionContext;
+import com.epiphany.shr.ui.action.ActionResult;
+import com.epiphany.shr.ui.model.data.BioBean;
+import com.epiphany.shr.ui.model.data.QBEBioBean;
+import com.epiphany.shr.ui.model.data.UnitOfWorkBean;
+import com.epiphany.shr.ui.state.StateInterface;
+import com.epiphany.shr.ui.view.RuntimeFormInterface;
+import com.epiphany.shr.ui.view.RuntimeListFormInterface;
+import com.epiphany.shr.util.exceptions.EpiException;
+import com.epiphany.shr.util.logging.ILoggerCategory;
+import com.epiphany.shr.util.logging.LoggerFactory;
+import com.epiphany.shr.util.logging.SuggestedCategory;
+import com.ssaglobal.scm.wms.util.BioUtil;
+import com.ssaglobal.scm.wms.util.FormUtil;
+import com.ssaglobal.scm.wms.util.SessionUtil;
+import com.ssaglobal.scm.wms.wm_asnreceipts.util.LotXIdDetailKeys;
+
+/*
+ * Descriptive Text to describe the extension you should state the event being trapped and list any parameters expected to be
+ * provided from the meta <P>
+ * 
+ * @return int RET_CONTINUE, RET_CANCEL
+ */
+
+public class CatchWeightDuplicate extends com.epiphany.shr.ui.action.ActionExtensionBase
+{
+
+	protected static ILoggerCategory _log = LoggerFactory.getInstance(CatchWeightDuplicate.class);
+
+	/**
+	 * The code within the execute method will be run from a UIAction specified in metadata.
+	 * <P>
+	 * @param context The ActionContext for this extension
+	 * @param result The ActionResult for this extension (contains the focus and perspective for this UI Extension)
+	 *
+	 * @return int RET_CONTINUE, RET_CANCEL, RET_CANCEL_EXTENSIONS
+	 *
+	 * @exception EpiException
+	 */
+	@Override
+	protected int execute(ActionContext context, ActionResult result) throws EpiException
+	{
+		StateInterface state = context.getState();
+
+		UnitOfWorkBean uow = state.getDefaultUnitOfWork();
+		Object numOfDuplicatesObj = SessionUtil.getInteractionSessionAttribute(CatchWeightSaveNumDuplicatesInSession.ASN_CATCH_W_D_NUM_DUPLICATES, state);
+		SessionUtil.setInteractionSessionAttribute(CatchWeightSaveNumDuplicatesInSession.ASN_CATCH_W_D_NUM_DUPLICATES, null, state);
+
+		ArrayList<String> skipList = new ArrayList<String>();
+		skipList.add("SERIALKEY");
+		skipList.add("ADDDATE");
+		skipList.add("EDITDATE");
+		skipList.add("ADDWHO");
+		skipList.add("EDITWHO");
+		skipList.add("LOTXIDLINENUMBER");
+		skipList.add("IOTHER1");
+		skipList.add("SERIALNUMBERLONG");
+
+		if (numOfDuplicatesObj instanceof String)
+		{
+			int numOfDuplicates = Integer.parseInt((String) numOfDuplicatesObj);
+			LotXIdDetailKeys keys = new LotXIdDetailKeys();
+			BioBean cwcdToBeDuplicated = null;
+			//get selected record
+			cwcdToBeDuplicated = getSelectedCWCDToBeDuplicated(state, cwcdToBeDuplicated);
+
+			if (cwcdToBeDuplicated != null && numOfDuplicates > 0)
+			{
+				for (int i = 0; i < numOfDuplicates; i++)
+				{
+					//duplicate cwcd
+					QBEBioBean copiedCWCD = BioUtil.copyBIO(cwcdToBeDuplicated, uow, skipList);
+					//update lotxidlinenumber
+					String receiptKey = copiedCWCD.getValue("SOURCEKEY") == null ? null : copiedCWCD.getValue("SOURCEKEY").toString();
+					String receiptLineNum = copiedCWCD.getValue("SOURCELINENUMBER") == null ? null : copiedCWCD.getValue("SOURCELINENUMBER").toString();
+					CatchWeightDataDefaultValues.setLOTXIDLINENUMBER(copiedCWCD, uow, receiptKey, receiptLineNum, CatchWeightDataDefaultValues.TYPE_INBOUND);
+
+					_log.debug("LOG_DEBUG_EXTENSION_CatchWeightDuplicate_execute", "Going to Save " + BioUtil.getBioAsString(copiedCWCD, uow.getBioMetadata(copiedCWCD.getDataType())),	SuggestedCategory.NONE);
+					//keep record of LOTXIDKEY && LOTXIDLINENUMBER for building a query at the end
+					Object lotxidkey = copiedCWCD.getValue("LOTXIDKEY");
+					Object lotxidlinenumber = copiedCWCD.getValue("LOTXIDLINENUMBER");
+					keys.add(lotxidkey, lotxidlinenumber);
+					uow.saveUOW(true);
+				}
+				
+				final String queryString = keys.getQueryString();
+				_log.debug("LOG_DEBUG_EXTENSION_CatchWeightDuplicate_execute", "Query : " + queryString, SuggestedCategory.NONE);
+				context.setNavigation("clickEvent1719");
+				result.setFocus(uow.getBioCollectionBean(new Query("lotxiddetail", queryString, null)));
+				return RET_CONTINUE;
+			}
+		}
+		_log.debug("LOG_DEBUG_EXTENSION_CatchWeightDuplicate_execute", "no records to duplicate, refreshing list", SuggestedCategory.NONE);
+		context.setNavigation("closeModalDialog160");
+
+		return RET_CONTINUE;
+	}
+
+	private BioBean getSelectedCWCDToBeDuplicated(StateInterface state, BioBean cwcdToBeDuplicated)
+	{
+		ArrayList<String> tabs = new ArrayList<String>();
+		tabs.add("wm_receiptdetail_detail_view");
+		tabs.add("tab 7");
+		tabs.add("catchweight_list_view");
+		RuntimeFormInterface lotListForm = FormUtil.findForm(state.getCurrentRuntimeForm(), "wms_list_shell", "wm_asndetail_catchweight_list_view", tabs, state);
+		if (lotListForm != null && lotListForm.isListForm())
+		{
+			RuntimeListFormInterface lotList = (RuntimeListFormInterface) lotListForm;
+			ArrayList<BioBean> selectedCWCDs = lotList.getSelectedItems();
+
+			if (selectedCWCDs.size() > 0)
+			{
+				cwcdToBeDuplicated = selectedCWCDs.get(0);
+			}
+			lotList.setSelectedItems(null);
+
+		}
+		return cwcdToBeDuplicated;
+	}
+
+}

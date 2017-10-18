@@ -1,0 +1,261 @@
+<project name="WM_Build" default="all">
+
+	<property environment="env" />
+	<property name="base.dir"  value="C:\EclipseWorkspace\galileo\dev92" />
+    <property name="env.BUILD_ROOT"  value="${base.dir}/webui/build" />
+	<property name="env.OA_HOME"  value="C:\infor\sce\scprd\oa\oahome" />
+	
+
+	<target name="all" depends="usage_help" />
+	<target name="build" depends="clean,compile,dev_deploy" />
+	<target name="clean_build" depends="clean,refresh,compile,scrutiny,prod_deploy" />
+
+
+	<target name="usage_help">
+		<echo message=" Target              Description " />
+		<echo message=" ------------        ----------- " />
+		<echo message=" build               compile any java code and redeploy all application (all modules, images, jars, etc)" />
+		<echo message=" scrutiny            perform scrutiny on the current state. Output sent to the screen.          " />
+		<echo message=" clean_build         clean out workspace, reload from source control, compile any java code,    " />
+		<echo message="                         perform scrutiny, and redeploy application (modules, images, jars, etc)" />
+		<echo message="     " />
+		<echo message="You must configure your own env.bat file before attempting to use this Ant script." />
+		<echo message="Do not check in your personal env.bat file to replace this template.              " />
+	</target>
+
+	
+
+	<!-- clean will wipe out all development in the workspace.            -->
+	<!-- Note: Any updates to files in the workspace which have not been  -->
+	<!-- comitted to source control will be LOST when this completes.     -->
+	<target name="clean">
+		<delete dir="${env.BUILD_ROOT}" />
+		<mkdir dir="${env.BUILD_ROOT}" />
+	</target>
+
+	<!-- refresh will pull all source and modules out from source control -->
+	<!-- and place them in the workspace directory.                       -->
+	<!-- <target name="refresh">
+       <vssget localPath="${env.WORKSPACE_ROOT}"
+               recursive="true"
+               login="build,build"
+               vsspath="${env.CRB_PROJECT_DIR}"
+               writable="true"/>
+   </target> -->
+	
+   <target name="refresh">
+   </target>
+
+
+	<!-- compile will compile all java classes used in this project.      -->
+	<target name="compile">
+		<javac srcdir="${env.WORKSPACE_ROOT}/src"
+		       destdir="${env.BUILD_ROOT}"
+		       fork="java$$javac.exe"
+		       classpath="${env.CRB_SHARED_LIB_DIR}/EPDataDirectSQL.jar;\
+			${env.CRB_SHARED_LIB_DIR}/EPbase.jar;\
+			${env.CRB_SHARED_LIB_DIR}/EPsqlserver.jar;\
+			${env.CRB_SHARED_LIB_DIR}/EPutil.jar;\
+			${env.CRB_SHARED_LIB_DIR}/PDFBox-0.6.2.jar;\
+			${env.CRB_SHARED_LIB_DIR}/US_export_policy.jar;\
+			${env.CRB_SHARED_LIB_DIR}/activation.jar;\
+			${env.CRB_SHARED_LIB_DIR}/axis.jar;\
+			${env.CRB_SHARED_LIB_DIR}/base.jar;\
+			${env.CRB_SHARED_LIB_DIR}/bio_client.jar;\
+			${env.CRB_SHARED_LIB_DIR}/classpath.jar;\
+			${env.CRB_SHARED_LIB_DIR}/classpath_ail.jar;\
+			${env.CRB_SHARED_LIB_DIR}/classpath_crystal.jar;\
+			${env.CRB_SHARED_LIB_DIR}/classpath_dev.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-beanutils.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-collections.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-digester.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-discovery.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-httpclient.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-lang.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-logging.jar;\
+			${env.CRB_SHARED_LIB_DIR}/commons-pool.jar;\
+			${env.CRB_SHARED_LIB_DIR}/concurrent.jar;\
+			${env.CRB_SHARED_LIB_DIR}/deployment.jar;\
+			${env.CRB_SHARED_LIB_DIR}/dialogs.jar;\
+			${env.CRB_SHARED_LIB_DIR}/dupatch.jar;\
+			${env.CRB_SHARED_LIB_DIR}/ejb.jar;\
+			${env.CRB_SHARED_LIB_DIR}/epnydominoservlet.jar;\
+			${env.CRB_SHARED_LIB_DIR}/htmlparser.jar;\
+			${env.CRB_SHARED_LIB_DIR}/imap.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jaas.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jakarta-oro-2.0.6.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jakarta-regexp.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jasper-compiler.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jasper-runtime.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jaxp.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jaxrpc-ri.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jaxrpc.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jce1_2_2.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jcert.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jdom.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jnet.jar;\
+			${env.CRB_SHARED_LIB_DIR}/js.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jspell2w_java2.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jsse.jar;\
+			${env.CRB_SHARED_LIB_DIR}/jta-spec1_0_1.jar;\
+			${env.CRB_SHARED_LIB_DIR}/ldapbp.jar;\
+			${env.CRB_SHARED_LIB_DIR}/ldapjdk.jar;\
+			${env.CRB_SHARED_LIB_DIR}/local-ra-jdbc-libs.jar;\
+			${env.CRB_SHARED_LIB_DIR}/local_policy.jar;\
+			${env.CRB_SHARED_LIB_DIR}/log4j.jar;\
+			${env.CRB_SHARED_LIB_DIR}/lucene-ja.jar;\
+			${env.CRB_SHARED_LIB_DIR}/lucene.jar;\
+			${env.CRB_SHARED_LIB_DIR}/mail.jar;\
+			${env.CRB_SHARED_LIB_DIR}/mailapi.jar;\
+			${env.CRB_SHARED_LIB_DIR}/metaref.jar;\
+			${env.CRB_SHARED_LIB_DIR}/mx4j-jmx.jar;\
+			${env.CRB_SHARED_LIB_DIR}/mx4j-tools.jar;\
+			${env.CRB_SHARED_LIB_DIR}/org.apache.jasper.jar;\
+			${env.CRB_SHARED_LIB_DIR}/poi-2.0-RC1-20031102.jar;\
+			${env.CRB_SHARED_LIB_DIR}/poi-contrib-2.0-RC1-20031102.jar;\
+			${env.CRB_SHARED_LIB_DIR}/poi-scratchpad-2.0-RC1-20031102.jar;\
+			${env.CRB_SHARED_LIB_DIR}/pop3.jar;\
+			${env.CRB_SHARED_LIB_DIR}/pop3epny.jar;\
+			${env.CRB_SHARED_LIB_DIR}/quartz.jar;\
+			${env.CRB_SHARED_LIB_DIR}/rpbean.jar;\
+			${env.CRB_SHARED_LIB_DIR}/saaj.jar;\
+			${env.CRB_SHARED_LIB_DIR}/servlet-2.3.jar;\
+			${env.CRB_SHARED_LIB_DIR}/shared.jar;\
+			${env.CRB_SHARED_LIB_DIR}/smtp.jar;\
+			${env.CRB_SHARED_LIB_DIR}/soap.jar;\
+			${env.CRB_SHARED_LIB_DIR}/sqlserver.jar;\
+			${env.CRB_SHARED_LIB_DIR}/sunjce_provider.jar;\
+			${env.CRB_SHARED_LIB_DIR}/tdief.jar;\
+			${env.CRB_SHARED_LIB_DIR}/tm-extractors-0.2.jar;\
+			${env.CRB_SHARED_LIB_DIR}/util.jar;\
+			${env.CRB_SHARED_LIB_DIR}/velocity-1.3.1.jar;\
+			${env.CRB_SHARED_LIB_DIR}/velocity-1.3.jar;\
+			${env.CRB_SHARED_LIB_DIR}/velocity.jar;\
+			${env.CRB_SHARED_LIB_DIR}/wsdl4j.jar;\
+			${env.CRB_SHARED_LIB_DIR}/xalan.jar;\
+			${env.CRB_SHARED_LIB_DIR}/xerces.jar;\
+			${env.CRB_SHARED_LIB_DIR}/xml-apis.jar;\
+			${env.CRB_SERVICE_LIB_DIR}/crb_extensions.jar" />	     			
+	</target>
+
+
+	<target name="dev_deploy">
+		<antcall target="reload_modules" />
+		<antcall target="deploy_images" />
+		<antcall target="execute_sql" />
+		<antcall target="deploy_style_sheets" />
+		<antcall target="deploy_expanded_extensions" />
+	</target>
+	
+
+	<target name="prod_deploy">
+		<antcall target="reload_modules" />
+		<antcall target="deploy_images" />
+		<antcall target="execute_sql" />
+		<antcall target="deploy_style_sheets" />
+		<antcall target="deploy_jar_extensions" />
+	</target>
+	
+	<target name="deploy_images">
+		<copy todir="${env.CRB_APP_FOLDER}/images/login">
+			<fileset dir="${env.WORKSPACE_ROOT}/images/login">
+				<exclude name="CVS" />
+			</fileset>
+		</copy>
+		<copy todir="${env.CRB_APP_FOLDER}/images/shell">
+			<fileset dir="${env.WORKSPACE_ROOT}/images/shell/">
+				<exclude name="CVS" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="execute_sql">
+		<antcall target="setWindowText" />
+		<!-- <antcall target="unlock" /> -->
+		<!-- <antcall target="loginFix" /> -->
+	</target>
+
+	<target name="deploy_style_sheets">
+		<copy file="${env.WORKSPACE_ROOT}/css/service/Web/app/custom.css" todir="${env.CRB_APP_FOLDER}" />
+	</target>
+
+	<target name="deploy_jar_extensions">
+		<delete file="custom.jar"/> 
+        <jar jarfile="custom.jar" 
+	        	basedir="${env.BUILD_ROOT}" 
+	        	includes="com/ssaglobal/scm/wms/custom/">        	
+        </jar>
+		<move file="custom.jar" todir="${env.OA_HOME}/shared/applications/webui/lib/custom"/>
+	</target>
+	
+	<target name="deploy_expanded_extensions">
+		<copy todir="${env.CRB_SERVICE_LIB_DIR}/custom">
+			<fileset dir="${env.BUILD_ROOT}" />
+		</copy>
+	</target>
+
+	<!-- load_module will load all application metadata modules currently -->
+	<!-- in the workspace for the project. Before this is attempted, the  -->
+	<!-- native CRB metadata is loaded (using load_module_crb target)     -->
+	<target name="reload_modules" depends="clear_modules">
+		<antcall target="load_module_exec">
+			<param name="params" value=" -module ${env.WORKSPACE_MODULES}" />
+		</antcall>
+	</target>
+
+
+	<!-- scrutiny will perform scrutiny on all metadata currently found in -->
+	<!-- the database.                                                     -->
+	<target name="scrutiny">
+		<exec executable="${env.CRB_SCRIPTS_DIR}\scrutiny_fkchecks.bat" failonerror="true" />
+	</target>
+
+
+	<!-- This is a helper target which is used to clear the current application. -->
+	<!-- It is not called directly. It is used indirectly through other targets. -->
+	<target name="clear_modules">
+		<antcall target="load_module_exec">
+			<param name="params" value="-module ${env.WORKSPACE_MODULES} -justClear" />
+		</antcall>
+	</target>
+
+	<!-- This is a helper target which is used to load database modules.         -->
+	<!-- It is not called directly. It is used indirectly through other targets. -->
+	<target name="load_module_exec">
+		<exec executable="${env.CRB_SCRIPTS_DIR}\loadmodule.bat" failonerror="true">
+			<arg line="-callSystemExit ${params}" />
+		</exec>
+	</target>
+	
+	<!-- SQL SCRIPTS -->
+	<target name="setWindowText">
+		<exec executable="isql"  failonerror="true">
+			<arg line=" -S ${env.DBServer} -U ${env.DBUser} -P ${env.DBPwd} -d ${env.METADATA_DATABASE} -E -i ${env.WORKSPACE_ROOT}/crb/scripts/SetWindowText.sql" />
+		</exec>
+	</target>
+
+	<!-- studio-unlock.sql should be executed for development -->
+	<!-- studio_lock.sql should only be executed on final deployment. -->
+	<target name="unlock">
+		<exec executable="isql" failonerror="true">
+			<arg line=" -S ${env.DBServer} -U ${env.DBUser} -P ${env.DBPwd} -d ${env.METADATA_DATABASE} -E -i ${env.WORKSPACE_ROOT}/crb/scripts/studio-unlock.sql" />
+		</exec>
+	</target>
+
+	<target name="loginFix">
+		<exec failonerror="true" executable="isql" >
+			<arg line=" -S ${env.DBServer} -U ${env.DBUser} -P ${env.DBPwd} -d ${env.PRD_DATABASE} -E -i ${env.WORKSPACE_ROOT}/crb/scripts/LoginFix.sql" />
+		</exec>
+	</target>
+	
+	<target name="util" >
+		<jar destfile="${env.BUILD_ROOT}/util.jar" 
+			basedir="${env.BUILD_ROOT}/build"  excludes="com/ssaglobal/** com/epiphany/**"  />
+		<move file="util.jar" todir="${env.BUILD_ROOT}/build"/>
+
+		 
+
+	
+	</target>
+
+</project>

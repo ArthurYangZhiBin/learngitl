@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_table_validation" id="A0147AAADF8E44DD9B56B1C4EE95DC53" version="658" row_count="152" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="A0147AAADF8E44DD9B56B1C4EE95DC53">
+			<attribute name="app_module_id" value="A0147AAADF8E44DD9B56B1C4EE95DC53"/>
+			<attribute name="app_module_name" value="wm_table_validation"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="9745"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="0FFD9D57AFB44BF5979EB20843378174">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.StorerFieldValidationCCF"/>
+			<attribute name="extension_id" value="0FFD9D57AFB44BF5979EB20843378174"/>
+			<attribute name="extension_name" value="StorerFieldValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="12EC10D805C84933B7B48B9CAA4ED8D9">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.TableValidationActionAllowNulls"/>
+			<attribute name="extension_id" value="12EC10D805C84933B7B48B9CAA4ED8D9"/>
+			<attribute name="extension_name" value="TableValidationActionAllowNulls"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4AC11639338641A2A0F4EB6E344FAAC7">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.NonNegativeValidationAction"/>
+			<attribute name="extension_id" value="4AC11639338641A2A0F4EB6E344FAAC7"/>
+			<attribute name="extension_name" value="NonNegativeValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="753F7F1FA7D041BEA22D7DA9E11878C8">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.DuplicateValidationAction"/>
+			<attribute name="extension_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="extension_name" value="DuplicateValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="765046B32A1E4CC1A18157CA4746AD13">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.FieldValidationCCF"/>
+			<attribute name="extension_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+			<attribute name="extension_name" value="FieldValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="7BA3B00D45C949C2BED926E75892AE14">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.TableValidationCCF"/>
+			<attribute name="extension_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="extension_name" value="TableValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="999F46DFF110465ABC672393696D6DB7">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.bio.TableValidation"/>
+			<attribute name="extension_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="extension_name" value="TableValidation"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.bio"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="ABE93BECD8B14DA3AEFB589A1EBE5913">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.TableValidationAction"/>
+			<attribute name="extension_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="extension_name" value="TableValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="B985937906F24A40BC8628758F53E8C5">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.bio.DuplicateValidation"/>
+			<attribute name="extension_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="extension_name" value="DuplicateValidation"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.bio"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="CEA0BAC08FBB4DE4A39B62490EDA381E">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.ItemByOwnerTableValidationAction"/>
+			<attribute name="extension_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="extension_name" value="ItemByOwnerTableValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="D4849F8671F54E06AC5FCD79C4A330B6">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.GreaterThanZeroValidationAction"/>
+			<attribute name="extension_id" value="D4849F8671F54E06AC5FCD79C4A330B6"/>
+			<attribute name="extension_name" value="GreaterThanZeroValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="DD3B675A0E7A415598D98E18E295C5C9">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.NonNegativeValidationCCF"/>
+			<attribute name="extension_id" value="DD3B675A0E7A415598D98E18E295C5C9"/>
+			<attribute name="extension_name" value="NonNegativeValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="DE41EBF891BF44ED8B6691F96404E082">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.StorerTableValidationAction"/>
+			<attribute name="extension_id" value="DE41EBF891BF44ED8B6691F96404E082"/>
+			<attribute name="extension_name" value="StorerTableValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F1F0945317E44AADAC714E7AEC8AF52B">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.NumericValidationCCF"/>
+			<attribute name="extension_id" value="F1F0945317E44AADAC714E7AEC8AF52B"/>
+			<attribute name="extension_name" value="NumericValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F29D9F41B886474A965BF5A4CEA7D448">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ccf.ItemByOwnerTableValidationCCF"/>
+			<attribute name="extension_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+			<attribute name="extension_name" value="ItemByOwnerTableValidationCCF"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F337A76D47F6495381DCF6367BE07C45">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_table_validation.ui.SingleDuplicateValidationAction"/>
+			<attribute name="extension_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="extension_name" value="SingleDuplicateValidationAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_table_validation.ui"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0F273EECE7D2416681CFFC7619AEF7C7">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="0F273EECE7D2416681CFFC7619AEF7C7"/>
+			<attribute name="extension_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="2F4242726B6844F68FACFF34A3610391">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="2F4242726B6844F68FACFF34A3610391"/>
+			<attribute name="extension_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="367C8B51BAAC40DD9F62DBD17B4CA8B0">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="367C8B51BAAC40DD9F62DBD17B4CA8B0"/>
+			<attribute name="extension_id" value="DD3B675A0E7A415598D98E18E295C5C9"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="47BA41968333494DA6516AD85E6E7231">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="47BA41968333494DA6516AD85E6E7231"/>
+			<attribute name="extension_id" value="F1F0945317E44AADAC714E7AEC8AF52B"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5B6AF94D6D394E7A9591F118254345BE">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5B6AF94D6D394E7A9591F118254345BE"/>
+			<attribute name="extension_id" value="D4849F8671F54E06AC5FCD79C4A330B6"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="6036E13C75C14401BE3D348DA454CC3A">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="6036E13C75C14401BE3D348DA454CC3A"/>
+			<attribute name="extension_id" value="12EC10D805C84933B7B48B9CAA4ED8D9"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="61AB4839A81C44CA8E6009F70C0B1C3E">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="61AB4839A81C44CA8E6009F70C0B1C3E"/>
+			<attribute name="extension_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="6BB8181C616F48CC8576E01349035B05">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="6BB8181C616F48CC8576E01349035B05"/>
+			<attribute name="extension_id" value="DE41EBF891BF44ED8B6691F96404E082"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="A5AB634B46D1493BA27FE55CDC90C42B">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="A5AB634B46D1493BA27FE55CDC90C42B"/>
+			<attribute name="extension_id" value="0FFD9D57AFB44BF5979EB20843378174"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="ADAB3BCB77EC4BCEB26E4A58E76AEBE4">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="ADAB3BCB77EC4BCEB26E4A58E76AEBE4"/>
+			<attribute name="extension_id" value="4AC11639338641A2A0F4EB6E344FAAC7"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="C1A0283996444D2994A37DEF255E36D1">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="C1A0283996444D2994A37DEF255E36D1"/>
+			<attribute name="extension_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="D37F22F43F0443D2A928E09E55F1FAE3">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="D37F22F43F0443D2A928E09E55F1FAE3"/>
+			<attribute name="extension_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="D5F123FC19D741B38D4150D0366708E6">
+			<attribute name="event_category_id" value="E01D519CF69144D098CF2C32F04CBEFC"/>
+			<attribute name="extension_event_category_id" value="D5F123FC19D741B38D4150D0366708E6"/>
+			<attribute name="extension_id" value="B985937906F24A40BC8628758F53E8C5"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="EA11C9A94DC64FE2A1D6490C264BA643">
+			<attribute name="event_category_id" value="E01D519CF69144D098CF2C32F04CBEFC"/>
+			<attribute name="extension_event_category_id" value="EA11C9A94DC64FE2A1D6490C264BA643"/>
+			<attribute name="extension_id" value="999F46DFF110465ABC672393696D6DB7"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="EC68A15047D3436F9BA4F55DE3950A24">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="EC68A15047D3436F9BA4F55DE3950A24"/>
+			<attribute name="extension_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="02F04B4409CE433185074BE80DB4D8C7">
+			<attribute name="label_id" value="02F04B4409CE433185074BE80DB4D8C7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="51ACF1972E584EE78384505F821206DE"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="084EE6DC127F45E49D98C6470C1C6114">
+			<attribute name="label_id" value="084EE6DC127F45E49D98C6470C1C6114"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Storer Type"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="7D9F01F30D7149A9B2ECD2CD7CAB36AA"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="09541B7637A0442A99DD1F117FEC074C">
+			<attribute name="label_id" value="09541B7637A0442A99DD1F117FEC074C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="TableValidationCCF"/>
+			<attribute name="object_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="TableValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0A505F319BE547A393D7D46E6F6B6C44">
+			<attribute name="label_id" value="0A505F319BE547A393D7D46E6F6B6C44"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message to display"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="4FED2ACAF7994D648DA990FDB6C8EAC5"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0D60807EA1AF4CCF84BEFC092ACC65B6">
+			<attribute name="label_id" value="0D60807EA1AF4CCF84BEFC092ACC65B6"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ItemByOwnerTableValidationAction"/>
+			<attribute name="object_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ItemByOwnerTableValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0F1514D044824DC2AF6BF60EC71225CB">
+			<attribute name="label_id" value="0F1514D044824DC2AF6BF60EC71225CB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Type of Storer"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="9457B3FD2A33406B9B680AACEC873577"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1687307DBF10465B89E6B1BAAB8F07A9">
+			<attribute name="label_id" value="1687307DBF10465B89E6B1BAAB8F07A9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message to Display"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="828B08B5E1A74AF58E01C4AFB54A4664"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="16C97EFE45F842A08EB5AB4AB8BAB16F">
+			<attribute name="label_id" value="16C97EFE45F842A08EB5AB4AB8BAB16F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Screen"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="5852CB9B4740413793EAE170AAE4287A"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="18F27696127E4D5A981D4AF98BC0037F">
+			<attribute name="label_id" value="18F27696127E4D5A981D4AF98BC0037F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="NonNegativeValidationCCF"/>
+			<attribute name="object_id" value="DD3B675A0E7A415598D98E18E295C5C9"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="NonNegativeValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1EBB16F2853640738FE5781876DF29EF">
+			<attribute name="label_id" value="1EBB16F2853640738FE5781876DF29EF"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Boolean value that is true if pack needs to be set (Default: false)"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="83AFC35CAE854F7DAD93B8E92D36E28B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="22FFE01231F845C5B5D8C7D86BE88D2A">
+			<attribute name="label_id" value="22FFE01231F845C5B5D8C7D86BE88D2A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message to Display"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="8A195C9B11E4441C881B94E299D7AECE"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="300BFB87EAB84380AC52CB09B5881BAD">
+			<attribute name="label_id" value="300BFB87EAB84380AC52CB09B5881BAD"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="NumericValidationCCF"/>
+			<attribute name="object_id" value="F1F0945317E44AADAC714E7AEC8AF52B"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="NumericValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="35496440DC9D4EEDA74A3DED982F0F14">
+			<attribute name="label_id" value="35496440DC9D4EEDA74A3DED982F0F14"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Widget name of pack (Default: PACKKEY)"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="0B567993EA944DBF8ECD7F07A5F5811E"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="37DBB4716C734D738B37AD33EDCC4B52">
+			<attribute name="label_id" value="37DBB4716C734D738B37AD33EDCC4B52"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Widget"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="877D75E77A6B4FFD9F4DB53C72EEF2A6"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="3DF1CE1924474B9693E545B0F4072289">
+			<attribute name="label_id" value="3DF1CE1924474B9693E545B0F4072289"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO to verify extended widget"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="599E8BC0E2CB4B539C7B1BB6389E5A77"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="3EBE14895CF040C19CCE5B99F7431BEB">
+			<attribute name="label_id" value="3EBE14895CF040C19CCE5B99F7431BEB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO attribute on screen if different from ATTRIBUTE. Logically equivalent to ATTRIBUTE by default or when left empty."/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="36D697AAB7F94099983FF37D0BB7A71F"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="40823AD9E220472FA196A667E970C498">
+			<attribute name="label_id" value="40823AD9E220472FA196A667E970C498"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Widget name of owner (Default: STORERKEY)"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="34F2D72A9C6945B99ABA62EF5D0580E0"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4167EF202E2D44C4B89064485E064B99">
+			<attribute name="label_id" value="4167EF202E2D44C4B89064485E064B99"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message to display"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="CFFF867CED904189A3B91A4DE76EDB22"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4382F304542E44A384E48CE5077FD7DE">
+			<attribute name="label_id" value="4382F304542E44A384E48CE5077FD7DE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="FieldValidationCCF"/>
+			<attribute name="object_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="FieldValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4615399231CC4E8DA25E776BA45F852A">
+			<attribute name="label_id" value="4615399231CC4E8DA25E776BA45F852A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ItemByOwnerTableValidationCCF"/>
+			<attribute name="object_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ItemByOwnerTableValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="50095964B7C14CC58EFD96AA828025D6">
+			<attribute name="label_id" value="50095964B7C14CC58EFD96AA828025D6"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message Variable"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="3A660D0F48364F10880BA0856927FF80"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5D12FD59FF404716AA84D4B640D41C2D">
+			<attribute name="label_id" value="5D12FD59FF404716AA84D4B640D41C2D"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="TableValidationActionAllowNulls"/>
+			<attribute name="object_id" value="12EC10D805C84933B7B48B9CAA4ED8D9"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="TableValidationActionAllowNulls"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5F8F4CE1A2FA4477B88249FDBEBE9F78">
+			<attribute name="label_id" value="5F8F4CE1A2FA4477B88249FDBEBE9F78"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO Attribute to query"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="267AECD72E184A48B4F5F5C2526C82CD"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="62563BB471A44B2895A9BA0233665849">
+			<attribute name="label_id" value="62563BB471A44B2895A9BA0233665849"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of ATTRIBUTE in BIO"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="5A68BC2B0F294BCA96127A0873439977"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="709C58B0BCD04C1687B3C41B334C5F94">
+			<attribute name="label_id" value="709C58B0BCD04C1687B3C41B334C5F94"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="DuplicateValidation"/>
+			<attribute name="object_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="DuplicateValidation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="71FADF11CD7C4D20A79EF211AF1ABEED">
+			<attribute name="label_id" value="71FADF11CD7C4D20A79EF211AF1ABEED"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="BIO ATTRIBUTE to query"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="8752ECC569844AC3AB2574722B04AE0C"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="73D4C0E624C84905932BC8EA53E1809F">
+			<attribute name="label_id" value="73D4C0E624C84905932BC8EA53E1809F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO "/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="BD63D03B3DEB421F8BFAA48AFF793550"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7BFEAED95E4546CFBD67E3A8B56B6CD1">
+			<attribute name="label_id" value="7BFEAED95E4546CFBD67E3A8B56B6CD1"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="F31E5ABE9A504052AA28D14460A3BB3D"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7CBB0E8CC58E48E8A938496F28100378">
+			<attribute name="label_id" value="7CBB0E8CC58E48E8A938496F28100378"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="GreaterThanZeroValidationAction"/>
+			<attribute name="object_id" value="D4849F8671F54E06AC5FCD79C4A330B6"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="GreaterThanZeroValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="80C4A67832424D61A83A46B6F40AF4ED">
+			<attribute name="label_id" value="80C4A67832424D61A83A46B6F40AF4ED"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Validation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="FB00898D21324D1C813E21297D0B6357"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="88EB57FDE933414DB8FB389B3EA40004">
+			<attribute name="label_id" value="88EB57FDE933414DB8FB389B3EA40004"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Field(s) that make up the Primary Key of the table"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="B831B661C0234131857A53CE0CFD8150"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="97B18443AF664233BA565C0E9FEE512D">
+			<attribute name="label_id" value="97B18443AF664233BA565C0E9FEE512D"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="BIO to query"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="5EC26AF139C44B12AE69B690D30F93B0"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="A3260C41276A4C4B810E1990F33C096B">
+			<attribute name="label_id" value="A3260C41276A4C4B810E1990F33C096B"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="NonNegativeValidationAction"/>
+			<attribute name="object_id" value="4AC11639338641A2A0F4EB6E344FAAC7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="NonNegativeValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="A73AD0D4BDB249F6B46EC203099211BE">
+			<attribute name="label_id" value="A73AD0D4BDB249F6B46EC203099211BE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="StorerFieldValidationCCF"/>
+			<attribute name="object_id" value="0FFD9D57AFB44BF5979EB20843378174"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="StorerFieldValidationCCF"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B424786EA5CB4011B2896178466D421C">
+			<attribute name="label_id" value="B424786EA5CB4011B2896178466D421C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="DuplicateValidationAction"/>
+			<attribute name="object_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="DuplicateValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B77B4F00D0AC4163AD9E612E5250EC65">
+			<attribute name="label_id" value="B77B4F00D0AC4163AD9E612E5250EC65"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of corresponding BIO attribute to verify against"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="7B11994B8EBB4471B6EA494688043EFA"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B79EA31E9E7C42D69B44D04E088FBB03">
+			<attribute name="label_id" value="B79EA31E9E7C42D69B44D04E088FBB03"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Screen "/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="A8514933DDB54ADB93FF809F198A4E54"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B9F7712E1B6444D2A07BBC1A7462E6DF">
+			<attribute name="label_id" value="B9F7712E1B6444D2A07BBC1A7462E6DF"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error message to display to user upon extension failure (Default: WMEXP_INVALID_ITEM_BY_OWNER)"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="B71A3A1EB79244B9A03FF56E7C807CAF"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BB64909B0F7A485189D45ABF986097DB">
+			<attribute name="label_id" value="BB64909B0F7A485189D45ABF986097DB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="BIO to query"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="A2A602F204E74E34898D87157D15FD97"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BD5967B25A1D458EAA7FEB6515E159EC">
+			<attribute name="label_id" value="BD5967B25A1D458EAA7FEB6515E159EC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Owner Widget"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="B7CA5C15013E4B3A8BAEA668F1535F5A"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BE316D58590F4B3FB118775BAA3226EA">
+			<attribute name="label_id" value="BE316D58590F4B3FB118775BAA3226EA"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of error message in Studio to display upon failure"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="8C4D771147514B8AA409BBEBDA75CDB0"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BEA7F3C05A664C0BA1A36F574B871D54">
+			<attribute name="label_id" value="BEA7F3C05A664C0BA1A36F574B871D54"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="TableValidation"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="TableValidation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C280DA1647D5463887073F81D0703115">
+			<attribute name="label_id" value="C280DA1647D5463887073F81D0703115"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Widget"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="44520E01CE484B978F1DE522B0309589"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C6425C234D85446EAAAA6FE2374818FC">
+			<attribute name="label_id" value="C6425C234D85446EAAAA6FE2374818FC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message Variable to Display"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="11AB7E322D744361B21C9A90B0402761"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C83E6746B5024CE49D618C0C617689EC">
+			<attribute name="label_id" value="C83E6746B5024CE49D618C0C617689EC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Error Message"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="F29A597A294740259C9C64C4DB19A771"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C96CA98EEDD94ADBB5B26F36890C67C7">
+			<attribute name="label_id" value="C96CA98EEDD94ADBB5B26F36890C67C7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of BIO"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="9498A841DE2944028EFC1A88B127E80B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="DE01975CADFC49B6A487A9CD76B6EFC1">
+			<attribute name="label_id" value="DE01975CADFC49B6A487A9CD76B6EFC1"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Error Message to Display to User, from wm_user_messages"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="2C5153B64292475598D2A7042887C389"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E0643182578848699FDAEF628A4ABF85">
+			<attribute name="label_id" value="E0643182578848699FDAEF628A4ABF85"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="TableValidationAction"/>
+			<attribute name="object_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="TableValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E467F60146FA424D9B26164718459042">
+			<attribute name="label_id" value="E467F60146FA424D9B26164718459042"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Attribute of Bio to query"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="26375FCA1E3B4C1B80D64136E40AE0E4"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E800FDE67F8A4C92A5CCF8BAB312F5ED">
+			<attribute name="label_id" value="E800FDE67F8A4C92A5CCF8BAB312F5ED"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Field(s) that make up the Primary Key of the table"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="4F91829CDE08452A9710B2CA0008C2F6"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F45A4B9E5A114624BF6E66EDA657FDD8">
+			<attribute name="label_id" value="F45A4B9E5A114624BF6E66EDA657FDD8"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SingleDuplicateValidationAction"/>
+			<attribute name="object_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SingleDuplicateValidationAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F9D298BB94B44B02A08379DD4B3A1F98">
+			<attribute name="label_id" value="F9D298BB94B44B02A08379DD4B3A1F98"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Attributes to validate"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="24AB2FC19BDA4FD58F0E6FA23E8693A2"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="FAC66668E5284133A6C98486D1FA7155">
+			<attribute name="label_id" value="FAC66668E5284133A6C98486D1FA7155"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of Validation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="9816EAD8311240E1B2053EF1BD961AFB"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="FDB53E329EAB40E688BA9DB779C884B2">
+			<attribute name="label_id" value="FDB53E329EAB40E688BA9DB779C884B2"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="StorerTableValidationAction"/>
+			<attribute name="object_id" value="DE41EBF891BF44ED8B6691F96404E082"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="StorerTableValidationAction"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="0B567993EA944DBF8ECD7F07A5F5811E">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="0B567993EA944DBF8ECD7F07A5F5811E"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="PACKWIDGET"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="11AB7E322D744361B21C9A90B0402761">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="0FFD9D57AFB44BF5979EB20843378174"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="11AB7E322D744361B21C9A90B0402761"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="24AB2FC19BDA4FD58F0E6FA23E8693A2">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="24AB2FC19BDA4FD58F0E6FA23E8693A2"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="ATTRTOVALIDATE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="26375FCA1E3B4C1B80D64136E40AE0E4">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="26375FCA1E3B4C1B80D64136E40AE0E4"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="267AECD72E184A48B4F5F5C2526C82CD">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="267AECD72E184A48B4F5F5C2526C82CD"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="2C5153B64292475598D2A7042887C389">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="2C5153B64292475598D2A7042887C389"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="34F2D72A9C6945B99ABA62EF5D0580E0">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="34F2D72A9C6945B99ABA62EF5D0580E0"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="OWNERWIDGET"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="36D697AAB7F94099983FF37D0BB7A71F">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="36D697AAB7F94099983FF37D0BB7A71F"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="WIDGET"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="3A660D0F48364F10880BA0856927FF80">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="3A660D0F48364F10880BA0856927FF80"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="44520E01CE484B978F1DE522B0309589">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="44520E01CE484B978F1DE522B0309589"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="4F91829CDE08452A9710B2CA0008C2F6">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="4F91829CDE08452A9710B2CA0008C2F6"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="PRIMARY_KEY_FIELDS"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="4FED2ACAF7994D648DA990FDB6C8EAC5">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="4FED2ACAF7994D648DA990FDB6C8EAC5"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="51ACF1972E584EE78384505F821206DE">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="51ACF1972E584EE78384505F821206DE"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="5852CB9B4740413793EAE170AAE4287A">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="5852CB9B4740413793EAE170AAE4287A"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="599E8BC0E2CB4B539C7B1BB6389E5A77">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="599E8BC0E2CB4B539C7B1BB6389E5A77"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="5A68BC2B0F294BCA96127A0873439977">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="5A68BC2B0F294BCA96127A0873439977"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="5EC26AF139C44B12AE69B690D30F93B0">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="5EC26AF139C44B12AE69B690D30F93B0"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="7B11994B8EBB4471B6EA494688043EFA">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="7B11994B8EBB4471B6EA494688043EFA"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="7D9F01F30D7149A9B2ECD2CD7CAB36AA">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="DE41EBF891BF44ED8B6691F96404E082"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="7D9F01F30D7149A9B2ECD2CD7CAB36AA"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="TYPE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="828B08B5E1A74AF58E01C4AFB54A4664">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="828B08B5E1A74AF58E01C4AFB54A4664"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="83AFC35CAE854F7DAD93B8E92D36E28B">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="83AFC35CAE854F7DAD93B8E92D36E28B"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="SET_PACK"/>
+			<attribute name="property_value_type_id" value="PVT_BOOLEAN"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="8752ECC569844AC3AB2574722B04AE0C">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="8752ECC569844AC3AB2574722B04AE0C"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="877D75E77A6B4FFD9F4DB53C72EEF2A6">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="877D75E77A6B4FFD9F4DB53C72EEF2A6"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="8A195C9B11E4441C881B94E299D7AECE">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="DE41EBF891BF44ED8B6691F96404E082"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="8A195C9B11E4441C881B94E299D7AECE"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="ERRORMESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="8C4D771147514B8AA409BBEBDA75CDB0">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="ABE93BECD8B14DA3AEFB589A1EBE5913"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="8C4D771147514B8AA409BBEBDA75CDB0"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="9457B3FD2A33406B9B680AACEC873577">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="0FFD9D57AFB44BF5979EB20843378174"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="9457B3FD2A33406B9B680AACEC873577"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="TYPE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="9498A841DE2944028EFC1A88B127E80B">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="9498A841DE2944028EFC1A88B127E80B"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="9816EAD8311240E1B2053EF1BD961AFB">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="9816EAD8311240E1B2053EF1BD961AFB"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="A2A602F204E74E34898D87157D15FD97">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="765046B32A1E4CC1A18157CA4746AD13"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="A2A602F204E74E34898D87157D15FD97"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="A8514933DDB54ADB93FF809F198A4E54">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="A8514933DDB54ADB93FF809F198A4E54"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="B71A3A1EB79244B9A03FF56E7C807CAF">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="CEA0BAC08FBB4DE4A39B62490EDA381E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="B71A3A1EB79244B9A03FF56E7C807CAF"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="ERRORMESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="B7CA5C15013E4B3A8BAEA668F1535F5A">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F29D9F41B886474A965BF5A4CEA7D448"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="B7CA5C15013E4B3A8BAEA668F1535F5A"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="OWNER_WIDGET"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="B831B661C0234131857A53CE0CFD8150">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="B985937906F24A40BC8628758F53E8C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="B831B661C0234131857A53CE0CFD8150"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="PRIMARY_KEY_FIELDS"/>
+			<attribute name="property_value_type_id" value="PVT_STRING_VECTOR"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="BD63D03B3DEB421F8BFAA48AFF793550">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="BD63D03B3DEB421F8BFAA48AFF793550"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="CFFF867CED904189A3B91A4DE76EDB22">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="7BA3B00D45C949C2BED926E75892AE14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="CFFF867CED904189A3B91A4DE76EDB22"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="F29A597A294740259C9C64C4DB19A771">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="F29A597A294740259C9C64C4DB19A771"/>
+			<attribute name="parameter_listorder" value="4"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="F2ECF975E4A04B498ECDCB185BAD5B7E">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="F337A76D47F6495381DCF6367BE07C45"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="F2ECF975E4A04B498ECDCB185BAD5B7E"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ERROR_MESSAGE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="F31E5ABE9A504052AA28D14460A3BB3D">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="753F7F1FA7D041BEA22D7DA9E11878C8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="F31E5ABE9A504052AA28D14460A3BB3D"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="BIO"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="FB00898D21324D1C813E21297D0B6357">
+			<attribute name="is_required_flag" value="1"/>
+			<attribute name="object_id" value="999F46DFF110465ABC672393696D6DB7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="FB00898D21324D1C813E21297D0B6357"/>
+			<attribute name="parameter_listorder" value="5"/>
+			<attribute name="parameter_name" value="NAME"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="48915D65CF754426AE4BB721371A8C2D">
+			<attribute name="parameter_default_value_id" value="48915D65CF754426AE4BB721371A8C2D"/>
+			<attribute name="parameter_id" value="B831B661C0234131857A53CE0CFD8150"/>
+			<attribute name="property_value_id" value="3F9311D5B0DE4376B4A2506E3812E8E6"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="B5F8C60DB39B4970A276303935F4635F">
+			<attribute name="parameter_default_value_id" value="B5F8C60DB39B4970A276303935F4635F"/>
+			<attribute name="parameter_id" value="24AB2FC19BDA4FD58F0E6FA23E8693A2"/>
+			<attribute name="property_value_id" value="D962CCE328E34CC9859BF46CC5451514"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="F45474645DFD4CCBA24A6CE8E92F3808">
+			<attribute name="parameter_default_value_id" value="F45474645DFD4CCBA24A6CE8E92F3808"/>
+			<attribute name="parameter_id" value="83AFC35CAE854F7DAD93B8E92D36E28B"/>
+			<attribute name="property_value_id" value="2BFE8E175E724C5BAD873A1B605D88BA"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="FAAD5373199F4E3C8FE2320602460E00">
+			<attribute name="parameter_default_value_id" value="FAAD5373199F4E3C8FE2320602460E00"/>
+			<attribute name="parameter_id" value="A8514933DDB54ADB93FF809F198A4E54"/>
+			<attribute name="property_value_id" value="52B90F06B8B34C0EA61F588EE6101950"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2BFE8E175E724C5BAD873A1B605D88BA">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="83AFC35CAE854F7DAD93B8E92D36E28B"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="83AFC35CAE854F7DAD93B8E92D36E28B"/>
+			<attribute name="property_value_id" value="2BFE8E175E724C5BAD873A1B605D88BA"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="3F9311D5B0DE4376B4A2506E3812E8E6">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="B831B661C0234131857A53CE0CFD8150"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="B831B661C0234131857A53CE0CFD8150"/>
+			<attribute name="property_value_id" value="3F9311D5B0DE4376B4A2506E3812E8E6"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="52B90F06B8B34C0EA61F588EE6101950">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="A8514933DDB54ADB93FF809F198A4E54"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="A8514933DDB54ADB93FF809F198A4E54"/>
+			<attribute name="property_value_id" value="52B90F06B8B34C0EA61F588EE6101950"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D962CCE328E34CC9859BF46CC5451514">
+			<attribute name="is_vector_flag" value="1"/>
+			<attribute name="object_id" value="24AB2FC19BDA4FD58F0E6FA23E8693A2"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="24AB2FC19BDA4FD58F0E6FA23E8693A2"/>
+			<attribute name="property_value_id" value="D962CCE328E34CC9859BF46CC5451514"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="13ADABDEABDC4B1DB845AB204E3B0431">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Location {0}"/>
+			<attribute name="text_message_id" value="13ADABDEABDC4B1DB845AB204E3B0431"/>
+			<attribute name="text_name" value="LOC_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="198205821B834794A49A82D4A3B70589">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Invalid Value for {0} {1}"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Value for {0} {1}"/>
+			<attribute name="text_message_id" value="198205821B834794A49A82D4A3B70589"/>
+			<attribute name="text_name" value="WMEXP_INVALID_VALUE"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="21B13DFCE4714DE4BC05D72B066299D8">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid {0}: {1}"/>
+			<attribute name="text_message_id" value="21B13DFCE4714DE4BC05D72B066299D8"/>
+			<attribute name="text_name" value="STORER_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="4EFCADDC03284264AF16C3137DC674F0">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Value, Must Be Greater Than or Equal to 0: {0}"/>
+			<attribute name="text_message_id" value="4EFCADDC03284264AF16C3137DC674F0"/>
+			<attribute name="text_name" value="WMEXP_NONNEGATIVE_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="5CC4B61816DE417C91AF9E25F7935623">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Value, Must Be Greater Than or Equal to 0"/>
+			<attribute name="text_message_id" value="5CC4B61816DE417C91AF9E25F7935623"/>
+			<attribute name="text_name" value="NONNEGATIVE_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="6C11AD1E1C7447CE84289C242C4B16E2">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid LPN {0}"/>
+			<attribute name="text_message_id" value="6C11AD1E1C7447CE84289C242C4B16E2"/>
+			<attribute name="text_name" value="LPN_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="872FE425547545E68B577AAA8E6A5A1E">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid characters in numeric field. Only numbers are allowed in a numeric field: {0}"/>
+			<attribute name="text_message_id" value="872FE425547545E68B577AAA8E6A5A1E"/>
+			<attribute name="text_name" value="WMEXP_NUMBER_PARSE"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="A1AB729AE85B4374827CB57C6522DAC1">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="{1} is not a valid {0}"/>
+			<attribute name="text_message_id" value="A1AB729AE85B4374827CB57C6522DAC1"/>
+			<attribute name="text_name" value="WMEXP_NOTAVALID"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="AA84A56C6F824199A96225A3328257C7">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Invalid characters in numeric field. Only numbers are allowed in a numeric field, {1] {0}"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid characters in numeric field. Only numbers are allowed in a numeric field, {1] {0}"/>
+			<attribute name="text_message_id" value="AA84A56C6F824199A96225A3328257C7"/>
+			<attribute name="text_name" value="WMEXP_NUMBER_PARSE_2"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="BFFE0F4217E3463B877A46B40A451743">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Unable to insert new {0}, Duplicate {0}"/>
+			<attribute name="text_message_id" value="BFFE0F4217E3463B877A46B40A451743"/>
+			<attribute name="text_name" value="DUPLICATE_RECORD_GENERIC"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="C226FAF942054370B3568467ACCA1B2C">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Lot {0}"/>
+			<attribute name="text_message_id" value="C226FAF942054370B3568467ACCA1B2C"/>
+			<attribute name="text_name" value="LOT_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="C4DE0C8C926541809B6F16C5CE66083E">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid SKU {0}"/>
+			<attribute name="text_message_id" value="C4DE0C8C926541809B6F16C5CE66083E"/>
+			<attribute name="text_name" value="SKU_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="C557D02C2A0447C0BFF1BE42AC14B745">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Invalid characters in numeric field. Only numbers are allo"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid characters in numeric field. Only numbers are allowed in a numeric field, {0} {1}"/>
+			<attribute name="text_message_id" value="C557D02C2A0447C0BFF1BE42AC14B745"/>
+			<attribute name="text_name" value="WMEXP_FORM_NON_NUMERIC"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="C8109AFE83544E658071B885F7227F3F">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Zone {0}"/>
+			<attribute name="text_message_id" value="C8109AFE83544E658071B885F7227F3F"/>
+			<attribute name="text_name" value="ZONE_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="D34A2D2FE7E747DEADACFC5723C62032">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Duplicate {0}"/>
+			<attribute name="text_message_id" value="D34A2D2FE7E747DEADACFC5723C62032"/>
+			<attribute name="text_name" value="DUPLICATE_GENERIC"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="EA261F9C8E8A4A5DA6DBFFF070CA5824">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Invalid Value, Must Be Greater Than or Equal to 0, {0} {"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Value, Must Be Greater Than or Equal to 0, {0} {1}"/>
+			<attribute name="text_message_id" value="EA261F9C8E8A4A5DA6DBFFF070CA5824"/>
+			<attribute name="text_name" value="WMEXP_FORM_NONNEG_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="ED15AA32CDAF4CA7A371C7FE648DF468">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Invalid Value, Must Be Greater Than or Equal to 0, {1} {0}"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Value, Must Be Greater Than or Equal to 0, {1} {0}"/>
+			<attribute name="text_message_id" value="ED15AA32CDAF4CA7A371C7FE648DF468"/>
+			<attribute name="text_name" value="WMEXP_NONNEGATIVE_VALIDATION_2"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="F6AAB83C25A948AC8EB73A43497EAB33">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Should Be Greater Than {0}"/>
+			<attribute name="text_message_id" value="F6AAB83C25A948AC8EB73A43497EAB33"/>
+			<attribute name="text_name" value="GREATER_VALIDATION"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="FFAE5268DF8143F3B7D1FF8FAD6DD9BB">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Invalid Order {0}"/>
+			<attribute name="text_message_id" value="FFAE5268DF8143F3B7D1FF8FAD6DD9BB"/>
+			<attribute name="text_name" value="ORDERS_VALIDATION"/>
+		</object>
+	</module>
+</root>

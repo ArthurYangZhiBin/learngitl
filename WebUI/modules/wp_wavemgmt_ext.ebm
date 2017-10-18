@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wavemgmt_ext" id="CB57DB50B04B45058869A736CCF382B9" version="658" row_count="10" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="CB57DB50B04B45058869A736CCF382B9">
+			<attribute name="app_module_id" value="CB57DB50B04B45058869A736CCF382B9"/>
+			<attribute name="app_module_name" value="wp_wavemgmt_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="22108"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="26F3F4ADD5F8464F9A13FBB3FCFE58DD">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt.ui.WPSavedFiltersListPreRender"/>
+			<attribute name="extension_id" value="26F3F4ADD5F8464F9A13FBB3FCFE58DD"/>
+			<attribute name="extension_name" value="WPSavedFiltersListPreRender"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="754485EC501643DD91FE277E388D9439">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt.action.WPWaveMgmtSetWaveKeyIntoSession"/>
+			<attribute name="extension_id" value="754485EC501643DD91FE277E388D9439"/>
+			<attribute name="extension_name" value="WPWaveMgmtSetWaveKeyIntoSession"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="CCF6B2D627314F66B1A17E05F521FBB4">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt.action.WPWaveMgmtAddToExistingWave"/>
+			<attribute name="extension_id" value="CCF6B2D627314F66B1A17E05F521FBB4"/>
+			<attribute name="extension_name" value="WPWaveMgmtAddToExistingWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt.action"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="91C2E2DB499F449E90827173BAE35E8A">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="91C2E2DB499F449E90827173BAE35E8A"/>
+			<attribute name="extension_id" value="26F3F4ADD5F8464F9A13FBB3FCFE58DD"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="932F190671EB48CDA13BCD96120DF5FC">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="932F190671EB48CDA13BCD96120DF5FC"/>
+			<attribute name="extension_id" value="754485EC501643DD91FE277E388D9439"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="9D2B92C3997E454D9447F8F9C63120E8">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="9D2B92C3997E454D9447F8F9C63120E8"/>
+			<attribute name="extension_id" value="CCF6B2D627314F66B1A17E05F521FBB4"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4469CD86FEDA4A1890FED5480D2AE257">
+			<attribute name="label_id" value="4469CD86FEDA4A1890FED5480D2AE257"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWaveMgmtSetWaveKeyIntoSession"/>
+			<attribute name="object_id" value="754485EC501643DD91FE277E388D9439"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWaveMgmtSetWaveKeyIntoSession"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="CEA0BFE3570145A59FDBFAFDB902DC6C">
+			<attribute name="label_id" value="CEA0BFE3570145A59FDBFAFDB902DC6C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWaveMgmtAddToExistingWave"/>
+			<attribute name="object_id" value="CCF6B2D627314F66B1A17E05F521FBB4"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWaveMgmtAddToExistingWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="FBD764526D77413A811206DB1CDB579E">
+			<attribute name="label_id" value="FBD764526D77413A811206DB1CDB579E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPSavedFiltersListPreRender"/>
+			<attribute name="object_id" value="26F3F4ADD5F8464F9A13FBB3FCFE58DD"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPSavedFiltersListPreRender"/>
+		</object>
+	</module>
+</root>

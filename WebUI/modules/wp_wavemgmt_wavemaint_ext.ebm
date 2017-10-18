@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wavemgmt_wavemaint_ext" id="D675C7322E6C4B14ADAEBD7740C29D5F" version="658" row_count="120" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="D675C7322E6C4B14ADAEBD7740C29D5F">
+			<attribute name="app_module_id" value="D675C7322E6C4B14ADAEBD7740C29D5F"/>
+			<attribute name="app_module_name" value="wp_wavemgmt_wavemaint_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="52"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="0032036A6D18484B82F340977F74DD36">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMPickDetailBioCollection"/>
+			<attribute name="extension_id" value="0032036A6D18484B82F340977F74DD36"/>
+			<attribute name="extension_name" value="WPWMPickDetailBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="052F4670199848E2AD51A3EE8AC6B400">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WaveMaintSOSTotals"/>
+			<attribute name="extension_id" value="052F4670199848E2AD51A3EE8AC6B400"/>
+			<attribute name="extension_name" value="WaveMaintSOSTotals"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="091560FE5C8C4891A50025A057CA0FA8">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf.WaveMaintLaborClear"/>
+			<attribute name="extension_id" value="091560FE5C8C4891A50025A057CA0FA8"/>
+			<attribute name="extension_name" value="WaveMaintLaborClear"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="131D8B95063E472FA2C15C5E2B4CE2C9">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintLaborPreRender"/>
+			<attribute name="extension_id" value="131D8B95063E472FA2C15C5E2B4CE2C9"/>
+			<attribute name="extension_name" value="WaveMaintLaborPreRender"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="29291B9F62E2436CB6888ED92BB038A9">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintSelectRecord"/>
+			<attribute name="extension_id" value="29291B9F62E2436CB6888ED92BB038A9"/>
+			<attribute name="extension_name" value="WaveMaintSelectRecord"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="2E6F80B3AE6E4EE19B56023E6C04FC66">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintTaskReturnToParent"/>
+			<attribute name="extension_id" value="2E6F80B3AE6E4EE19B56023E6C04FC66"/>
+			<attribute name="extension_name" value="WaveMaintTaskReturnToParent"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="38033F8F5EF04CD69CB7B678D13C507B">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMTaskDetailBioCollection"/>
+			<attribute name="extension_id" value="38033F8F5EF04CD69CB7B678D13C507B"/>
+			<attribute name="extension_name" value="WPWMTaskDetailBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="3A008BF11294412B8C055F13B9C3C1A4">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintDisableListNavigationOnStatus"/>
+			<attribute name="extension_id" value="3A008BF11294412B8C055F13B9C3C1A4"/>
+			<attribute name="extension_name" value="WaveMaintDisableListNavigationOnStatus"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4103D7D0971C461EA53340A2AFB9ADBF">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintViewSummary"/>
+			<attribute name="extension_id" value="4103D7D0971C461EA53340A2AFB9ADBF"/>
+			<attribute name="extension_name" value="WaveMaintViewSummary"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4665A4F5229F4D3C9062C62E36855A14">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintReturnToWhereWeNavigatedFrom"/>
+			<attribute name="extension_id" value="4665A4F5229F4D3C9062C62E36855A14"/>
+			<attribute name="extension_name" value="WaveMaintReturnToWhereWeNavigatedFrom"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="48C91CB6DEBC4B8AA02AD82BF581259A">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf.WaveMaintLaborCalculate"/>
+			<attribute name="extension_id" value="48C91CB6DEBC4B8AA02AD82BF581259A"/>
+			<attribute name="extension_name" value="WaveMaintLaborCalculate"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4997B4B1DC784D989F5A49F73FAEC5F8">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintProcessAction"/>
+			<attribute name="extension_id" value="4997B4B1DC784D989F5A49F73FAEC5F8"/>
+			<attribute name="extension_name" value="WaveMaintProcessAction"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4CAEB6B16F4849918DE4F294136D0669">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintSelectCurrentWave"/>
+			<attribute name="extension_id" value="4CAEB6B16F4849918DE4F294136D0669"/>
+			<attribute name="extension_name" value="WaveMaintSelectCurrentWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="4ECBFEE4F06D43DC9CB808CAFFAFE146">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintViewStatus"/>
+			<attribute name="extension_id" value="4ECBFEE4F06D43DC9CB808CAFFAFE146"/>
+			<attribute name="extension_name" value="WaveMaintViewStatus"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="5D5DD6E1CC55424E96867356EAE77CCB">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMNotAllocatedOrderDetailBioCollection"/>
+			<attribute name="extension_id" value="5D5DD6E1CC55424E96867356EAE77CCB"/>
+			<attribute name="extension_name" value="WPWMNotAllocatedOrderDetailBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="5F053D3D07C5412B9FB7E6249A86EB24">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintMassUpdate"/>
+			<attribute name="extension_id" value="5F053D3D07C5412B9FB7E6249A86EB24"/>
+			<attribute name="extension_name" value="WaveMaintMassUpdate"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="62E0E10AEB5942E5B54C390A9F021497">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WPWaveMaintSetGraphType"/>
+			<attribute name="extension_id" value="62E0E10AEB5942E5B54C390A9F021497"/>
+			<attribute name="extension_name" value="WPWaveMaintSetGraphType"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="6341D63229ED4136B9617505E193FD62">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintViewTaskByWave"/>
+			<attribute name="extension_id" value="6341D63229ED4136B9617505E193FD62"/>
+			<attribute name="extension_name" value="WaveMaintViewTaskByWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="63BACE5E16D2443E932F62464040605C">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintViewTaskByOrder"/>
+			<attribute name="extension_id" value="63BACE5E16D2443E932F62464040605C"/>
+			<attribute name="extension_name" value="WaveMaintViewTaskByOrder"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="6DD15710037C4682BC9125C1B09F2066">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintSetSummary"/>
+			<attribute name="extension_id" value="6DD15710037C4682BC9125C1B09F2066"/>
+			<attribute name="extension_name" value="WaveMaintSetSummary"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="6FE740A7234E4602B9E8F938B4A439E2">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMOrderDetailBioCollection"/>
+			<attribute name="extension_id" value="6FE740A7234E4602B9E8F938B4A439E2"/>
+			<attribute name="extension_name" value="WPWMOrderDetailBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="8308F84F32BF432EB8EE051E37054D25">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMPreallocatedPickDetailBioCollection"/>
+			<attribute name="extension_id" value="8308F84F32BF432EB8EE051E37054D25"/>
+			<attribute name="extension_name" value="WPWMPreallocatedPickDetailBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="8869FE6B39B04AE09B85AC04AC981896">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintConsolidateDisableConsolidatedItems"/>
+			<attribute name="extension_id" value="8869FE6B39B04AE09B85AC04AC981896"/>
+			<attribute name="extension_name" value="WaveMaintConsolidateDisableConsolidatedItems"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="92A0572045AD44A891CF74E79D438DC0">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintConsolidateValidation"/>
+			<attribute name="extension_id" value="92A0572045AD44A891CF74E79D438DC0"/>
+			<attribute name="extension_name" value="WaveMaintConsolidateValidation"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="9501B18A33EF456FA7212AFD400CAD3A">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintTaskDisableViewTask"/>
+			<attribute name="extension_id" value="9501B18A33EF456FA7212AFD400CAD3A"/>
+			<attribute name="extension_name" value="WaveMaintTaskDisableViewTask"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="9F9728E267044DEBAE424C9C680EDF00">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintSetStatusView"/>
+			<attribute name="extension_id" value="9F9728E267044DEBAE424C9C680EDF00"/>
+			<attribute name="extension_name" value="WaveMaintSetStatusView"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="D07E88EE1C1243F49CCA752B8F471BAF">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintSetWhereWeNavigatedFrom"/>
+			<attribute name="extension_id" value="D07E88EE1C1243F49CCA752B8F471BAF"/>
+			<attribute name="extension_name" value="WaveMaintSetWhereWeNavigatedFrom"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="D14625239E0A4011A976B264F988B86D">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintTaskPrevNextTaskDetail"/>
+			<attribute name="extension_id" value="D14625239E0A4011A976B264F988B86D"/>
+			<attribute name="extension_name" value="WaveMaintTaskPrevNextTaskDetail"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E1CC9CC453CA449FBBCD61F320362F5E">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintSetGraph"/>
+			<attribute name="extension_id" value="E1CC9CC453CA449FBBCD61F320362F5E"/>
+			<attribute name="extension_name" value="WaveMaintSetGraph"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E2367B5F66524938BB12505CB6382BA0">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMDemandAllocationBioCollection"/>
+			<attribute name="extension_id" value="E2367B5F66524938BB12505CB6382BA0"/>
+			<attribute name="extension_name" value="WPWMDemandAllocationBioCollection"/>
+			<attribute name="extension_type" value="COMPUTED_ATTRIBUTE"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="E6772DEEB74546FF8D2E41EF3252FFEC">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf.WaveMaintLaborUpdateUnitsPerHour"/>
+			<attribute name="extension_id" value="E6772DEEB74546FF8D2E41EF3252FFEC"/>
+			<attribute name="extension_name" value="WaveMaintLaborUpdateUnitsPerHour"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ccf"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F1FC8E9E985D43BC947C31DF6E14063E">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WaveMaintSpeedLineLocations"/>
+			<attribute name="extension_id" value="F1FC8E9E985D43BC947C31DF6E14063E"/>
+			<attribute name="extension_name" value="WaveMaintSpeedLineLocations"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F22CB1BC4E644801A435A191133F5290">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintViewOrderDetailsByStatus"/>
+			<attribute name="extension_id" value="F22CB1BC4E644801A435A191133F5290"/>
+			<attribute name="extension_name" value="WaveMaintViewOrderDetailsByStatus"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F325D67560814A188ABF3BC76416FBDC">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui.WaveMaintCreateWaveStatusDataBean"/>
+			<attribute name="extension_id" value="F325D67560814A188ABF3BC76416FBDC"/>
+			<attribute name="extension_name" value="WaveMaintCreateWaveStatusDataBean"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="F53D53DDB14B492CA85E3FE269B516A1">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action.WaveMaintDecideNavigation"/>
+			<attribute name="extension_id" value="F53D53DDB14B492CA85E3FE269B516A1"/>
+			<attribute name="extension_name" value="WaveMaintDecideNavigation"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.action"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0B861716D7F34F869D2947C10A18637E">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="0B861716D7F34F869D2947C10A18637E"/>
+			<attribute name="extension_id" value="E1CC9CC453CA449FBBCD61F320362F5E"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0ED28FCC30224B9899E41C323813D387">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="0ED28FCC30224B9899E41C323813D387"/>
+			<attribute name="extension_id" value="4CAEB6B16F4849918DE4F294136D0669"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="229CCE2F9A7B4C4FA2E197A312AF9114">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="229CCE2F9A7B4C4FA2E197A312AF9114"/>
+			<attribute name="extension_id" value="6341D63229ED4136B9617505E193FD62"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="3F3C63B9D453405B98EF5EB1C5F5208F">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="3F3C63B9D453405B98EF5EB1C5F5208F"/>
+			<attribute name="extension_id" value="D14625239E0A4011A976B264F988B86D"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="4ED9760538124D6189F8115EE488B802">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="4ED9760538124D6189F8115EE488B802"/>
+			<attribute name="extension_id" value="9501B18A33EF456FA7212AFD400CAD3A"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="53F357DBCD124F69ADDD09933A516E94">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="53F357DBCD124F69ADDD09933A516E94"/>
+			<attribute name="extension_id" value="131D8B95063E472FA2C15C5E2B4CE2C9"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5834EE597008423AB2D94903C21D045B">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5834EE597008423AB2D94903C21D045B"/>
+			<attribute name="extension_id" value="63BACE5E16D2443E932F62464040605C"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="594D48BEEFA8412FA956425E04102042">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="594D48BEEFA8412FA956425E04102042"/>
+			<attribute name="extension_id" value="5F053D3D07C5412B9FB7E6249A86EB24"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5A4EE470D1DA4B7F864962B296E584C2">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5A4EE470D1DA4B7F864962B296E584C2"/>
+			<attribute name="extension_id" value="4103D7D0971C461EA53340A2AFB9ADBF"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="68E96249780243A39D10FFD0B51712A8">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="68E96249780243A39D10FFD0B51712A8"/>
+			<attribute name="extension_id" value="F325D67560814A188ABF3BC76416FBDC"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="6AB865D7387542AC97C33B684FF1DECA">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="6AB865D7387542AC97C33B684FF1DECA"/>
+			<attribute name="extension_id" value="3A008BF11294412B8C055F13B9C3C1A4"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="7244CC511879493A92DD32DA349F326E">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="7244CC511879493A92DD32DA349F326E"/>
+			<attribute name="extension_id" value="E6772DEEB74546FF8D2E41EF3252FFEC"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="7387FFFABFC3466482D02F3AC5C5B325">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="7387FFFABFC3466482D02F3AC5C5B325"/>
+			<attribute name="extension_id" value="29291B9F62E2436CB6888ED92BB038A9"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="75430886ED55478980DB1BB28323F9EC">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="75430886ED55478980DB1BB28323F9EC"/>
+			<attribute name="extension_id" value="4ECBFEE4F06D43DC9CB808CAFFAFE146"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="7B21DFA67C904F68B819BBE858CB3C05">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="7B21DFA67C904F68B819BBE858CB3C05"/>
+			<attribute name="extension_id" value="F53D53DDB14B492CA85E3FE269B516A1"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="7FC2F810997941F188464BA3C30BAE4E">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="7FC2F810997941F188464BA3C30BAE4E"/>
+			<attribute name="extension_id" value="091560FE5C8C4891A50025A057CA0FA8"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="8D3D5743BBE6483FBF5FD5E3628CC631">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="8D3D5743BBE6483FBF5FD5E3628CC631"/>
+			<attribute name="extension_id" value="62E0E10AEB5942E5B54C390A9F021497"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="960C44C7B1C044A6AACDC546D8FA5437">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="960C44C7B1C044A6AACDC546D8FA5437"/>
+			<attribute name="extension_id" value="6DD15710037C4682BC9125C1B09F2066"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="99DC3A71691740CB93663BD633527011">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="99DC3A71691740CB93663BD633527011"/>
+			<attribute name="extension_id" value="4997B4B1DC784D989F5A49F73FAEC5F8"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="A5CB15464AD84B0AB418E86E4362060F">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="A5CB15464AD84B0AB418E86E4362060F"/>
+			<attribute name="extension_id" value="4665A4F5229F4D3C9062C62E36855A14"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="A9EEB182325843C5BC56C87DE3836CD0">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="A9EEB182325843C5BC56C87DE3836CD0"/>
+			<attribute name="extension_id" value="9F9728E267044DEBAE424C9C680EDF00"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="BA94D99C358D4BD5A6F9A6DD9F943569">
+			<attribute name="event_category_id" value="0843BD8CB0A64C9A8A30DBE9B4358717"/>
+			<attribute name="extension_event_category_id" value="BA94D99C358D4BD5A6F9A6DD9F943569"/>
+			<attribute name="extension_id" value="F1FC8E9E985D43BC947C31DF6E14063E"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="CD2D37EADF0D4FD6B637BD22698F307A">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="CD2D37EADF0D4FD6B637BD22698F307A"/>
+			<attribute name="extension_id" value="D07E88EE1C1243F49CCA752B8F471BAF"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="CDE6EA2E2A1B47B6A7FB530484E24517">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="CDE6EA2E2A1B47B6A7FB530484E24517"/>
+			<attribute name="extension_id" value="8869FE6B39B04AE09B85AC04AC981896"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="D129AFD65A0440CA91A73E94311DEC61">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="D129AFD65A0440CA91A73E94311DEC61"/>
+			<attribute name="extension_id" value="2E6F80B3AE6E4EE19B56023E6C04FC66"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="E7F27DF0434844A585D9BEF67BEA7C87">
+			<attribute name="event_category_id" value="1B8F6CDC513C41DFB6A0297DA4AD2979"/>
+			<attribute name="extension_event_category_id" value="E7F27DF0434844A585D9BEF67BEA7C87"/>
+			<attribute name="extension_id" value="48C91CB6DEBC4B8AA02AD82BF581259A"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="E86D1F7F7B16426D900BEF791B7A4C97">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="E86D1F7F7B16426D900BEF791B7A4C97"/>
+			<attribute name="extension_id" value="F22CB1BC4E644801A435A191133F5290"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="FB2AF98F73DE4F19862D6ED82F25A66F">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="FB2AF98F73DE4F19862D6ED82F25A66F"/>
+			<attribute name="extension_id" value="92A0572045AD44A891CF74E79D438DC0"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0E86369EE27446B18D44091C6BFA9334">
+			<attribute name="label_id" value="0E86369EE27446B18D44091C6BFA9334"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Wave = True, Order = False"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="99ADCDB69F8E42089568E80590F8A895"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0F064F634E334AD5B5EC58C8224B5906">
+			<attribute name="label_id" value="0F064F634E334AD5B5EC58C8224B5906"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintMassUpdate"/>
+			<attribute name="object_id" value="5F053D3D07C5412B9FB7E6249A86EB24"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintMassUpdate"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0F5B2ED786874F7C857BE47D0752F591">
+			<attribute name="label_id" value="0F5B2ED786874F7C857BE47D0752F591"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintViewSummary"/>
+			<attribute name="object_id" value="4103D7D0971C461EA53340A2AFB9ADBF"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintViewSummary"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0FF089B86FC54077B1179699C361DAF9">
+			<attribute name="label_id" value="0FF089B86FC54077B1179699C361DAF9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Modal Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="85B21CB30CA04D6FAE9A8443E35BF46C"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="16FC207825A34D708AF62702544A790B">
+			<attribute name="label_id" value="16FC207825A34D708AF62702544A790B"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSetSummary"/>
+			<attribute name="object_id" value="6DD15710037C4682BC9125C1B09F2066"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSetSummary"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1B4EB7251F634DF8B5E32E7C892533E9">
+			<attribute name="label_id" value="1B4EB7251F634DF8B5E32E7C892533E9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSetStatusView"/>
+			<attribute name="object_id" value="9F9728E267044DEBAE424C9C680EDF00"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSetStatusView"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="1EFDE2499E19431DACB80A4F95C63143">
+			<attribute name="label_id" value="1EFDE2499E19431DACB80A4F95C63143"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="List Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="6C1ECF03AA66479CBD30DB49E5A14845"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="27F292C3DE5247FB95D5F343E4B28B64">
+			<attribute name="label_id" value="27F292C3DE5247FB95D5F343E4B28B64"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintTaskPrevNextTaskDetail"/>
+			<attribute name="object_id" value="D14625239E0A4011A976B264F988B86D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintTaskPrevNextTaskDetail"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="32675A8803BE4F82B99EDEBC422F8465">
+			<attribute name="label_id" value="32675A8803BE4F82B99EDEBC422F8465"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSetGraph"/>
+			<attribute name="object_id" value="E1CC9CC453CA449FBBCD61F320362F5E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSetGraph"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="32D171DD594440E5875A102D0357A2BF">
+			<attribute name="label_id" value="32D171DD594440E5875A102D0357A2BF"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMOrderDetailBioCollection"/>
+			<attribute name="object_id" value="6FE740A7234E4602B9E8F938B4A439E2"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMOrderDetailBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="33113D536CE24B21AA24AFCD9B8F4FAF">
+			<attribute name="label_id" value="33113D536CE24B21AA24AFCD9B8F4FAF"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintProcessAction"/>
+			<attribute name="object_id" value="4997B4B1DC784D989F5A49F73FAEC5F8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintProcessAction"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="42E966EE06194E45B42A42E2808FA293">
+			<attribute name="label_id" value="42E966EE06194E45B42A42E2808FA293"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintViewTaskByOrder"/>
+			<attribute name="object_id" value="63BACE5E16D2443E932F62464040605C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintViewTaskByOrder"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="432383137B1848A9B1E2E6088B789098">
+			<attribute name="label_id" value="432383137B1848A9B1E2E6088B789098"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintViewTaskByWave"/>
+			<attribute name="object_id" value="6341D63229ED4136B9617505E193FD62"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintViewTaskByWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="47E6BEDE34BD4FEAB5D672B02C115868">
+			<attribute name="label_id" value="47E6BEDE34BD4FEAB5D672B02C115868"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintLaborClear"/>
+			<attribute name="object_id" value="091560FE5C8C4891A50025A057CA0FA8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintLaborClear"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4F570E1BB8454335B1EC0A1BD05A5604">
+			<attribute name="label_id" value="4F570E1BB8454335B1EC0A1BD05A5604"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintReturnToWhereWeNavigatedFrom"/>
+			<attribute name="object_id" value="4665A4F5229F4D3C9062C62E36855A14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintReturnToWhereWeNavigatedFrom"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4FB28F323E2047B7B4830AFC081DC29C">
+			<attribute name="label_id" value="4FB28F323E2047B7B4830AFC081DC29C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Prev = True, Next = False"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="9FF46FCD6CE042FCB993E6DBE4C7198D"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5B5DD3169F6342EA835F242A9EEA6BED">
+			<attribute name="label_id" value="5B5DD3169F6342EA835F242A9EEA6BED"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintLaborUpdateUnitsPerHour"/>
+			<attribute name="object_id" value="E6772DEEB74546FF8D2E41EF3252FFEC"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintLaborUpdateUnitsPerHour"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5BB83A79CE024AA9B6552A166237B266">
+			<attribute name="label_id" value="5BB83A79CE024AA9B6552A166237B266"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSelectRecord"/>
+			<attribute name="object_id" value="29291B9F62E2436CB6888ED92BB038A9"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSelectRecord"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5C649B35136C41A28B71D6BCF309BECB">
+			<attribute name="label_id" value="5C649B35136C41A28B71D6BCF309BECB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWaveMaintSetGraphType"/>
+			<attribute name="object_id" value="62E0E10AEB5942E5B54C390A9F021497"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWaveMaintSetGraphType"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="6005956392AF470BBD0E2FD687C9323A">
+			<attribute name="label_id" value="6005956392AF470BBD0E2FD687C9323A"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintCreateWaveStatusDataBean"/>
+			<attribute name="object_id" value="F325D67560814A188ABF3BC76416FBDC"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintCreateWaveStatusDataBean"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="606BAF9E29B644AB938B4EF07D16011B">
+			<attribute name="label_id" value="606BAF9E29B644AB938B4EF07D16011B"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintViewStatus"/>
+			<attribute name="object_id" value="4ECBFEE4F06D43DC9CB808CAFFAFE146"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintViewStatus"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="6EC05F285C1A4BC0B34469547573B2CE">
+			<attribute name="label_id" value="6EC05F285C1A4BC0B34469547573B2CE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSOSTotals"/>
+			<attribute name="object_id" value="052F4670199848E2AD51A3EE8AC6B400"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSOSTotals"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="70490C0B86494C0FBD804AA67D99DB44">
+			<attribute name="label_id" value="70490C0B86494C0FBD804AA67D99DB44"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Action Name"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="09A86C080C274BE0912ED40ACC2884E9"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="78213FF91B5B413692C0B45B5B095806">
+			<attribute name="label_id" value="78213FF91B5B413692C0B45B5B095806"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMPickDetailBioCollection"/>
+			<attribute name="object_id" value="0032036A6D18484B82F340977F74DD36"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMPickDetailBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7B80E60C0FD94A3D82FA6A3520727BE9">
+			<attribute name="label_id" value="7B80E60C0FD94A3D82FA6A3520727BE9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintViewOrderDetailsByStatus"/>
+			<attribute name="object_id" value="F22CB1BC4E644801A435A191133F5290"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintViewOrderDetailsByStatus"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7BDA84AFA7294D33A73D00DA665454C0">
+			<attribute name="label_id" value="7BDA84AFA7294D33A73D00DA665454C0"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMPreallocatedPickDetailBioCollection"/>
+			<attribute name="object_id" value="8308F84F32BF432EB8EE051E37054D25"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMPreallocatedPickDetailBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7ECB613E6DA44A95B05F6F5F0C4494F6">
+			<attribute name="label_id" value="7ECB613E6DA44A95B05F6F5F0C4494F6"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintDecideNavigation"/>
+			<attribute name="object_id" value="F53D53DDB14B492CA85E3FE269B516A1"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintDecideNavigation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="84A5FD5F7CDD4EE5BC225E0ED978057C">
+			<attribute name="label_id" value="84A5FD5F7CDD4EE5BC225E0ED978057C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMTaskDetailBioCollection"/>
+			<attribute name="object_id" value="38033F8F5EF04CD69CB7B678D13C507B"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMTaskDetailBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="871B92124E7440F4B4BE2E5B0B5B612F">
+			<attribute name="label_id" value="871B92124E7440F4B4BE2E5B0B5B612F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSpeedLineLocations"/>
+			<attribute name="object_id" value="F1FC8E9E985D43BC947C31DF6E14063E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSpeedLineLocations"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="8802170815C74DDBA12C7634D9557B84">
+			<attribute name="label_id" value="8802170815C74DDBA12C7634D9557B84"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintDisableListNavigationOnStatus"/>
+			<attribute name="object_id" value="3A008BF11294412B8C055F13B9C3C1A4"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintDisableListNavigationOnStatus"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="88817D2BC9E2434E8217E33FFCE83A8C">
+			<attribute name="label_id" value="88817D2BC9E2434E8217E33FFCE83A8C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Not Started Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="2E01EC6271F0402591C9DCE6AA4B8337"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="933294204FCD4A2DA50AD89F7E5E6807">
+			<attribute name="label_id" value="933294204FCD4A2DA50AD89F7E5E6807"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintTaskDisableViewTask"/>
+			<attribute name="object_id" value="9501B18A33EF456FA7212AFD400CAD3A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintTaskDisableViewTask"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="96622CA2496648DC84D23BC6E74FA6D9">
+			<attribute name="label_id" value="96622CA2496648DC84D23BC6E74FA6D9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Allocated and Higher Navigations"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="B5347797A87E4716A5114B29ECFAFA2D"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9BDFFE871C5C48F49583C073A86057AB">
+			<attribute name="label_id" value="9BDFFE871C5C48F49583C073A86057AB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintConsolidateValidation"/>
+			<attribute name="object_id" value="92A0572045AD44A891CF74E79D438DC0"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintConsolidateValidation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9EFBFA45E6834953A4DAE87368C788D0">
+			<attribute name="label_id" value="9EFBFA45E6834953A4DAE87368C788D0"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMDemandAllocationBioCollection"/>
+			<attribute name="object_id" value="E2367B5F66524938BB12505CB6382BA0"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMDemandAllocationBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="AD7CDDB58FC3466E9B0DD342ADFF652D">
+			<attribute name="label_id" value="AD7CDDB58FC3466E9B0DD342ADFF652D"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintConsolidateDisableConsolidatedItems"/>
+			<attribute name="object_id" value="8869FE6B39B04AE09B85AC04AC981896"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintConsolidateDisableConsolidatedItems"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BD25D0F206D64882B6A9F98A0ED2A368">
+			<attribute name="label_id" value="BD25D0F206D64882B6A9F98A0ED2A368"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Pre-Allocated Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="B01CA8FEA7684D6D8C6F22730310943B"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="BF8600C84517407E9B6E55BBEE622ABB">
+			<attribute name="label_id" value="BF8600C84517407E9B6E55BBEE622ABB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMNotAllocatedOrderDetailBioCollection"/>
+			<attribute name="object_id" value="5D5DD6E1CC55424E96867356EAE77CCB"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMNotAllocatedOrderDetailBioCollection"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C69DB817F3A34963B554505666A3164D">
+			<attribute name="label_id" value="C69DB817F3A34963B554505666A3164D"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSelectCurrentWave"/>
+			<attribute name="object_id" value="4CAEB6B16F4849918DE4F294136D0669"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSelectCurrentWave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="CC422F88A53845D2814CCA3096401A40">
+			<attribute name="label_id" value="CC422F88A53845D2814CCA3096401A40"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintSetWhereWeNavigatedFrom"/>
+			<attribute name="object_id" value="D07E88EE1C1243F49CCA752B8F471BAF"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintSetWhereWeNavigatedFrom"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D1595680A56E460380F8A3BE5CC4F05E">
+			<attribute name="label_id" value="D1595680A56E460380F8A3BE5CC4F05E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintTaskReturnToParent"/>
+			<attribute name="object_id" value="2E6F80B3AE6E4EE19B56023E6C04FC66"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintTaskReturnToParent"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D34F130E5BB041D096FBDF13A72007EC">
+			<attribute name="label_id" value="D34F130E5BB041D096FBDF13A72007EC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintLaborPreRender"/>
+			<attribute name="object_id" value="131D8B95063E472FA2C15C5E2B4CE2C9"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintLaborPreRender"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E46405B58AD24ECAB848EFA0121BEE65">
+			<attribute name="label_id" value="E46405B58AD24ECAB848EFA0121BEE65"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WaveMaintLaborCalculate"/>
+			<attribute name="object_id" value="48C91CB6DEBC4B8AA02AD82BF581259A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WaveMaintLaborCalculate"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F94FE6FD169243E6A984C9D24C6EFC8E">
+			<attribute name="label_id" value="F94FE6FD169243E6A984C9D24C6EFC8E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Interaction Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="A197571DDF794010B956A05AE5956F0E"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="FA670BA90B3E48CC85036FA039C68CC9">
+			<attribute name="label_id" value="FA670BA90B3E48CC85036FA039C68CC9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Normal Navigation"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="D31E1AD897A145DC88471D803DA2187D"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="09A86C080C274BE0912ED40ACC2884E9">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="4997B4B1DC784D989F5A49F73FAEC5F8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="09A86C080C274BE0912ED40ACC2884E9"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="ACTION"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="2E01EC6271F0402591C9DCE6AA4B8337">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F22CB1BC4E644801A435A191133F5290"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="2E01EC6271F0402591C9DCE6AA4B8337"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="NOTSTARTEDNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="6C1ECF03AA66479CBD30DB49E5A14845">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="4665A4F5229F4D3C9062C62E36855A14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="6C1ECF03AA66479CBD30DB49E5A14845"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="LISTNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="85B21CB30CA04D6FAE9A8443E35BF46C">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F53D53DDB14B492CA85E3FE269B516A1"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="85B21CB30CA04D6FAE9A8443E35BF46C"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="MODALNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="99ADCDB69F8E42089568E80590F8A895">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="D14625239E0A4011A976B264F988B86D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="99ADCDB69F8E42089568E80590F8A895"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="WAVEORORDER"/>
+			<attribute name="property_value_type_id" value="PVT_BOOLEAN"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="9FF46FCD6CE042FCB993E6DBE4C7198D">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="D14625239E0A4011A976B264F988B86D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="9FF46FCD6CE042FCB993E6DBE4C7198D"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="PREVORNEXT"/>
+			<attribute name="property_value_type_id" value="PVT_BOOLEAN"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="A197571DDF794010B956A05AE5956F0E">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F53D53DDB14B492CA85E3FE269B516A1"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="A197571DDF794010B956A05AE5956F0E"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="INTNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="B01CA8FEA7684D6D8C6F22730310943B">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F22CB1BC4E644801A435A191133F5290"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="B01CA8FEA7684D6D8C6F22730310943B"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="PREALLOCNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="B5347797A87E4716A5114B29ECFAFA2D">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="F22CB1BC4E644801A435A191133F5290"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="B5347797A87E4716A5114B29ECFAFA2D"/>
+			<attribute name="parameter_listorder" value="3"/>
+			<attribute name="parameter_name" value="ALLOCNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="D31E1AD897A145DC88471D803DA2187D">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="4665A4F5229F4D3C9062C62E36855A14"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="D31E1AD897A145DC88471D803DA2187D"/>
+			<attribute name="parameter_listorder" value="2"/>
+			<attribute name="parameter_name" value="NORMALNAV"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="95CA30376E394AFE811CD0319239AFA5">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="short_text" value="Please select only One Wave"/>
+			<attribute name="text_message_id" value="95CA30376E394AFE811CD0319239AFA5"/>
+			<attribute name="text_name" value="WPEXP_MULTI_WAVE_SELECTED"/>
+		</object>
+	</module>
+</root>

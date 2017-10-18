@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_labordata_ext" id="BE5CB3E43E9B47B08CA392EA9E83EBD6" version="658" row_count="8" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="BE5CB3E43E9B47B08CA392EA9E83EBD6">
+			<attribute name="app_module_id" value="BE5CB3E43E9B47B08CA392EA9E83EBD6"/>
+			<attribute name="app_module_name" value="wp_labordata_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="2484"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="5011C1BB544D446A996808AB30149A2E">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_labor_data.ui.LaborDataPreSave"/>
+			<attribute name="extension_id" value="5011C1BB544D446A996808AB30149A2E"/>
+			<attribute name="extension_name" value="LaborDataPreSave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_labor_data.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="BD2D0C5A57514E4EB59E9EDB77B18A2C">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_labor_data.computed.WPWMFacilityList"/>
+			<attribute name="extension_id" value="BD2D0C5A57514E4EB59E9EDB77B18A2C"/>
+			<attribute name="extension_name" value="WPWMFacilityList"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_labor_data.computed"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="834D6FF7785B42BE8E334F2259F7DB93">
+			<attribute name="event_category_id" value="0843BD8CB0A64C9A8A30DBE9B4358717"/>
+			<attribute name="extension_event_category_id" value="834D6FF7785B42BE8E334F2259F7DB93"/>
+			<attribute name="extension_id" value="BD2D0C5A57514E4EB59E9EDB77B18A2C"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="C7B3FC55108B44A1B894CEDB4FB0304C">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="C7B3FC55108B44A1B894CEDB4FB0304C"/>
+			<attribute name="extension_id" value="5011C1BB544D446A996808AB30149A2E"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="3EDFD3335C98469285A06632984A87E9">
+			<attribute name="label_id" value="3EDFD3335C98469285A06632984A87E9"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWMFacilityList"/>
+			<attribute name="object_id" value="BD2D0C5A57514E4EB59E9EDB77B18A2C"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWMFacilityList"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9CEEE7D3BC634AA6A1C7CEE5C3259242">
+			<attribute name="label_id" value="9CEEE7D3BC634AA6A1C7CEE5C3259242"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="LaborDataPreSave"/>
+			<attribute name="object_id" value="5011C1BB544D446A996808AB30149A2E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="LaborDataPreSave"/>
+		</object>
+		<object type="text_message" primary-key="text_message_id" primary-key-value="B497EA8818814AC29C64066081F9144D">
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="16"/>
+			<attribute name="short_text" value="Unable to save, exceptions encountered: (Negative values: [{0}]  Number format: [{1}]). Please re-enter all values."/>
+			<attribute name="text_message_id" value="B497EA8818814AC29C64066081F9144D"/>
+			<attribute name="text_name" value="WMEXP_WP_LABORDATASAVE"/>
+		</object>
+	</module>
+</root>

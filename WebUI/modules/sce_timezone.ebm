@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="sce_timezone" id="9254B1230038488A8DC9DB92244CC11E" version="658" row_count="3" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="9254B1230038488A8DC9DB92244CC11E">
+			<attribute name="app_module_id" value="9254B1230038488A8DC9DB92244CC11E"/>
+			<attribute name="app_module_name" value="sce_timezone"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="85776"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="5C51CFAB392E4275B81C59D6B1B88D5A">
+			<attribute name="attribute_domain_id" value="5C51CFAB392E4275B81C59D6B1B88D5A"/>
+			<attribute name="attribute_domain_name" value="sce_timezone_ad"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_SQL"/>
+		</object>
+		<object type="sql_attribute_domain" primary-key="sql_attribute_domain_id" primary-key-value="A8A7D8B1594A47EC90BB96CDF7386B18">
+			<attribute name="attribute_domain_id" value="5C51CFAB392E4275B81C59D6B1B88D5A"/>
+			<attribute name="data_source_id" value="0B19D419E8E1443BBC6031D873BCF769"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="sql_attribute_domain_id" value="A8A7D8B1594A47EC90BB96CDF7386B18"/>
+			<attribute name="sql_string" value="select distinct timezone_id code, timezone_display_name description from timezone order by  timezone_display_name"/>
+		</object>
+	</module>
+</root>

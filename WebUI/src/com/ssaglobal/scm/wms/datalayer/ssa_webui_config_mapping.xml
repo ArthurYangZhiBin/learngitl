@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN"
+                         "http://castor.org/mapping.dtd">
+
+<mapping>
+        <class name="com.ssaglobal.scm.wms.datalayer.WebuiConfig">
+                <map-to xml="ssa"/>
+
+                <field name="Defaultdatasource"
+                       type="java.lang.String">
+                        <bind-xml name="defaultdatasource" node="element"/>
+                </field>
+
+                <field name="Transactionserviceprovider_server"
+                       type="java.lang.String">
+                        <bind-xml name="transactionserviceprovider_server" node="element"/>
+                </field>
+
+                <field name="Transactionserviceprovider_port"
+                       type="java.lang.String">
+                        <bind-xml name="transactionserviceprovider_port" node="element"/>
+                </field>
+                <field name="Transactionservicefactory"
+                       type="java.lang.String">
+                        <bind-xml name="transactionservicefactory" node="element"/>
+                </field>
+                <field name="HomepageURL"
+                       type="java.lang.String">
+                        <bind-xml name="homepageurl" node="element"/>
+                </field>
+                <field name="cognosServerURL"
+                       type="java.lang.String">
+                        <bind-xml name="cognosserverurl" node="element"/>
+                </field>
+
+        </class>
+</mapping>
+      

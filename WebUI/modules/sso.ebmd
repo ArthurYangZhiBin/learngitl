@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="sso" id="AD9B426A082842B587E6A2446E42B9B0" version="658" row_count="4" module-type="0" isdelta="1">
+		<delete type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="52EDDCBC456748779FA13B13BC740D5B" cd="1"/>
+		<object type="app_module" primary-key="app_module_id" primary-key-value="AD9B426A082842B587E6A2446E42B9B0">
+			<attribute name="app_module_id" value="AD9B426A082842B587E6A2446E42B9B0"/>
+			<attribute name="app_module_name" value="sso"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="last_saved_transaction_id" value="0"/>
+			<attribute name="masked_attribute" value="32"/>
+			<attribute name="module_version" value="606020000"/>
+			<attribute name="transaction_id" value="6364"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="28FE22BC6CDA4803B67A0D7F34143B66">
+			<attribute name="bio_attribute_id" value="28FE22BC6CDA4803B67A0D7F34143B66"/>
+			<attribute name="bio_attribute_name" value="user_properties"/>
+			<attribute name="bio_attribute_type" value="BIO"/>
+			<attribute name="bio_class_id" value="32E8B4A6A0C34A4683256D6433CDF3A1"/>
+			<attribute name="destination_bio_id" value="40315603F4684061AA33DAA7497A52B6"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="mapped_field" value="e_user.sso_name = @this.sso_user_name"/>
+			<attribute name="mapping_type" value="QUERY"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="9A623B78E632484B89C2F2300C92407A">
+			<attribute name="bda_listorder" value="8"/>
+			<attribute name="bio_attribute_id" value="28FE22BC6CDA4803B67A0D7F34143B66"/>
+			<attribute name="bio_display_attribute_id" value="9A623B78E632484B89C2F2300C92407A"/>
+			<attribute name="bio_display_id" value="F6E44957DBB640739A5A08DA39480D7E"/>
+			<attribute name="widget_type_id" value="WIDG_popup"/>
+		</object>
+		<object type="query_mapped_attribute" primary-key="query_mapped_attribute_id" primary-key-value="88664B6BF89F4197B1CCE51997E3AC12">
+			<attribute name="bio_attribute_id" value="28FE22BC6CDA4803B67A0D7F34143B66"/>
+			<attribute name="query_expression_str" value="e_user.sso_name = @this.sso_user_name"/>
+			<attribute name="query_mapped_attribute_id" value="88664B6BF89F4197B1CCE51997E3AC12"/>
+		</object>
+<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="820B7352FE8741DCAD8258BBB9D16A8E">
+			<attribute name="bio_attribute_id" value="820B7352FE8741DCAD8258BBB9D16A8E"/>
+			<attribute name="bio_attribute_name" value="property_bio"/>
+			<attribute name="bio_attribute_type" value="BIO"/>
+			<attribute name="bio_class_id" value="32E8B4A6A0C34A4683256D6433CDF3A1"/>
+			<attribute name="destination_bio_id" value="40315603F4684061AA33DAA7497A52B6"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="mapped_field" value="e_user_sso_user_rel"/>
+			<attribute name="mapping_type" value="RELATION"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="AEC62D47064F430CB372092E7E4561D5">
+			<attribute name="bda_listorder" value="9"/>
+			<attribute name="bio_attribute_id" value="820B7352FE8741DCAD8258BBB9D16A8E"/>
+			<attribute name="bio_display_attribute_id" value="AEC62D47064F430CB372092E7E4561D5"/>
+			<attribute name="bio_display_id" value="F6E44957DBB640739A5A08DA39480D7E"/>
+			<attribute name="widget_type_id" value="WIDG_popup"/>
+		</object>
+		<object type="data_source_view" primary-key="data_source_view_id" primary-key-value="B27D92443CE84528B70917E2906E61FC">
+			<attribute name="data_source_view_id" value="B27D92443CE84528B70917E2906E61FC"/>
+			<attribute name="object_id" value="C0DD8EAEB4F64491A579425CB0B0D9BC"/>
+			<attribute name="object_type_id" value="relationship"/>
+		</object>
+		<object type="data_source_view_node" primary-key="data_source_view_node_id" primary-key-value="21E96EEF62BF400988821D040F148AA4">
+			<attribute name="data_recordset_id" value="36B3E1EA041449D9ADBAEA2940C54118"/>
+			<attribute name="data_source_view_id" value="B27D92443CE84528B70917E2906E61FC"/>
+			<attribute name="data_source_view_node_id" value="21E96EEF62BF400988821D040F148AA4"/>
+			<attribute name="x_pos" value="1455"/>
+			<attribute name="y_pos" value="6330"/>
+		</object>
+		<object type="data_source_view_node" primary-key="data_source_view_node_id" primary-key-value="B2836E71E7C643AB804FF83BC147B574">
+			<attribute name="data_recordset_id" value="E413A77685814C75AD3BCFAC6D000C03"/>
+			<attribute name="data_source_view_id" value="B27D92443CE84528B70917E2906E61FC"/>
+			<attribute name="data_source_view_node_id" value="B2836E71E7C643AB804FF83BC147B574"/>
+			<attribute name="x_pos" value="1395"/>
+			<attribute name="y_pos" value="300"/>
+		</object>
+		<object type="data_source_view_rel" primary-key="data_source_view_rel_id" primary-key-value="44B67F8594F4415F9B6781566B164A85">
+			<attribute name="data_source_view_id" value="B27D92443CE84528B70917E2906E61FC"/>
+			<attribute name="data_source_view_rel_id" value="44B67F8594F4415F9B6781566B164A85"/>
+			<attribute name="relationship_id" value="C0DD8EAEB4F64491A579425CB0B0D9BC"/>
+		</object>
+		<object type="field_set" primary-key="field_set_id" primary-key-value="925CA0D1D9A2408EA8CCF2C1841E9103">
+			<attribute name="data_recordset_id" value="36B3E1EA041449D9ADBAEA2940C54118"/>
+			<attribute name="field_set_id" value="925CA0D1D9A2408EA8CCF2C1841E9103"/>
+			<attribute name="field_set_name" value="AK_sso_user_name"/>
+			<attribute name="index_flag" value="0"/>
+			<attribute name="key_type" value="ALTERNATE_KEY"/>
+		</object>
+		<object type="field_set_def" primary-key="field_set_def_id" primary-key-value="3B58F1E6C8C842C991C1B72A733D93F5">
+			<attribute name="data_field_id" value="67CC18A9F1E94C709E9FE2B4A425991F"/>
+			<attribute name="field_set_def_id" value="3B58F1E6C8C842C991C1B72A733D93F5"/>
+			<attribute name="field_set_def_listorder" value="1"/>
+			<attribute name="field_set_id" value="925CA0D1D9A2408EA8CCF2C1841E9103"/>
+		</object>
+		<object type="rel_mapped_bio" primary-key="rel_mapped_bio_id" primary-key-value="6244BE7EBE044159B230E579BBEFAEBB">
+			<attribute name="bio_attribute_id" value="820B7352FE8741DCAD8258BBB9D16A8E"/>
+			<attribute name="cascade_delete_flag" value="1"/>
+			<attribute name="left_to_right_flag" value="0"/>
+			<attribute name="rel_mapped_bio_id" value="6244BE7EBE044159B230E579BBEFAEBB"/>
+			<attribute name="relationship_id" value="C0DD8EAEB4F64491A579425CB0B0D9BC"/>
+		</object>
+		<object type="relationship" primary-key="relationship_id" primary-key-value="C0DD8EAEB4F64491A579425CB0B0D9BC">
+			<attribute name="enforced_constraints_flag" value="0"/>
+			<attribute name="is_one_one_flag" value="1"/>
+			<attribute name="left_side_field_set_id" value="FAD5A810D559434485F1C1FDFB744CD8"/>
+			<attribute name="left_unjoined_flag" value="0"/>
+			<attribute name="relationship_id" value="C0DD8EAEB4F64491A579425CB0B0D9BC"/>
+			<attribute name="right_side_field_set_id" value="925CA0D1D9A2408EA8CCF2C1841E9103"/>
+			<attribute name="right_unjoined_flag" value="0"/>
+			<attribute name="role_name" value="e_user_sso_user_rel"/>
+		</object>
+	</module>
+</root>

@@ -1,0 +1,68 @@
+<project name="oajar" default="redeploy" basedir=".">
+	<property name="oa_home" location="C:/infor/wmbusinessprod/webserver/oa_home" />
+	<property name="oa_out" location="${oa_home}/shared/applications/webui/lib/base" />
+	<property name="oa_bin" location="${oa_home}/shared/bin" />
+	<property name="oa_patch" location="${oa_home}/shared/lib/patch" />
+	<property name="hot_deploy" location="${oa_home}/service/lib/custom" />
+
+	<macrodef name="service">
+		<attribute name="service" />
+		<attribute name="action" />
+		<sequential>
+			<exec executable="cmd.exe">
+				<arg line="/c net @{action} '@{service}'" />
+			</exec>
+		</sequential>
+	</macrodef>
+
+	<path id="classpath">
+		<fileset dir="../commonlib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="../OA_HOME">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="../WM40Server">
+			<include name="**/*.jar" />
+
+		</fileset>
+
+	</path>
+
+	<target name="compile">
+		<javac srcdir="src" destdir="build" classpathref="classpath" debug="on" fork="true" memoryinitialsize="100m" memorymaximumsize="600m" />
+	</target>
+
+	<target name="jar">
+		<jar destfile="${oa_out}/wms.jar" basedir="build/" includes="com/**" excludes="com/epiphany/**" update="false">
+		</jar>
+		<jar destfile="${oa_patch}/wmspatch.jar" basedir="build/" includes="com/epiphany/**" update="false">
+		</jar>
+	</target>
+
+	<target name="servicegen">
+		<exec dir="${oa_bin}" executable="servicegen.bat">
+		</exec>
+	</target>
+
+	<target name="deletehotdeploy">
+		<delete>
+			<fileset dir="${hot_deploy}" includes="**/*.class" />
+		</delete>
+	</target>
+
+	<target name="startservice">
+		<service action="start" service="&quot;Infor WM WebUI wmprd-wmweb1&quot;" />
+	</target>
+
+	<target name="stopservice">
+		<service action="stop" service="&quot;Infor WM WebUI wmprd-wmweb1&quot;" />
+	</target>
+
+	<target name="redeploy" depends="stopservice,jar,deletehotdeploy,servicegen,startservice">
+	</target>
+
+	<target name="full_redeploy" depends="stopservice,compile,jar,deletehotdeploy,servicegen,startservice">
+	</target>
+
+</project>

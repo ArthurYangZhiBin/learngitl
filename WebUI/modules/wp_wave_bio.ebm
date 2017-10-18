@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wave_bio" id="204A11DACEAB4C8F931AB23D1C01A726" version="658" row_count="9" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="204A11DACEAB4C8F931AB23D1C01A726">
+			<attribute name="app_module_id" value="204A11DACEAB4C8F931AB23D1C01A726"/>
+			<attribute name="app_module_name" value="wp_wave_bio"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="69781"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="2D8B385716DD49FB854BA569DEB97705">
+			<attribute name="attribute_domain_id" value="2D8B385716DD49FB854BA569DEB97705"/>
+			<attribute name="attribute_domain_name" value="wp_wave_processing_status"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_COMPUTED"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="95A3B2CCA2D04E278B207D3312410658">
+			<attribute name="attribute_domain_id" value="95A3B2CCA2D04E278B207D3312410658"/>
+			<attribute name="attribute_domain_name" value="wp_wave_status"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_COMPUTED"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="3358D0B677664ADF9E28A0C8C8721E99">
+			<attribute name="extension_id" value="6940C5D116314F7E919725F2F2B489AE"/>
+			<attribute name="extension_instance_id" value="3358D0B677664ADF9E28A0C8C8721E99"/>
+			<attribute name="object_id" value="2D8B385716DD49FB854BA569DEB97705"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="E4FCF40B39C548E8836201C06AD2C0BE">
+			<attribute name="extension_id" value="6940C5D116314F7E919725F2F2B489AE"/>
+			<attribute name="extension_instance_id" value="E4FCF40B39C548E8836201C06AD2C0BE"/>
+			<attribute name="object_id" value="95A3B2CCA2D04E278B207D3312410658"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="64B266AB2C004846ADB2A42952576BE0">
+			<attribute name="event_type_mapping_id" value="BC49B4CCADB244EA8F55CB4C55B62222"/>
+			<attribute name="extension_instance_event_id" value="64B266AB2C004846ADB2A42952576BE0"/>
+			<attribute name="extension_instance_id" value="E4FCF40B39C548E8836201C06AD2C0BE"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="932D0D077AB04AF99F7EAE9739657C79">
+			<attribute name="event_type_mapping_id" value="BC49B4CCADB244EA8F55CB4C55B62222"/>
+			<attribute name="extension_instance_event_id" value="932D0D077AB04AF99F7EAE9739657C79"/>
+			<attribute name="extension_instance_id" value="3358D0B677664ADF9E28A0C8C8721E99"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="35E1F88FD42543C8B19D7CC4A2432D95">
+			<attribute name="display_text" value="WVINPROC"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3358D0B677664ADF9E28A0C8C8721E99"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2C035AB62CB54135B363C1888EFDEE73"/>
+			<attribute name="property_value_id" value="35E1F88FD42543C8B19D7CC4A2432D95"/>
+			<attribute name="string_value" value="WVINPROC"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="6AB05664A4E74DA995D543C9E626129E">
+			<attribute name="display_text" value="WVSTUS"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="E4FCF40B39C548E8836201C06AD2C0BE"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2C035AB62CB54135B363C1888EFDEE73"/>
+			<attribute name="property_value_id" value="6AB05664A4E74DA995D543C9E626129E"/>
+			<attribute name="string_value" value="WVSTUS"/>
+		</object>
+	</module>
+</root>

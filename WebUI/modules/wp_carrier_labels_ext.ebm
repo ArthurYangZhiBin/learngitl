@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_carrier_labels_ext" id="4A4BC07B3A064137BDC158A2D8A2A19E" version="658" row_count="8" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="4A4BC07B3A064137BDC158A2D8A2A19E">
+			<attribute name="app_module_id" value="4A4BC07B3A064137BDC158A2D8A2A19E"/>
+			<attribute name="app_module_name" value="wp_carrier_labels_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="10656"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="5D46BEAA1C594499AF72BE10B6CE4111">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_carrier_labels.action.CarrierLabelsPrint"/>
+			<attribute name="extension_id" value="5D46BEAA1C594499AF72BE10B6CE4111"/>
+			<attribute name="extension_name" value="CarrierLabelsPrint"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_carrier_labels.action"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5E53618DE22E47918F22BA0423B75A2A">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5E53618DE22E47918F22BA0423B75A2A"/>
+			<attribute name="extension_id" value="5D46BEAA1C594499AF72BE10B6CE4111"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="045C2555B52D46F29E9BD5BD012DBF6C">
+			<attribute name="label_id" value="045C2555B52D46F29E9BD5BD012DBF6C"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Where the extension is being called from, PRINT or MENU"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="DA4EE30D7EC64860A84B975298AA665D"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="EF8A9FC5CF12405F9C2CCAF327D156DA">
+			<attribute name="label_id" value="EF8A9FC5CF12405F9C2CCAF327D156DA"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="CarrierLabelsPrint"/>
+			<attribute name="object_id" value="5D46BEAA1C594499AF72BE10B6CE4111"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="CarrierLabelsPrint"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="DA4EE30D7EC64860A84B975298AA665D">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="5D46BEAA1C594499AF72BE10B6CE4111"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="DA4EE30D7EC64860A84B975298AA665D"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="SOURCE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter_default_value" primary-key="parameter_default_value_id" primary-key-value="EE2E9AA13440405D83BE3E4A48EEBBD7">
+			<attribute name="parameter_default_value_id" value="EE2E9AA13440405D83BE3E4A48EEBBD7"/>
+			<attribute name="parameter_id" value="DA4EE30D7EC64860A84B975298AA665D"/>
+			<attribute name="property_value_id" value="16CDF83DC6B14B05976AE8BD83687CF6"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="16CDF83DC6B14B05976AE8BD83687CF6">
+			<attribute name="display_text" value="PRINT"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="DA4EE30D7EC64860A84B975298AA665D"/>
+			<attribute name="object_type_id" value="parameter"/>
+			<attribute name="parameter_id" value="DA4EE30D7EC64860A84B975298AA665D"/>
+			<attribute name="property_value_id" value="16CDF83DC6B14B05976AE8BD83687CF6"/>
+			<attribute name="string_value" value="PRINT"/>
+		</object>
+	</module>
+</root>

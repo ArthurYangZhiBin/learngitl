@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_serial_number" id="1B07CF1EE37B4860BF37C4346BF2C249" version="658" row_count="14" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="1B07CF1EE37B4860BF37C4346BF2C249">
+			<attribute name="app_module_id" value="1B07CF1EE37B4860BF37C4346BF2C249"/>
+			<attribute name="app_module_name" value="wm_serial_number"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="4161"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="1B2641FCCF63482F80532895E46EB410">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_serial_number.ui.SNDetailSerialSave"/>
+			<attribute name="extension_id" value="1B2641FCCF63482F80532895E46EB410"/>
+			<attribute name="extension_name" value="SNDetailSerialSave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_serial_number.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="302160124B9E43DAA87AD0F0A8249C4A">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_serial_number.ui.SNDetailSerialValidate"/>
+			<attribute name="extension_id" value="302160124B9E43DAA87AD0F0A8249C4A"/>
+			<attribute name="extension_name" value="SNDetailSerialValidate"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_serial_number.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="49EEA41F6EC74C249B53C9F6902B8204">
+			<attribute name="extension_code" value="com.ssaglobal.scm.wms.wm_serial_number.ui.SNDetailSerialDisableWidgets"/>
+			<attribute name="extension_id" value="49EEA41F6EC74C249B53C9F6902B8204"/>
+			<attribute name="extension_name" value="SNDetailSerialDisableWidgets"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.ssaglobal.scm.wms.wm_serial_number.ui"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0A9C2ECC87874F99A5926A1EA540BE32">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="0A9C2ECC87874F99A5926A1EA540BE32"/>
+			<attribute name="extension_id" value="1B2641FCCF63482F80532895E46EB410"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0AEB27402DEF40658791F78BB10B3128">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="0AEB27402DEF40658791F78BB10B3128"/>
+			<attribute name="extension_id" value="49EEA41F6EC74C249B53C9F6902B8204"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="DC2007438C26452181F4942711DC302B">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="DC2007438C26452181F4942711DC302B"/>
+			<attribute name="extension_id" value="302160124B9E43DAA87AD0F0A8249C4A"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="428B0D5FA14E4395B027565F313A481D">
+			<attribute name="label_id" value="428B0D5FA14E4395B027565F313A481D"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SNDetailSerialValidate"/>
+			<attribute name="object_id" value="302160124B9E43DAA87AD0F0A8249C4A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SNDetailSerialValidate"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="50179703ED7E407F9C164CBC51277057">
+			<attribute name="label_id" value="50179703ED7E407F9C164CBC51277057"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SNDetailSerialDisableWidgets"/>
+			<attribute name="object_id" value="49EEA41F6EC74C249B53C9F6902B8204"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SNDetailSerialDisableWidgets"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="521AF530F8E84DD7A9B5900673C3B5B3">
+			<attribute name="label_id" value="521AF530F8E84DD7A9B5900673C3B5B3"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of session attribute that holds Serial to validate"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="1142C1DCE5ED4B46BC2C4AD3EB9347D8"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="79B077FB39CA4936A0FB3CB079ADC13F">
+			<attribute name="label_id" value="79B077FB39CA4936A0FB3CB079ADC13F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Name of session attribute that holds Serial to validate"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="EA97B6BDCDD54BA28F1274D605894990"/>
+			<attribute name="object_type_id" value="parameter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="B38ADB02B17E4C5B993E81689BE3CAEC">
+			<attribute name="label_id" value="B38ADB02B17E4C5B993E81689BE3CAEC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="SNDetailSerialSave"/>
+			<attribute name="object_id" value="1B2641FCCF63482F80532895E46EB410"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="SNDetailSerialSave"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="1142C1DCE5ED4B46BC2C4AD3EB9347D8">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="1B2641FCCF63482F80532895E46EB410"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="1142C1DCE5ED4B46BC2C4AD3EB9347D8"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="SESSION_ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+		<object type="parameter" primary-key="parameter_id" primary-key-value="EA97B6BDCDD54BA28F1274D605894990">
+			<attribute name="is_required_flag" value="0"/>
+			<attribute name="object_id" value="302160124B9E43DAA87AD0F0A8249C4A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="parameter_id" value="EA97B6BDCDD54BA28F1274D605894990"/>
+			<attribute name="parameter_listorder" value="1"/>
+			<attribute name="parameter_name" value="SESSION_ATTRIBUTE"/>
+			<attribute name="property_value_type_id" value="PVT_STRING"/>
+		</object>
+	</module>
+</root>

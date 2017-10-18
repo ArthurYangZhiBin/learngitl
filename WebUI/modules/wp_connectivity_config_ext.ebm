@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_connectivity_config_ext" id="408B0718A5644C48851CB4B21B165839" version="658" row_count="3" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="408B0718A5644C48851CB4B21B165839">
+			<attribute name="app_module_id" value="408B0718A5644C48851CB4B21B165839"/>
+			<attribute name="app_module_name" value="wp_connectivity_config_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="0"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="6E877F3C0578421199EB2A5B7792F080">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_connectivity_config.ui.ConnectivityConfigPreDeleteValidations"/>
+			<attribute name="extension_id" value="6E877F3C0578421199EB2A5B7792F080"/>
+			<attribute name="extension_name" value="ConnectivityConfigPreDeleteValidations"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_connectivity_config.ui"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="10FFB01CC1E74FC8A18658FAA6DAC42E">
+			<attribute name="label_id" value="10FFB01CC1E74FC8A18658FAA6DAC42E"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ConnectivityConfigPreDeleteValidations"/>
+			<attribute name="object_id" value="6E877F3C0578421199EB2A5B7792F080"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ConnectivityConfigPreDeleteValidations"/>
+		</object>
+	</module>
+</root>

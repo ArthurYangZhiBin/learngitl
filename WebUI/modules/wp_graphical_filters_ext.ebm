@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_graphical_filters_ext" id="35E72DBC876540B1BC995282067B62B5" version="658" row_count="40" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="35E72DBC876540B1BC995282067B62B5">
+			<attribute name="app_module_id" value="35E72DBC876540B1BC995282067B62B5"/>
+			<attribute name="app_module_name" value="wp_graphical_filters_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="76408"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="00186CD19734490399C047C108011E35">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.ui.WPGraphFilterInitialFormPrerender"/>
+			<attribute name="extension_id" value="00186CD19734490399C047C108011E35"/>
+			<attribute name="extension_name" value="WPGraphFilterInitialFormPrerender"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="05FDD7547CFF4FC8B4551BA7401DA67E">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.ui.WPGraphFilterPrevCriterionPrerender"/>
+			<attribute name="extension_id" value="05FDD7547CFF4FC8B4551BA7401DA67E"/>
+			<attribute name="extension_name" value="WPGraphFilterPrevCriterionPrerender"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="2AD92C3DA48D40FE9FD832269C702264">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterProceed"/>
+			<attribute name="extension_id" value="2AD92C3DA48D40FE9FD832269C702264"/>
+			<attribute name="extension_name" value="WPGraphicalFilterProceed"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="2F3940AE32184F8594334A8D53C296CE">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.attributeDomain.ComputedDomGraphFilter"/>
+			<attribute name="extension_id" value="2F3940AE32184F8594334A8D53C296CE"/>
+			<attribute name="extension_name" value="ComputedDomGraphFilter"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.attributeDomain"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="397EF037292B4552951C4C9584285650">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterBaseCriterionOnChange"/>
+			<attribute name="extension_id" value="397EF037292B4552951C4C9584285650"/>
+			<attribute name="extension_name" value="WPGraphicalFilterBaseCriterionOnChange"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="458A917F07EE4372BF066B358B418F4D">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterSendToQueryBuilder"/>
+			<attribute name="extension_id" value="458A917F07EE4372BF066B358B418F4D"/>
+			<attribute name="extension_name" value="WPGraphicalFilterSendToQueryBuilder"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="7F6071047B5E4F4B8AA993DB934423D3">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.ui.WPGraphFilterBaseCriterionPrerender"/>
+			<attribute name="extension_id" value="7F6071047B5E4F4B8AA993DB934423D3"/>
+			<attribute name="extension_name" value="WPGraphFilterBaseCriterionPrerender"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="82E584FE3EF146BF89FB1A8E30235254">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterPrevCriterionOnChange"/>
+			<attribute name="extension_id" value="82E584FE3EF146BF89FB1A8E30235254"/>
+			<attribute name="extension_name" value="WPGraphicalFilterPrevCriterionOnChange"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="A4B478799B974AFBB47C62E7E15A6C70">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.attributeDomain.ComputedDomGraphFilterHistory"/>
+			<attribute name="extension_id" value="A4B478799B974AFBB47C62E7E15A6C70"/>
+			<attribute name="extension_name" value="ComputedDomGraphFilterHistory"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.attributeDomain"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="BA266479CF614F14986D023B59DBB6A5">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphFilterTmpExtension"/>
+			<attribute name="extension_id" value="BA266479CF614F14986D023B59DBB6A5"/>
+			<attribute name="extension_name" value="WPGraphFilterTmpExtension"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="CA5218F08E10405183D2B49DD9D9E7C7">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.ui.GraphFilterReprt"/>
+			<attribute name="extension_id" value="CA5218F08E10405183D2B49DD9D9E7C7"/>
+			<attribute name="extension_name" value="GraphFilterReprt"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="CC88A7549C074CD7883D725C79B6EBB8">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterSave"/>
+			<attribute name="extension_id" value="CC88A7549C074CD7883D725C79B6EBB8"/>
+			<attribute name="extension_name" value="WPGraphicalFilterSave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="CE794C166CAC434C80C867B74FB77043">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_graphical_filters.action.WPGraphicalFilterChartTypeOnChange"/>
+			<attribute name="extension_id" value="CE794C166CAC434C80C867B74FB77043"/>
+			<attribute name="extension_name" value="WPGraphicalFilterChartTypeOnChange"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_graphical_filters.action"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="03B0F09231EF43F695035B1141373CE1">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="03B0F09231EF43F695035B1141373CE1"/>
+			<attribute name="extension_id" value="397EF037292B4552951C4C9584285650"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="0B73E56A210E47C5AFCCA9EA6D91E06B">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="0B73E56A210E47C5AFCCA9EA6D91E06B"/>
+			<attribute name="extension_id" value="82E584FE3EF146BF89FB1A8E30235254"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="1E2748AC37464046A14BC5E6757F397E">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="1E2748AC37464046A14BC5E6757F397E"/>
+			<attribute name="extension_id" value="00186CD19734490399C047C108011E35"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="2586F07FE0104219BC0B9E4065953C0D">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="2586F07FE0104219BC0B9E4065953C0D"/>
+			<attribute name="extension_id" value="CC88A7549C074CD7883D725C79B6EBB8"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="2FE440CCF88B4C37A116A2527E01A6EB">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="2FE440CCF88B4C37A116A2527E01A6EB"/>
+			<attribute name="extension_id" value="05FDD7547CFF4FC8B4551BA7401DA67E"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="30ADFEAE64B7496698ABFD08B9F5BCC4">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="30ADFEAE64B7496698ABFD08B9F5BCC4"/>
+			<attribute name="extension_id" value="CA5218F08E10405183D2B49DD9D9E7C7"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="35109FEF143D45C1951C91146821CCED">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="35109FEF143D45C1951C91146821CCED"/>
+			<attribute name="extension_id" value="2AD92C3DA48D40FE9FD832269C702264"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="4FAE19BCA01F46FF961F4C7C2D68BE23">
+			<attribute name="event_category_id" value="F9681D1A03EF453BAE9B9E0601543E3F"/>
+			<attribute name="extension_event_category_id" value="4FAE19BCA01F46FF961F4C7C2D68BE23"/>
+			<attribute name="extension_id" value="7F6071047B5E4F4B8AA993DB934423D3"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="67DF9576ED3A43B8A5F77CE700390595">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="67DF9576ED3A43B8A5F77CE700390595"/>
+			<attribute name="extension_id" value="BA266479CF614F14986D023B59DBB6A5"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="9A31156AB216426593480F850FDFC54D">
+			<attribute name="event_category_id" value="0843BD8CB0A64C9A8A30DBE9B4358717"/>
+			<attribute name="extension_event_category_id" value="9A31156AB216426593480F850FDFC54D"/>
+			<attribute name="extension_id" value="A4B478799B974AFBB47C62E7E15A6C70"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="C4ED4ED3FE524EEAAB84FB5FB9F13D09">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="C4ED4ED3FE524EEAAB84FB5FB9F13D09"/>
+			<attribute name="extension_id" value="458A917F07EE4372BF066B358B418F4D"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="E7A664E9AEE44CAF801E172000C00D9F">
+			<attribute name="event_category_id" value="0843BD8CB0A64C9A8A30DBE9B4358717"/>
+			<attribute name="extension_event_category_id" value="E7A664E9AEE44CAF801E172000C00D9F"/>
+			<attribute name="extension_id" value="2F3940AE32184F8594334A8D53C296CE"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="EF37DA6572BE45DAA20274A4910C1EE8">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="EF37DA6572BE45DAA20274A4910C1EE8"/>
+			<attribute name="extension_id" value="CE794C166CAC434C80C867B74FB77043"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="056E9194E4574F82B0BEB32E3D4310A4">
+			<attribute name="label_id" value="056E9194E4574F82B0BEB32E3D4310A4"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterSave"/>
+			<attribute name="object_id" value="CC88A7549C074CD7883D725C79B6EBB8"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterSave"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0FEA05852B6046AC92665D67C77EE725">
+			<attribute name="label_id" value="0FEA05852B6046AC92665D67C77EE725"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphFilterBaseCriterionPrerender"/>
+			<attribute name="object_id" value="7F6071047B5E4F4B8AA993DB934423D3"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphFilterBaseCriterionPrerender"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="26244C11961C4CBAA4FBFE89A0C32DF0">
+			<attribute name="label_id" value="26244C11961C4CBAA4FBFE89A0C32DF0"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphFilterPrevCriterionPrerender"/>
+			<attribute name="object_id" value="05FDD7547CFF4FC8B4551BA7401DA67E"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphFilterPrevCriterionPrerender"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4D4EB91A10CC494F93D6AD8950564846">
+			<attribute name="label_id" value="4D4EB91A10CC494F93D6AD8950564846"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterBaseCriterionOnChange"/>
+			<attribute name="object_id" value="397EF037292B4552951C4C9584285650"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterBaseCriterionOnChange"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="569DF4823CEF48FABB73B55EBE321865">
+			<attribute name="label_id" value="569DF4823CEF48FABB73B55EBE321865"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="GraphFilterReprt"/>
+			<attribute name="object_id" value="CA5218F08E10405183D2B49DD9D9E7C7"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="GraphFilterReprt"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5C52BCCA50234DC3ABC2B8FEA8F9BAD7">
+			<attribute name="label_id" value="5C52BCCA50234DC3ABC2B8FEA8F9BAD7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphFilterInitialFormPrerender"/>
+			<attribute name="object_id" value="00186CD19734490399C047C108011E35"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphFilterInitialFormPrerender"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="72A2CB69DD884A5A9D3DEE69D2F3CFFE">
+			<attribute name="label_id" value="72A2CB69DD884A5A9D3DEE69D2F3CFFE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterSendToQueryBuilder"/>
+			<attribute name="object_id" value="458A917F07EE4372BF066B358B418F4D"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterSendToQueryBuilder"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="747E4453D6C54C80A8CE9849D093DABE">
+			<attribute name="label_id" value="747E4453D6C54C80A8CE9849D093DABE"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterProceed"/>
+			<attribute name="object_id" value="2AD92C3DA48D40FE9FD832269C702264"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterProceed"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7632CA066D6948908E9DF181D3AF5C01">
+			<attribute name="label_id" value="7632CA066D6948908E9DF181D3AF5C01"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterChartTypeOnChange"/>
+			<attribute name="object_id" value="CE794C166CAC434C80C867B74FB77043"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterChartTypeOnChange"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="89D5C16628F742F0BEBD266C8BF7B79F">
+			<attribute name="label_id" value="89D5C16628F742F0BEBD266C8BF7B79F"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ComputedDomGraphFilter"/>
+			<attribute name="object_id" value="2F3940AE32184F8594334A8D53C296CE"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ComputedDomGraphFilter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="AB528282DFE448A7895DE72CD3911FA8">
+			<attribute name="label_id" value="AB528282DFE448A7895DE72CD3911FA8"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphicalFilterPrevCriterionOnChange"/>
+			<attribute name="object_id" value="82E584FE3EF146BF89FB1A8E30235254"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphicalFilterPrevCriterionOnChange"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D5682C72F6A34D269F82CDC8FA66F7AB">
+			<attribute name="label_id" value="D5682C72F6A34D269F82CDC8FA66F7AB"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="ComputedDomGraphFilterHistory"/>
+			<attribute name="object_id" value="A4B478799B974AFBB47C62E7E15A6C70"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="ComputedDomGraphFilterHistory"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F214B58C3CB8405B9C7D0D2201F504B7">
+			<attribute name="label_id" value="F214B58C3CB8405B9C7D0D2201F504B7"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPGraphFilterTmpExtension"/>
+			<attribute name="object_id" value="BA266479CF614F14986D023B59DBB6A5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPGraphFilterTmpExtension"/>
+		</object>
+	</module>
+</root>

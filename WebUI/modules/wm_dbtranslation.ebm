@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wm_dbtranslation" id="927E375904154B63AD26DCCBC121D908" version="658" row_count="302" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="927E375904154B63AD26DCCBC121D908">
+			<attribute name="app_module_id" value="927E375904154B63AD26DCCBC121D908"/>
+			<attribute name="app_module_name" value="wm_dbtranslation"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="88172"/>
+		</object>
+		<object type="attribute_domain" primary-key="attribute_domain_id" primary-key-value="2F21E77B2188474CB81D1F8A74CA1CE7">
+			<attribute name="attribute_domain_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="attribute_domain_name" value="wm_translationlist_tablename"/>
+			<attribute name="attribute_domain_type_id" value="DOMAIN_COMPUTED"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="00EFB0975FD34785935F8141088A69EA">
+			<attribute name="bio_attribute_id" value="00EFB0975FD34785935F8141088A69EA"/>
+			<attribute name="bio_attribute_name" value="cache_expiration_period"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="cache_expiration_period"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="12BB580597AA4194B46CE49447FF92D8">
+			<attribute name="bio_attribute_id" value="12BB580597AA4194B46CE49447FF92D8"/>
+			<attribute name="bio_attribute_name" value="fetch_method_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="fetch_method_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="1448B38EF20E45D99F11B1BFD010EB51">
+			<attribute name="bio_attribute_id" value="1448B38EF20E45D99F11B1BFD010EB51"/>
+			<attribute name="bio_attribute_name" value="app_module_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="app_module_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="1A81C4E2E20E40658F794411E0CD69F4">
+			<attribute name="bio_attribute_id" value="1A81C4E2E20E40658F794411E0CD69F4"/>
+			<attribute name="bio_attribute_name" value="createable_flag"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="createable_flag"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="1C1B54FB0BFB41B28C9EB591F47AB27D">
+			<attribute name="bio_attribute_id" value="1C1B54FB0BFB41B28C9EB591F47AB27D"/>
+			<attribute name="bio_attribute_name" value="JOINKEY2"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="JOINKEY2"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="1DD13C6809334581B7EB5CE42A474ED9">
+			<attribute name="bio_attribute_id" value="1DD13C6809334581B7EB5CE42A474ED9"/>
+			<attribute name="bio_attribute_name" value="EDITWHO"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EDITWHO"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="2094387BAFD7443AA986EC577A1689D1">
+			<attribute name="bio_attribute_id" value="2094387BAFD7443AA986EC577A1689D1"/>
+			<attribute name="bio_attribute_name" value="has_pk_flag"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="has_pk_flag"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="23197CBAF322430DAD4E667587009E5D">
+			<attribute name="bio_attribute_id" value="23197CBAF322430DAD4E667587009E5D"/>
+			<attribute name="bio_attribute_name" value="bio_class_name"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="bio_class_name"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="24BA9363FE564FE6A97BB2159191BF19">
+			<attribute name="bio_attribute_id" value="24BA9363FE564FE6A97BB2159191BF19"/>
+			<attribute name="bio_attribute_name" value="update_method_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="update_method_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="24EBC51C49C546258B3711F947FC7EF1">
+			<attribute name="bio_attribute_id" value="24EBC51C49C546258B3711F947FC7EF1"/>
+			<attribute name="bio_attribute_name" value="locking_strategy"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="locking_strategy"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="2B39E7B9DD244EFE8DB64A19AFEC45E4">
+			<attribute name="bio_attribute_id" value="2B39E7B9DD244EFE8DB64A19AFEC45E4"/>
+			<attribute name="bio_attribute_name" value="DESCRIPTION"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="DESCRIPTION"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="31894F3144C545ABADB3A280961495FE">
+			<attribute name="bio_attribute_id" value="31894F3144C545ABADB3A280961495FE"/>
+			<attribute name="bio_attribute_name" value="JOINKEY5"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="JOINKEY5"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="3BE4C77C45014F8AABDD637C5725B852">
+			<attribute name="bio_attribute_id" value="3BE4C77C45014F8AABDD637C5725B852"/>
+			<attribute name="bio_attribute_name" value="data_recordset_name"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="data_recordset_name"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="3CD95EAB85A14BDF8902C4721EBBA305">
+			<attribute name="bio_attribute_id" value="3CD95EAB85A14BDF8902C4721EBBA305"/>
+			<attribute name="bio_attribute_name" value="SERIALKEY"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="SERIALKEY"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="458F7530ECD549F5B234033CFA1F72AF">
+			<attribute name="bio_attribute_id" value="458F7530ECD549F5B234033CFA1F72AF"/>
+			<attribute name="bio_attribute_name" value="bio_class_label"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="bio_class_label"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="46AF2489356A4ED081E01A9D4337CBD9">
+			<attribute name="bio_attribute_id" value="46AF2489356A4ED081E01A9D4337CBD9"/>
+			<attribute name="bio_attribute_name" value="WHSEID"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="WHSEID"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="4D145D4BBE8E42328DC54D6CCAC908E2">
+			<attribute name="bio_attribute_id" value="4D145D4BBE8E42328DC54D6CCAC908E2"/>
+			<attribute name="bio_attribute_name" value="JOINKEY1"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="JOINKEY1"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="4DDB567A76E4419B8FE313469F7D0CC9">
+			<attribute name="bio_attribute_id" value="4DDB567A76E4419B8FE313469F7D0CC9"/>
+			<attribute name="bio_attribute_name" value="data_source_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="data_source_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="52BCD3AF597B4ABF8FD4EEE77BECDD59">
+			<attribute name="bio_attribute_id" value="52BCD3AF597B4ABF8FD4EEE77BECDD59"/>
+			<attribute name="bio_attribute_name" value="JOINKEY3"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="JOINKEY3"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="59A2E2DDF5844C39A6A5A07DAB3B5DC3">
+			<attribute name="bio_attribute_id" value="59A2E2DDF5844C39A6A5A07DAB3B5DC3"/>
+			<attribute name="bio_attribute_name" value="ADDDATE"/>
+			<attribute name="bio_attribute_type" value="DATE"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="ADDDATE"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="7B5F089461914151A8EC21C777706A1F">
+			<attribute name="bio_attribute_id" value="7B5F089461914151A8EC21C777706A1F"/>
+			<attribute name="bio_attribute_name" value="insert_method_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="insert_method_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="8335015E11184D0EA751799C5194FA1B">
+			<attribute name="bio_attribute_id" value="8335015E11184D0EA751799C5194FA1B"/>
+			<attribute name="bio_attribute_name" value="app_module_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="app_module_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="8AD2F28F5B744002ADBBF8FC650CDD12">
+			<attribute name="bio_attribute_id" value="8AD2F28F5B744002ADBBF8FC650CDD12"/>
+			<attribute name="bio_attribute_name" value="row_level_audit_flag"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="row_level_audit_flag"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="8D7B05C4680B4E66BEBDEA5C8501A6E8">
+			<attribute name="bio_attribute_id" value="8D7B05C4680B4E66BEBDEA5C8501A6E8"/>
+			<attribute name="bio_attribute_name" value="auto_pk_dm_gen_flag"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="auto_pk_dm_gen_flag"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="903053ECFF90479E80BC7C8073A279E3">
+			<attribute name="bio_attribute_id" value="903053ECFF90479E80BC7C8073A279E3"/>
+			<attribute name="bio_attribute_name" value="is_logical_delete_default"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="is_logical_delete_default"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="92B0A067E94A4E30AD9EFFF8F13DCFBD">
+			<attribute name="bio_attribute_id" value="92B0A067E94A4E30AD9EFFF8F13DCFBD"/>
+			<attribute name="bio_attribute_name" value="recordset_physical_name"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="recordset_physical_name"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="973A8709174A40FCB03D27558ED1EB97">
+			<attribute name="bio_attribute_id" value="973A8709174A40FCB03D27558ED1EB97"/>
+			<attribute name="bio_attribute_name" value="primary_key_auto_flag"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="primary_key_auto_flag"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="984745AE4C274DF786CA894D61C9EC35">
+			<attribute name="bio_attribute_id" value="984745AE4C274DF786CA894D61C9EC35"/>
+			<attribute name="bio_attribute_name" value="masked_attributes"/>
+			<attribute name="bio_attribute_type" value="INT"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="masked_attributes"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="9E3CE40B3BEF47229675E5F57E6FE35F">
+			<attribute name="bio_attribute_id" value="9E3CE40B3BEF47229675E5F57E6FE35F"/>
+			<attribute name="bio_attribute_name" value="CODE"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="CODE"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="A839DC5F2E954A59AD001644FE66C4CD">
+			<attribute name="bio_attribute_id" value="A839DC5F2E954A59AD001644FE66C4CD"/>
+			<attribute name="bio_attribute_name" value="query_method_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="query_method_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="B934084FD7F04DFD81B8D83734506083">
+			<attribute name="bio_attribute_id" value="B934084FD7F04DFD81B8D83734506083"/>
+			<attribute name="bio_attribute_name" value="EDITDATE"/>
+			<attribute name="bio_attribute_type" value="DATE"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="EDITDATE"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="B9FE8E4A8DC34165B029C36270F45A92">
+			<attribute name="bio_attribute_id" value="B9FE8E4A8DC34165B029C36270F45A92"/>
+			<attribute name="bio_attribute_name" value="caching_type"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="caching_type"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="CC1D71C7FD5E43678C7B57E662410C9B">
+			<attribute name="bio_attribute_id" value="CC1D71C7FD5E43678C7B57E662410C9B"/>
+			<attribute name="bio_attribute_name" value="COLUMNNAME"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="COLUMNNAME"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="CE744EA34F1D439BB2934516181A0573">
+			<attribute name="bio_attribute_id" value="CE744EA34F1D439BB2934516181A0573"/>
+			<attribute name="bio_attribute_name" value="JOINKEY4"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="JOINKEY4"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="D7BF456F2E134E368CD3A23C74013D8B">
+			<attribute name="bio_attribute_id" value="D7BF456F2E134E368CD3A23C74013D8B"/>
+			<attribute name="bio_attribute_name" value="ADDWHO"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="ADDWHO"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="DA6EA6B70AAC49E7A2B0E083D5F11DF5">
+			<attribute name="bio_attribute_id" value="DA6EA6B70AAC49E7A2B0E083D5F11DF5"/>
+			<attribute name="bio_attribute_name" value="delete_method_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="delete_method_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="DC2AA2ED0774467DB7144C6A7568F61A">
+			<attribute name="bio_attribute_id" value="DC2AA2ED0774467DB7144C6A7568F61A"/>
+			<attribute name="bio_attribute_name" value="LOCALE"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="LOCALE"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="DC5B26C45ED74DE9BF154C85D0DED253">
+			<attribute name="bio_attribute_id" value="DC5B26C45ED74DE9BF154C85D0DED253"/>
+			<attribute name="bio_attribute_name" value="data_recordset_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="data_recordset_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="E326DAC375BC4FD58F4F9A150A29141F">
+			<attribute name="bio_attribute_id" value="E326DAC375BC4FD58F4F9A150A29141F"/>
+			<attribute name="bio_attribute_name" value="data_recordset_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="data_recordset_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="E47A9CA066A2457D91F9B1733C041FD9">
+			<attribute name="bio_attribute_id" value="E47A9CA066A2457D91F9B1733C041FD9"/>
+			<attribute name="bio_attribute_name" value="supports_logical_delete"/>
+			<attribute name="bio_attribute_type" value="BOOLEAN"/>
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="supports_logical_delete"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="E9461B462CED4E56A4B99D8DD941264D">
+			<attribute name="bio_attribute_id" value="E9461B462CED4E56A4B99D8DD941264D"/>
+			<attribute name="bio_attribute_name" value="bio_class_id"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="bio_class_id"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="F692AE8B1E8C41D984F3B34849ECCC5C">
+			<attribute name="bio_attribute_id" value="F692AE8B1E8C41D984F3B34849ECCC5C"/>
+			<attribute name="bio_attribute_name" value="TBLNAME"/>
+			<attribute name="bio_attribute_type" value="STRING"/>
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="localized_data_type" value="NORMAL"/>
+			<attribute name="mapped_field" value="TBLNAME"/>
+			<attribute name="mapping_type" value="DIRECT"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="62EAD89AFFA44E7FAD65E7521BF06FE3">
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="bio_class_name" value="wm_bio_class"/>
+			<attribute name="createable_flag" value="0"/>
+			<attribute name="data_recordset_id" value="B5262BAB0A03FFFF0039240E4D28A955"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="C516F6C68BA2429199F541CCCDE45B07">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="bio_class_name" value="wm_translationlist"/>
+			<attribute name="createable_flag" value="1"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_class" primary-key="bio_class_id" primary-key-value="C8D1847B86784FBF8219EEDF50CFFF93">
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="bio_class_name" value="wm_data_recordset"/>
+			<attribute name="createable_flag" value="0"/>
+			<attribute name="data_recordset_id" value="2D9F26903C5F4B699018F5F0E727E22B"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="row_level_audit_flag" value="0"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="08DC916046EE47BCA9AAB2FB609C9366">
+			<attribute name="bio_class_id" value="62EAD89AFFA44E7FAD65E7521BF06FE3"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="bio_display_name" value="wm_bio_class"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="5C8E3939E3D04B0CA8CA7BEB937E95FA">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="bio_display_name" value="wm_translationlist"/>
+		</object>
+		<object type="bio_display" primary-key="bio_display_id" primary-key-value="D26CD60810AA438CB39DB8E18F359627">
+			<attribute name="bio_class_id" value="C8D1847B86784FBF8219EEDF50CFFF93"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="bio_display_name" value="wm_data_recordset"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="03B7FE79248C4AA9B9D5247D1C6F21C7">
+			<attribute name="bda_listorder" value="18"/>
+			<attribute name="bio_attribute_id" value="24BA9363FE564FE6A97BB2159191BF19"/>
+			<attribute name="bio_display_attribute_id" value="03B7FE79248C4AA9B9D5247D1C6F21C7"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="10CF14BEA5F04FB883DB43E7C14EAD3A">
+			<attribute name="bda_listorder" value="11"/>
+			<attribute name="bio_attribute_id" value="31894F3144C545ABADB3A280961495FE"/>
+			<attribute name="bio_display_attribute_id" value="10CF14BEA5F04FB883DB43E7C14EAD3A"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="13664130DA4042DA85198386B19D238A">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="E9461B462CED4E56A4B99D8DD941264D"/>
+			<attribute name="bio_display_attribute_id" value="13664130DA4042DA85198386B19D238A"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="16A845D2399947DE939172A2B445B8DD">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="2B39E7B9DD244EFE8DB64A19AFEC45E4"/>
+			<attribute name="bio_display_attribute_id" value="16A845D2399947DE939172A2B445B8DD"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="17DE88D808A847868A37595992F5E79E">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="458F7530ECD549F5B234033CFA1F72AF"/>
+			<attribute name="bio_display_attribute_id" value="17DE88D808A847868A37595992F5E79E"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="1908CF6A0D9647FBB3BC01D5AFB71832">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="8335015E11184D0EA751799C5194FA1B"/>
+			<attribute name="bio_display_attribute_id" value="1908CF6A0D9647FBB3BC01D5AFB71832"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="22CE679A030C4AC3960327448D670B3D">
+			<attribute name="bda_listorder" value="7"/>
+			<attribute name="bio_attribute_id" value="984745AE4C274DF786CA894D61C9EC35"/>
+			<attribute name="bio_display_attribute_id" value="22CE679A030C4AC3960327448D670B3D"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="2C2E4EC4CFE94F999366476D1557A89A">
+			<attribute name="bda_listorder" value="5"/>
+			<attribute name="bio_attribute_id" value="B934084FD7F04DFD81B8D83734506083"/>
+			<attribute name="bio_display_attribute_id" value="2C2E4EC4CFE94F999366476D1557A89A"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_date_picker"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="2CDC2783661E40FE94E3F6615218D26E">
+			<attribute name="bda_listorder" value="11"/>
+			<attribute name="bio_attribute_id" value="7B5F089461914151A8EC21C777706A1F"/>
+			<attribute name="bio_display_attribute_id" value="2CDC2783661E40FE94E3F6615218D26E"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="327246F86F4C4A2AB79DAF35972365AD">
+			<attribute name="bda_listorder" value="8"/>
+			<attribute name="bio_attribute_id" value="DA6EA6B70AAC49E7A2B0E083D5F11DF5"/>
+			<attribute name="bio_display_attribute_id" value="327246F86F4C4A2AB79DAF35972365AD"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="39203CE8B97F4858ACA6EA1E35ED6CE7">
+			<attribute name="bda_listorder" value="16"/>
+			<attribute name="bio_attribute_id" value="9E3CE40B3BEF47229675E5F57E6FE35F"/>
+			<attribute name="bio_display_attribute_id" value="39203CE8B97F4858ACA6EA1E35ED6CE7"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="3F9D357A9C8B4CF9838629C833DC3221">
+			<attribute name="bda_listorder" value="12"/>
+			<attribute name="bio_attribute_id" value="903053ECFF90479E80BC7C8073A279E3"/>
+			<attribute name="bio_display_attribute_id" value="3F9D357A9C8B4CF9838629C833DC3221"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="3FE064B08DC3435E8E586A82BC19C428">
+			<attribute name="bda_listorder" value="6"/>
+			<attribute name="bio_attribute_id" value="3BE4C77C45014F8AABDD637C5725B852"/>
+			<attribute name="bio_display_attribute_id" value="3FE064B08DC3435E8E586A82BC19C428"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="42F977CDB925461FB5CED33F330935A6">
+			<attribute name="bda_listorder" value="12"/>
+			<attribute name="bio_attribute_id" value="DC2AA2ED0774467DB7144C6A7568F61A"/>
+			<attribute name="bio_display_attribute_id" value="42F977CDB925461FB5CED33F330935A6"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="43F392CABBFA44FD841FF4F74E9A62E5">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="8D7B05C4680B4E66BEBDEA5C8501A6E8"/>
+			<attribute name="bio_display_attribute_id" value="43F392CABBFA44FD841FF4F74E9A62E5"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="45CA36F660C74ADAB29CAADF5B319453">
+			<attribute name="bda_listorder" value="8"/>
+			<attribute name="bio_attribute_id" value="1C1B54FB0BFB41B28C9EB591F47AB27D"/>
+			<attribute name="bio_display_attribute_id" value="45CA36F660C74ADAB29CAADF5B319453"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="49A8574614EC4CF083D12A9B41812141">
+			<attribute name="bda_listorder" value="13"/>
+			<attribute name="bio_attribute_id" value="24EBC51C49C546258B3711F947FC7EF1"/>
+			<attribute name="bio_display_attribute_id" value="49A8574614EC4CF083D12A9B41812141"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="4AC81EF719334031AAE022EC2586C478">
+			<attribute name="bda_listorder" value="7"/>
+			<attribute name="bio_attribute_id" value="4D145D4BBE8E42328DC54D6CCAC908E2"/>
+			<attribute name="bio_display_attribute_id" value="4AC81EF719334031AAE022EC2586C478"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="4BA66691747040B5910FB9CA5EA6E7CE">
+			<attribute name="bda_listorder" value="14"/>
+			<attribute name="bio_attribute_id" value="F692AE8B1E8C41D984F3B34849ECCC5C"/>
+			<attribute name="bio_display_attribute_id" value="4BA66691747040B5910FB9CA5EA6E7CE"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="4FC0ABA0370445B4A8F1126460EE68AF">
+			<attribute name="bda_listorder" value="2"/>
+			<attribute name="bio_attribute_id" value="D7BF456F2E134E368CD3A23C74013D8B"/>
+			<attribute name="bio_display_attribute_id" value="4FC0ABA0370445B4A8F1126460EE68AF"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="63314A14460F4E6EB17343C6F9F28B0F">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="00EFB0975FD34785935F8141088A69EA"/>
+			<attribute name="bio_display_attribute_id" value="63314A14460F4E6EB17343C6F9F28B0F"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="6607A6485D0944919A910B49F3F34508">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="23197CBAF322430DAD4E667587009E5D"/>
+			<attribute name="bio_display_attribute_id" value="6607A6485D0944919A910B49F3F34508"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="696480229F594D1B8B2CA6D2CD92642E">
+			<attribute name="bda_listorder" value="14"/>
+			<attribute name="bio_attribute_id" value="973A8709174A40FCB03D27558ED1EB97"/>
+			<attribute name="bio_display_attribute_id" value="696480229F594D1B8B2CA6D2CD92642E"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="6A77D97D0A72486D9355FA0B11438935">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="59A2E2DDF5844C39A6A5A07DAB3B5DC3"/>
+			<attribute name="bio_display_attribute_id" value="6A77D97D0A72486D9355FA0B11438935"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_date_picker"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="6B5D72A258334775841960B29A349DAD">
+			<attribute name="bda_listorder" value="8"/>
+			<attribute name="bio_attribute_id" value="8AD2F28F5B744002ADBBF8FC650CDD12"/>
+			<attribute name="bio_display_attribute_id" value="6B5D72A258334775841960B29A349DAD"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="7C253A7E964F4D2EB00A8193D0520B52">
+			<attribute name="bda_listorder" value="17"/>
+			<attribute name="bio_attribute_id" value="E47A9CA066A2457D91F9B1733C041FD9"/>
+			<attribute name="bio_display_attribute_id" value="7C253A7E964F4D2EB00A8193D0520B52"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="7D71AC338132401884205F57FA769D9C">
+			<attribute name="bda_listorder" value="9"/>
+			<attribute name="bio_attribute_id" value="12BB580597AA4194B46CE49447FF92D8"/>
+			<attribute name="bio_display_attribute_id" value="7D71AC338132401884205F57FA769D9C"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="8D2DB1BA4F4A491DA02D7DDDC02A83A8">
+			<attribute name="bda_listorder" value="6"/>
+			<attribute name="bio_attribute_id" value="1DD13C6809334581B7EB5CE42A474ED9"/>
+			<attribute name="bio_display_attribute_id" value="8D2DB1BA4F4A491DA02D7DDDC02A83A8"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="9120E16F778E476E91B5F57BA6F1A657">
+			<attribute name="bda_listorder" value="16"/>
+			<attribute name="bio_attribute_id" value="92B0A067E94A4E30AD9EFFF8F13DCFBD"/>
+			<attribute name="bio_display_attribute_id" value="9120E16F778E476E91B5F57BA6F1A657"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="9562CC497E2A4AFE8C2ACE57021016EA">
+			<attribute name="bda_listorder" value="5"/>
+			<attribute name="bio_attribute_id" value="E326DAC375BC4FD58F4F9A150A29141F"/>
+			<attribute name="bio_display_attribute_id" value="9562CC497E2A4AFE8C2ACE57021016EA"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="A18FFF71179A4588889C10E5841762A3">
+			<attribute name="bda_listorder" value="3"/>
+			<attribute name="bio_attribute_id" value="CC1D71C7FD5E43678C7B57E662410C9B"/>
+			<attribute name="bio_display_attribute_id" value="A18FFF71179A4588889C10E5841762A3"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="AF2173CB76184AD2BEC3E928B293E9A1">
+			<attribute name="bda_listorder" value="5"/>
+			<attribute name="bio_attribute_id" value="1A81C4E2E20E40658F794411E0CD69F4"/>
+			<attribute name="bio_display_attribute_id" value="AF2173CB76184AD2BEC3E928B293E9A1"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="BBB47122F86B48BBB90C8C7E2529FAE5">
+			<attribute name="bda_listorder" value="10"/>
+			<attribute name="bio_attribute_id" value="2094387BAFD7443AA986EC577A1689D1"/>
+			<attribute name="bio_display_attribute_id" value="BBB47122F86B48BBB90C8C7E2529FAE5"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_checkbox"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="C747F646034F41CFA7934C2DF988496D">
+			<attribute name="bda_listorder" value="6"/>
+			<attribute name="bio_attribute_id" value="DC5B26C45ED74DE9BF154C85D0DED253"/>
+			<attribute name="bio_display_attribute_id" value="C747F646034F41CFA7934C2DF988496D"/>
+			<attribute name="bio_display_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="CB6C350897C04A89A59F35374EE82710">
+			<attribute name="bda_listorder" value="9"/>
+			<attribute name="bio_attribute_id" value="52BCD3AF597B4ABF8FD4EEE77BECDD59"/>
+			<attribute name="bio_display_attribute_id" value="CB6C350897C04A89A59F35374EE82710"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="CD2B6B190CA449E389DEB3D5E72AAF05">
+			<attribute name="bda_listorder" value="15"/>
+			<attribute name="bio_attribute_id" value="A839DC5F2E954A59AD001644FE66C4CD"/>
+			<attribute name="bio_display_attribute_id" value="CD2B6B190CA449E389DEB3D5E72AAF05"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="D9D338512CCB4B448D364F232667BE50">
+			<attribute name="bda_listorder" value="10"/>
+			<attribute name="bio_attribute_id" value="CE744EA34F1D439BB2934516181A0573"/>
+			<attribute name="bio_display_attribute_id" value="D9D338512CCB4B448D364F232667BE50"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="DD58BC98AD574FABADC5578FD150EDBC">
+			<attribute name="bda_listorder" value="15"/>
+			<attribute name="bio_attribute_id" value="46AF2489356A4ED081E01A9D4337CBD9"/>
+			<attribute name="bio_display_attribute_id" value="DD58BC98AD574FABADC5578FD150EDBC"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="EAF18FAF809640B08A17F43DF4810C8C">
+			<attribute name="bda_listorder" value="4"/>
+			<attribute name="bio_attribute_id" value="B9FE8E4A8DC34165B029C36270F45A92"/>
+			<attribute name="bio_display_attribute_id" value="EAF18FAF809640B08A17F43DF4810C8C"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="EF413118AF424ED6A1A9955E096CB639">
+			<attribute name="bda_listorder" value="7"/>
+			<attribute name="bio_attribute_id" value="4DDB567A76E4419B8FE313469F7D0CC9"/>
+			<attribute name="bio_display_attribute_id" value="EF413118AF424ED6A1A9955E096CB639"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="F4BF7036571F4EC3B2F58DB678B16863">
+			<attribute name="bda_listorder" value="13"/>
+			<attribute name="bio_attribute_id" value="3CD95EAB85A14BDF8902C4721EBBA305"/>
+			<attribute name="bio_display_attribute_id" value="F4BF7036571F4EC3B2F58DB678B16863"/>
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="bio_display_attribute" primary-key="bio_display_attribute_id" primary-key-value="F65DB07C7A974F9FA8AA8D97F856C0C8">
+			<attribute name="bda_listorder" value="1"/>
+			<attribute name="bio_attribute_id" value="1448B38EF20E45D99F11B1BFD010EB51"/>
+			<attribute name="bio_display_attribute_id" value="F65DB07C7A974F9FA8AA8D97F856C0C8"/>
+			<attribute name="bio_display_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="086D7053B48B40CD9E4E2C28B22ABAA8">
+			<attribute name="data_field_id" value="086D7053B48B40CD9E4E2C28B22ABAA8"/>
+			<attribute name="data_field_name" value="CODE"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="CODE"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="250"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="1936679983A747EA9EE6A1DD458E8896">
+			<attribute name="data_field_id" value="1936679983A747EA9EE6A1DD458E8896"/>
+			<attribute name="data_field_name" value="ADDWHO"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="ADDWHO"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="18"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="1C812D4E60C14D4A8A29966765831EB9">
+			<attribute name="data_field_id" value="1C812D4E60C14D4A8A29966765831EB9"/>
+			<attribute name="data_field_name" value="JOINKEY3"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="JOINKEY3"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="1EA7F2409954467197A8E0A25ECE6345">
+			<attribute name="data_field_id" value="1EA7F2409954467197A8E0A25ECE6345"/>
+			<attribute name="data_field_name" value="JOINKEY1"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="JOINKEY1"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="4CEFCE9D978841B282AB849EEF28A31E">
+			<attribute name="data_field_id" value="4CEFCE9D978841B282AB849EEF28A31E"/>
+			<attribute name="data_field_name" value="ADDDATE"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_DATE"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="ADDDATE"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="0"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="1"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="633882494EEF4A5BBD4E6FE528FD60B5">
+			<attribute name="data_field_id" value="633882494EEF4A5BBD4E6FE528FD60B5"/>
+			<attribute name="data_field_name" value="SERIALKEY"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_INT"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="SERIALKEY"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="0"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="7535218A9A3E41098B37FF0EA26B0849">
+			<attribute name="data_field_id" value="7535218A9A3E41098B37FF0EA26B0849"/>
+			<attribute name="data_field_name" value="EDITDATE"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_DATE"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="EDITDATE"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="0"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="7ABAE158356948F78D96CA42A8EAF435">
+			<attribute name="data_field_id" value="7ABAE158356948F78D96CA42A8EAF435"/>
+			<attribute name="data_field_name" value="JOINKEY5"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="JOINKEY5"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="7BD21CB2CE1B4D01A1F44C827FD844B0">
+			<attribute name="data_field_id" value="7BD21CB2CE1B4D01A1F44C827FD844B0"/>
+			<attribute name="data_field_name" value="JOINKEY4"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="JOINKEY4"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="ADB6677A556D47CD9F1E84C6A4D3F6B1">
+			<attribute name="data_field_id" value="ADB6677A556D47CD9F1E84C6A4D3F6B1"/>
+			<attribute name="data_field_name" value="JOINKEY2"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="JOINKEY2"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="BC0A415B425C47F3B9CCC1B1D218B4FD">
+			<attribute name="data_field_id" value="BC0A415B425C47F3B9CCC1B1D218B4FD"/>
+			<attribute name="data_field_name" value="TBLNAME"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="TBLNAME"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="32"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="C275070C51A64AB6B4CBD9403B8A8EF5">
+			<attribute name="data_field_id" value="C275070C51A64AB6B4CBD9403B8A8EF5"/>
+			<attribute name="data_field_name" value="EDITWHO"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="EDITWHO"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="18"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="CF23D5EB18384DAAAD503F5C18180D7D">
+			<attribute name="data_field_id" value="CF23D5EB18384DAAAD503F5C18180D7D"/>
+			<attribute name="data_field_name" value="DESCRIPTION"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="DESCRIPTION"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="250"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="D45843E0738B414E8DC81156D4801340">
+			<attribute name="data_field_id" value="D45843E0738B414E8DC81156D4801340"/>
+			<attribute name="data_field_name" value="LOCALE"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="LOCALE"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="10"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="EAE8A9369A4B49D78691531FB963F8B9">
+			<attribute name="data_field_id" value="EAE8A9369A4B49D78691531FB963F8B9"/>
+			<attribute name="data_field_name" value="WHSEID"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="WHSEID"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="30"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_field" primary-key="data_field_id" primary-key-value="F16792F13A1845B3A3ED4C76D619AC8A">
+			<attribute name="data_field_id" value="F16792F13A1845B3A3ED4C76D619AC8A"/>
+			<attribute name="data_field_name" value="COLUMNNAME"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_type_id" value="DATA_TYPE_STRING"/>
+			<attribute name="default_flag" value="0"/>
+			<attribute name="field_physical_name" value="COLUMNNAME"/>
+			<attribute name="lazy_load_flag" value="0"/>
+			<attribute name="logical_delete_flag" value="0"/>
+			<attribute name="max_length" value="250"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="required_flag" value="0"/>
+			<attribute name="revision_flag" value="0"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="data_recordset" primary-key="data_recordset_id" primary-key-value="126F5995F2FE418A8494640B1231EE55">
+			<attribute name="auto_pk_dm_gen_flag" value="0"/>
+			<attribute name="caching_type" value="uow"/>
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="data_recordset_name" value="wm_translationlist"/>
+			<attribute name="data_source_id" value="BD012F969329434487724099D69F5D59"/>
+			<attribute name="delete_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+			<attribute name="fetch_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="has_pk_flag" value="1"/>
+			<attribute name="insert_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+			<attribute name="is_logical_delete_default" value="0"/>
+			<attribute name="locking_strategy" value="none"/>
+			<attribute name="primary_key_auto_flag" value="0"/>
+			<attribute name="query_method_class_id" value="SQLDataProviderImpl"/>
+			<attribute name="recordset_physical_name" value="translationlist"/>
+			<attribute name="supports_logical_delete" value="0"/>
+			<attribute name="update_method_class_id" value="7E32C50303CC4277AC0D564081BA3C34"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="2D7B645F6BA847958D43C3C410872463">
+			<attribute name="extension_id" value="ListNextAction"/>
+			<attribute name="extension_instance_id" value="2D7B645F6BA847958D43C3C410872463"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="32C89326A5CD491D973486E1690E330A">
+			<attribute name="extension_id" value="0FD5A7B0873F4C8F8DDDAFBFDC941721"/>
+			<attribute name="extension_instance_id" value="32C89326A5CD491D973486E1690E330A"/>
+			<attribute name="object_id" value="E6C51370FE7C49C5952920C0C1F2E96F"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="354721AF8BF94D5BB51C316A8866999F">
+			<attribute name="extension_id" value="108D318C07EB45A3B8064AF6CD368B11"/>
+			<attribute name="extension_instance_id" value="354721AF8BF94D5BB51C316A8866999F"/>
+			<attribute name="object_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="object_type_id" value="bio_class"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="4A5146F79D764469B51334745BB13C12">
+			<attribute name="extension_id" value="ListNextAction"/>
+			<attribute name="extension_instance_id" value="4A5146F79D764469B51334745BB13C12"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="572D7B22C8AC4395AA9DAE0673F6F761">
+			<attribute name="extension_id" value="SaveAction"/>
+			<attribute name="extension_instance_id" value="572D7B22C8AC4395AA9DAE0673F6F761"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="6310B2BC426F4E48B5574BD655E8B44D">
+			<attribute name="extension_id" value="ListNextAction"/>
+			<attribute name="extension_instance_id" value="6310B2BC426F4E48B5574BD655E8B44D"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="71548D806C404D05988B4827A2DCB06C">
+			<attribute name="extension_id" value="ListSelectAction"/>
+			<attribute name="extension_instance_id" value="71548D806C404D05988B4827A2DCB06C"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="72D4A179407C494C8C22AA848AD0C86D">
+			<attribute name="extension_id" value="0FD5A7B0873F4C8F8DDDAFBFDC941721"/>
+			<attribute name="extension_instance_id" value="72D4A179407C494C8C22AA848AD0C86D"/>
+			<attribute name="object_id" value="3780AFDB40044C79975EC6FE8343789A"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="8BE95D6FC2AD48D884BC2038DA1DD3D5">
+			<attribute name="extension_id" value="ListNextAction"/>
+			<attribute name="extension_instance_id" value="8BE95D6FC2AD48D884BC2038DA1DD3D5"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="A231E6305A1247289E108E411CC54A4D">
+			<attribute name="extension_id" value="3210E2B45B97417290522E1CCD51B4C4"/>
+			<attribute name="extension_instance_id" value="A231E6305A1247289E108E411CC54A4D"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="A2AD6AEEBF4B499B86B00F7D2BDB00E1">
+			<attribute name="extension_id" value="QueryAction"/>
+			<attribute name="extension_instance_id" value="A2AD6AEEBF4B499B86B00F7D2BDB00E1"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="AAD1564143CC466BBBF86A9194279E63">
+			<attribute name="extension_id" value="QueryAction"/>
+			<attribute name="extension_instance_id" value="AAD1564143CC466BBBF86A9194279E63"/>
+			<attribute name="object_id" value="3780AFDB40044C79975EC6FE8343789A"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="B5B67378849D4C1AA53EADAC80A0B74A">
+			<attribute name="extension_id" value="ListRefreshAction"/>
+			<attribute name="extension_instance_id" value="B5B67378849D4C1AA53EADAC80A0B74A"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="B9A5B483C3CE4939A745B337BE5FE6B2">
+			<attribute name="extension_id" value="108D318C07EB45A3B8064AF6CD368B11"/>
+			<attribute name="extension_instance_id" value="B9A5B483C3CE4939A745B337BE5FE6B2"/>
+			<attribute name="object_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="object_type_id" value="bio_class"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="D8CBC1A2ECAB4616995F2D533A5BF822">
+			<attribute name="extension_id" value="QueryAction"/>
+			<attribute name="extension_instance_id" value="D8CBC1A2ECAB4616995F2D533A5BF822"/>
+			<attribute name="object_id" value="E6C51370FE7C49C5952920C0C1F2E96F"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="E1065AB20EBC4FDA8A71EDF2C029A708">
+			<attribute name="extension_id" value="FC15D6384EFF4E4599BC89DFB339C836"/>
+			<attribute name="extension_instance_id" value="E1065AB20EBC4FDA8A71EDF2C029A708"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="FB6B33B0B1364012AD29976C5AA903B3">
+			<attribute name="extension_id" value="0FFEF8FA0DCD48998EF6B13BBCE939DF"/>
+			<attribute name="extension_instance_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="object_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="1849CA45A80944E2901D2674F6BAE872">
+			<attribute name="event_type_mapping_id" value="15503"/>
+			<attribute name="extension_instance_event_id" value="1849CA45A80944E2901D2674F6BAE872"/>
+			<attribute name="extension_instance_id" value="32C89326A5CD491D973486E1690E330A"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="196A82C6DD7E4692856393FD435DF9C2">
+			<attribute name="event_type_mapping_id" value="15526"/>
+			<attribute name="extension_instance_event_id" value="196A82C6DD7E4692856393FD435DF9C2"/>
+			<attribute name="extension_instance_id" value="572D7B22C8AC4395AA9DAE0673F6F761"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="2648EC06B0044B9EA097FDE061C79AE0">
+			<attribute name="event_type_mapping_id" value="15506"/>
+			<attribute name="extension_instance_event_id" value="2648EC06B0044B9EA097FDE061C79AE0"/>
+			<attribute name="extension_instance_id" value="2D7B645F6BA847958D43C3C410872463"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="2F003742851B4BE094E079DD85F7B318">
+			<attribute name="event_type_mapping_id" value="2BF032DC7707444181BAC1424454078E"/>
+			<attribute name="extension_instance_event_id" value="2F003742851B4BE094E079DD85F7B318"/>
+			<attribute name="extension_instance_id" value="A231E6305A1247289E108E411CC54A4D"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="33CA4A827B5149A799D88D166F5E0F2F">
+			<attribute name="event_type_mapping_id" value="15508"/>
+			<attribute name="extension_instance_event_id" value="33CA4A827B5149A799D88D166F5E0F2F"/>
+			<attribute name="extension_instance_id" value="6310B2BC426F4E48B5574BD655E8B44D"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="43D32B9282C6412096348E2AE23EA20C">
+			<attribute name="event_type_mapping_id" value="15522"/>
+			<attribute name="extension_instance_event_id" value="43D32B9282C6412096348E2AE23EA20C"/>
+			<attribute name="extension_instance_id" value="354721AF8BF94D5BB51C316A8866999F"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="547F814CBE6A45888169EE1FFD91CC80">
+			<attribute name="event_type_mapping_id" value="15503"/>
+			<attribute name="extension_instance_event_id" value="547F814CBE6A45888169EE1FFD91CC80"/>
+			<attribute name="extension_instance_id" value="72D4A179407C494C8C22AA848AD0C86D"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="54D61BC380454663A56397CAB02E1620">
+			<attribute name="event_type_mapping_id" value="15523"/>
+			<attribute name="extension_instance_event_id" value="54D61BC380454663A56397CAB02E1620"/>
+			<attribute name="extension_instance_id" value="B9A5B483C3CE4939A745B337BE5FE6B2"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="886CAB8B96E14355964D5F8D7EAF9403">
+			<attribute name="event_type_mapping_id" value="15507"/>
+			<attribute name="extension_instance_event_id" value="886CAB8B96E14355964D5F8D7EAF9403"/>
+			<attribute name="extension_instance_id" value="8BE95D6FC2AD48D884BC2038DA1DD3D5"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="AC491D17EBF14629B6AFBB8990144959">
+			<attribute name="event_type_mapping_id" value="15509"/>
+			<attribute name="extension_instance_event_id" value="AC491D17EBF14629B6AFBB8990144959"/>
+			<attribute name="extension_instance_id" value="B5B67378849D4C1AA53EADAC80A0B74A"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="B93762F33566413BA5DC20830978E2FC">
+			<attribute name="event_type_mapping_id" value="15505"/>
+			<attribute name="extension_instance_event_id" value="B93762F33566413BA5DC20830978E2FC"/>
+			<attribute name="extension_instance_id" value="4A5146F79D764469B51334745BB13C12"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="BC827DB4132245A19632304C6E3BF906">
+			<attribute name="event_type_mapping_id" value="BC49B4CCADB244EA8F55CB4C55B62222"/>
+			<attribute name="extension_instance_event_id" value="BC827DB4132245A19632304C6E3BF906"/>
+			<attribute name="extension_instance_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="C47436EBB97F476E990B3F89557984C6">
+			<attribute name="event_type_mapping_id" value="9F2565F7893F4DE7854701A575AA9A17"/>
+			<attribute name="extension_instance_event_id" value="C47436EBB97F476E990B3F89557984C6"/>
+			<attribute name="extension_instance_id" value="E1065AB20EBC4FDA8A71EDF2C029A708"/>
+			<attribute name="extension_instance_priority" value="100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="C648FFC99D134FDF9800448509B27907">
+			<attribute name="event_type_mapping_id" value="15503"/>
+			<attribute name="extension_instance_event_id" value="C648FFC99D134FDF9800448509B27907"/>
+			<attribute name="extension_instance_id" value="AAD1564143CC466BBBF86A9194279E63"/>
+			<attribute name="extension_instance_priority" value="110"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="C79A343D6E2B41D0AFDBAAB66EA0262B">
+			<attribute name="event_type_mapping_id" value="15504"/>
+			<attribute name="extension_instance_event_id" value="C79A343D6E2B41D0AFDBAAB66EA0262B"/>
+			<attribute name="extension_instance_id" value="71548D806C404D05988B4827A2DCB06C"/>
+			<attribute name="extension_instance_priority" value="-100"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="DB56B33CE0F7492EAD4F6CEF06E06443">
+			<attribute name="event_type_mapping_id" value="15503"/>
+			<attribute name="extension_instance_event_id" value="DB56B33CE0F7492EAD4F6CEF06E06443"/>
+			<attribute name="extension_instance_id" value="D8CBC1A2ECAB4616995F2D533A5BF822"/>
+			<attribute name="extension_instance_priority" value="110"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="FEB7CA65888B43E2B57EB06E850FC3C0">
+			<attribute name="event_type_mapping_id" value="9F2565F7893F4DE7854701A575AA9A17"/>
+			<attribute name="extension_instance_event_id" value="FEB7CA65888B43E2B57EB06E850FC3C0"/>
+			<attribute name="extension_instance_id" value="A2AD6AEEBF4B499B86B00F7D2BDB00E1"/>
+			<attribute name="extension_instance_priority" value="110"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="017C5D387EDE4D0782C3094E9E113DD5">
+			<attribute name="bio_attribute_id" value="92B0A067E94A4E30AD9EFFF8F13DCFBD"/>
+			<attribute name="data_field_id" value="EEEA15F09A994C5DA959EB2C93296A82"/>
+			<attribute name="field_mapped_attribute_id" value="017C5D387EDE4D0782C3094E9E113DD5"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="064F802D1CF04F0B98BFCBE4FB4CFA8A">
+			<attribute name="bio_attribute_id" value="E326DAC375BC4FD58F4F9A150A29141F"/>
+			<attribute name="data_field_id" value="9FDE9114A04142A3A5F3CD4E0D3A2233"/>
+			<attribute name="field_mapped_attribute_id" value="064F802D1CF04F0B98BFCBE4FB4CFA8A"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="0F2E2A88CE234FAC941120D89A24177F">
+			<attribute name="bio_attribute_id" value="E47A9CA066A2457D91F9B1733C041FD9"/>
+			<attribute name="data_field_id" value="EF5D457D5C9F467ABB6016C87755CC53"/>
+			<attribute name="field_mapped_attribute_id" value="0F2E2A88CE234FAC941120D89A24177F"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="1A1F4D6D005244BF8E61328B18243C3E">
+			<attribute name="bio_attribute_id" value="458F7530ECD549F5B234033CFA1F72AF"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240ED0A767C1"/>
+			<attribute name="field_mapped_attribute_id" value="1A1F4D6D005244BF8E61328B18243C3E"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="2114E3995F1144B195A87D691D6B313F">
+			<attribute name="bio_attribute_id" value="59A2E2DDF5844C39A6A5A07DAB3B5DC3"/>
+			<attribute name="data_field_id" value="4CEFCE9D978841B282AB849EEF28A31E"/>
+			<attribute name="field_mapped_attribute_id" value="2114E3995F1144B195A87D691D6B313F"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="2248E661181D495792171D9E8E3FDA70">
+			<attribute name="bio_attribute_id" value="DC2AA2ED0774467DB7144C6A7568F61A"/>
+			<attribute name="data_field_id" value="D45843E0738B414E8DC81156D4801340"/>
+			<attribute name="field_mapped_attribute_id" value="2248E661181D495792171D9E8E3FDA70"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="2436E51832B249D69CB166E58086F413">
+			<attribute name="bio_attribute_id" value="E9461B462CED4E56A4B99D8DD941264D"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240E520EE5C6"/>
+			<attribute name="field_mapped_attribute_id" value="2436E51832B249D69CB166E58086F413"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="24CDA706707C49BF98D48A3DBD68A8C8">
+			<attribute name="bio_attribute_id" value="8D7B05C4680B4E66BEBDEA5C8501A6E8"/>
+			<attribute name="data_field_id" value="43DDF223D3754087B1A45910F7F85325"/>
+			<attribute name="field_mapped_attribute_id" value="24CDA706707C49BF98D48A3DBD68A8C8"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="2EC2F34BDAEF419980544FDC8EF89A9F">
+			<attribute name="bio_attribute_id" value="00EFB0975FD34785935F8141088A69EA"/>
+			<attribute name="data_field_id" value="6FBF1B28718D47A1A2C3DEEBB62E65C1"/>
+			<attribute name="field_mapped_attribute_id" value="2EC2F34BDAEF419980544FDC8EF89A9F"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="341260DBD439421F99C7F95095DB3AE7">
+			<attribute name="bio_attribute_id" value="CE744EA34F1D439BB2934516181A0573"/>
+			<attribute name="data_field_id" value="7BD21CB2CE1B4D01A1F44C827FD844B0"/>
+			<attribute name="field_mapped_attribute_id" value="341260DBD439421F99C7F95095DB3AE7"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="3B4210802547457D8E646D86152A0811">
+			<attribute name="bio_attribute_id" value="984745AE4C274DF786CA894D61C9EC35"/>
+			<attribute name="data_field_id" value="1749DA8C51BD4E6E9DD1412F74F34B3E"/>
+			<attribute name="field_mapped_attribute_id" value="3B4210802547457D8E646D86152A0811"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="3F29E077453B4AE8B213C6FAAF89144F">
+			<attribute name="bio_attribute_id" value="2094387BAFD7443AA986EC577A1689D1"/>
+			<attribute name="data_field_id" value="81C92CA9CDB645968AD2C66DDA06FA47"/>
+			<attribute name="field_mapped_attribute_id" value="3F29E077453B4AE8B213C6FAAF89144F"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="4DC874DD92FB4A25AB17BAB7E848954E">
+			<attribute name="bio_attribute_id" value="8AD2F28F5B744002ADBBF8FC650CDD12"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240E9CEAE19D"/>
+			<attribute name="field_mapped_attribute_id" value="4DC874DD92FB4A25AB17BAB7E848954E"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="50DBA69AE4D54FC3B29AF4D20F4C2A3F">
+			<attribute name="bio_attribute_id" value="12BB580597AA4194B46CE49447FF92D8"/>
+			<attribute name="data_field_id" value="63055BBBA58545088F6DF51C52867EC1"/>
+			<attribute name="field_mapped_attribute_id" value="50DBA69AE4D54FC3B29AF4D20F4C2A3F"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="51EF240B1E534257BF2DF19F29135225">
+			<attribute name="bio_attribute_id" value="46AF2489356A4ED081E01A9D4337CBD9"/>
+			<attribute name="data_field_id" value="EAE8A9369A4B49D78691531FB963F8B9"/>
+			<attribute name="field_mapped_attribute_id" value="51EF240B1E534257BF2DF19F29135225"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="54451D7C1DBF45F7A690EEE01EFE5930">
+			<attribute name="bio_attribute_id" value="1A81C4E2E20E40658F794411E0CD69F4"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240E0925B431"/>
+			<attribute name="field_mapped_attribute_id" value="54451D7C1DBF45F7A690EEE01EFE5930"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="5FF0CDA6EECD460CA8D9E71B570F4C3B">
+			<attribute name="bio_attribute_id" value="F692AE8B1E8C41D984F3B34849ECCC5C"/>
+			<attribute name="data_field_id" value="BC0A415B425C47F3B9CCC1B1D218B4FD"/>
+			<attribute name="field_mapped_attribute_id" value="5FF0CDA6EECD460CA8D9E71B570F4C3B"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="6B778863E2A04DD285D32643E55F735D">
+			<attribute name="bio_attribute_id" value="31894F3144C545ABADB3A280961495FE"/>
+			<attribute name="data_field_id" value="7ABAE158356948F78D96CA42A8EAF435"/>
+			<attribute name="field_mapped_attribute_id" value="6B778863E2A04DD285D32643E55F735D"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="6F3DE659727448F68D62BF01C12D99BD">
+			<attribute name="bio_attribute_id" value="3BE4C77C45014F8AABDD637C5725B852"/>
+			<attribute name="data_field_id" value="B67FEDBDBD60490A8F534553C1CA8EA5"/>
+			<attribute name="field_mapped_attribute_id" value="6F3DE659727448F68D62BF01C12D99BD"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="71E2A05DA430442994BD632DC452A184">
+			<attribute name="bio_attribute_id" value="23197CBAF322430DAD4E667587009E5D"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240EDB7A0A2B"/>
+			<attribute name="field_mapped_attribute_id" value="71E2A05DA430442994BD632DC452A184"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="75CBE9BAFA5D47528F8F5A45E6A67B6A">
+			<attribute name="bio_attribute_id" value="DA6EA6B70AAC49E7A2B0E083D5F11DF5"/>
+			<attribute name="data_field_id" value="71C3689BABE8460DA94FDD3B79B728B2"/>
+			<attribute name="field_mapped_attribute_id" value="75CBE9BAFA5D47528F8F5A45E6A67B6A"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="89076785ED994AA28342F8BB18C98256">
+			<attribute name="bio_attribute_id" value="52BCD3AF597B4ABF8FD4EEE77BECDD59"/>
+			<attribute name="data_field_id" value="1C812D4E60C14D4A8A29966765831EB9"/>
+			<attribute name="field_mapped_attribute_id" value="89076785ED994AA28342F8BB18C98256"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="90443F7549964CA59BC1E0BFDF86CE70">
+			<attribute name="bio_attribute_id" value="24BA9363FE564FE6A97BB2159191BF19"/>
+			<attribute name="data_field_id" value="E7576EBA9270460C9340D9D59D378AC8"/>
+			<attribute name="field_mapped_attribute_id" value="90443F7549964CA59BC1E0BFDF86CE70"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="9FB22C000F744318942D8AD830A8212A">
+			<attribute name="bio_attribute_id" value="9E3CE40B3BEF47229675E5F57E6FE35F"/>
+			<attribute name="data_field_id" value="086D7053B48B40CD9E4E2C28B22ABAA8"/>
+			<attribute name="field_mapped_attribute_id" value="9FB22C000F744318942D8AD830A8212A"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="A82D094337414D72B4FC6498E6A6F4A0">
+			<attribute name="bio_attribute_id" value="8335015E11184D0EA751799C5194FA1B"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240E43483072"/>
+			<attribute name="field_mapped_attribute_id" value="A82D094337414D72B4FC6498E6A6F4A0"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="AAEDEB8EBD1946949FA094AFC3247DA4">
+			<attribute name="bio_attribute_id" value="B934084FD7F04DFD81B8D83734506083"/>
+			<attribute name="data_field_id" value="7535218A9A3E41098B37FF0EA26B0849"/>
+			<attribute name="field_mapped_attribute_id" value="AAEDEB8EBD1946949FA094AFC3247DA4"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="AE3ED21291A54C08A45CF29796E094AE">
+			<attribute name="bio_attribute_id" value="7B5F089461914151A8EC21C777706A1F"/>
+			<attribute name="data_field_id" value="1D5EB5B32BCF4D5D82AFC907359C8412"/>
+			<attribute name="field_mapped_attribute_id" value="AE3ED21291A54C08A45CF29796E094AE"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="B1DA3A71E82C41A6A7FEFECF3A67E2D3">
+			<attribute name="bio_attribute_id" value="1C1B54FB0BFB41B28C9EB591F47AB27D"/>
+			<attribute name="data_field_id" value="ADB6677A556D47CD9F1E84C6A4D3F6B1"/>
+			<attribute name="field_mapped_attribute_id" value="B1DA3A71E82C41A6A7FEFECF3A67E2D3"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="B319DB574D9F40C1A69D57BD28E39CE2">
+			<attribute name="bio_attribute_id" value="1DD13C6809334581B7EB5CE42A474ED9"/>
+			<attribute name="data_field_id" value="C275070C51A64AB6B4CBD9403B8A8EF5"/>
+			<attribute name="field_mapped_attribute_id" value="B319DB574D9F40C1A69D57BD28E39CE2"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="B591D83DE41F42FBBA41E1A8269AC0C8">
+			<attribute name="bio_attribute_id" value="CC1D71C7FD5E43678C7B57E662410C9B"/>
+			<attribute name="data_field_id" value="F16792F13A1845B3A3ED4C76D619AC8A"/>
+			<attribute name="field_mapped_attribute_id" value="B591D83DE41F42FBBA41E1A8269AC0C8"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="B862A7836A3E4707898014EBC21598B1">
+			<attribute name="bio_attribute_id" value="D7BF456F2E134E368CD3A23C74013D8B"/>
+			<attribute name="data_field_id" value="1936679983A747EA9EE6A1DD458E8896"/>
+			<attribute name="field_mapped_attribute_id" value="B862A7836A3E4707898014EBC21598B1"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="BE8A901BF70B482B9484D989B8D37984">
+			<attribute name="bio_attribute_id" value="4D145D4BBE8E42328DC54D6CCAC908E2"/>
+			<attribute name="data_field_id" value="1EA7F2409954467197A8E0A25ECE6345"/>
+			<attribute name="field_mapped_attribute_id" value="BE8A901BF70B482B9484D989B8D37984"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="C03D2DA0D74E45688FAA66EFDBC0ABC3">
+			<attribute name="bio_attribute_id" value="B9FE8E4A8DC34165B029C36270F45A92"/>
+			<attribute name="data_field_id" value="E5D30EE80B4C45BEBB6525C2A0D3D335"/>
+			<attribute name="field_mapped_attribute_id" value="C03D2DA0D74E45688FAA66EFDBC0ABC3"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="C51640F9A4774E1CA7CDA2CB13FA0313">
+			<attribute name="bio_attribute_id" value="3CD95EAB85A14BDF8902C4721EBBA305"/>
+			<attribute name="data_field_id" value="633882494EEF4A5BBD4E6FE528FD60B5"/>
+			<attribute name="field_mapped_attribute_id" value="C51640F9A4774E1CA7CDA2CB13FA0313"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="C7FD34A59C95448AA35F6BB8684EE19B">
+			<attribute name="bio_attribute_id" value="1448B38EF20E45D99F11B1BFD010EB51"/>
+			<attribute name="data_field_id" value="D8556825E6C44C50A6FE142D1ED32C52"/>
+			<attribute name="field_mapped_attribute_id" value="C7FD34A59C95448AA35F6BB8684EE19B"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="D00FC8C9B8554D3FA907BA66A6DB17B4">
+			<attribute name="bio_attribute_id" value="973A8709174A40FCB03D27558ED1EB97"/>
+			<attribute name="data_field_id" value="22E5A2262FCB4AB4A27C167A01C89B20"/>
+			<attribute name="field_mapped_attribute_id" value="D00FC8C9B8554D3FA907BA66A6DB17B4"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="D61AB0AE18854FDDBBB3EC4689987D22">
+			<attribute name="bio_attribute_id" value="DC5B26C45ED74DE9BF154C85D0DED253"/>
+			<attribute name="data_field_id" value="B5262BDD0A03FFFF0039240E1B79D8A0"/>
+			<attribute name="field_mapped_attribute_id" value="D61AB0AE18854FDDBBB3EC4689987D22"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="D7DDF57F778B491BB5A4B3A3C9790D31">
+			<attribute name="bio_attribute_id" value="903053ECFF90479E80BC7C8073A279E3"/>
+			<attribute name="data_field_id" value="D0369271BD9C4574A4062FAF79712F6B"/>
+			<attribute name="field_mapped_attribute_id" value="D7DDF57F778B491BB5A4B3A3C9790D31"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="E71A471EA3564E3FA52B2F392F3C6C20">
+			<attribute name="bio_attribute_id" value="24EBC51C49C546258B3711F947FC7EF1"/>
+			<attribute name="data_field_id" value="593FF5A86AEF4909BB7595B8AAFB7820"/>
+			<attribute name="field_mapped_attribute_id" value="E71A471EA3564E3FA52B2F392F3C6C20"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="E7AE6B6177334E6F9A89758011063162">
+			<attribute name="bio_attribute_id" value="4DDB567A76E4419B8FE313469F7D0CC9"/>
+			<attribute name="data_field_id" value="25D7EA890CAC42F89427D3B132963B31"/>
+			<attribute name="field_mapped_attribute_id" value="E7AE6B6177334E6F9A89758011063162"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="F451273DBA3B435F84D0E7C4B1435CC1">
+			<attribute name="bio_attribute_id" value="A839DC5F2E954A59AD001644FE66C4CD"/>
+			<attribute name="data_field_id" value="63BEE2FFC2A94406AB368035A352E329"/>
+			<attribute name="field_mapped_attribute_id" value="F451273DBA3B435F84D0E7C4B1435CC1"/>
+		</object>
+		<object type="field_mapped_attribute" primary-key="field_mapped_attribute_id" primary-key-value="F6243A3B3EC64CBABA042482039B304C">
+			<attribute name="bio_attribute_id" value="2B39E7B9DD244EFE8DB64A19AFEC45E4"/>
+			<attribute name="data_field_id" value="CF23D5EB18384DAAAD503F5C18180D7D"/>
+			<attribute name="field_mapped_attribute_id" value="F6243A3B3EC64CBABA042482039B304C"/>
+		</object>
+		<object type="field_set" primary-key="field_set_id" primary-key-value="7F9432830D2E4E3C94A572E23E228754">
+			<attribute name="data_recordset_id" value="126F5995F2FE418A8494640B1231EE55"/>
+			<attribute name="field_set_id" value="7F9432830D2E4E3C94A572E23E228754"/>
+			<attribute name="field_set_name" value="PK__TRANSLATIONLIST__6D705303"/>
+			<attribute name="index_flag" value="0"/>
+			<attribute name="key_type" value="PRIMARY_KEY"/>
+		</object>
+		<object type="field_set_def" primary-key="field_set_def_id" primary-key-value="A7FD2B70AE8E41549EF30215759B637F">
+			<attribute name="data_field_id" value="633882494EEF4A5BBD4E6FE528FD60B5"/>
+			<attribute name="field_set_def_id" value="A7FD2B70AE8E41549EF30215759B637F"/>
+			<attribute name="field_set_def_listorder" value="1"/>
+			<attribute name="field_set_id" value="7F9432830D2E4E3C94A572E23E228754"/>
+		</object>
+		<object type="form" primary-key="form_id" primary-key-value="61BF4D6C00FE485F8D56BCF5C2C543F0">
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="form_id" value="61BF4D6C00FE485F8D56BCF5C2C543F0"/>
+			<attribute name="form_name" value="wm_translationlist_list_form Toolbar"/>
+			<attribute name="form_type_id" value="TOOLBAR"/>
+		</object>
+		<object type="form" primary-key="form_id" primary-key-value="EECA0D29F4A94AD18C823F9D9FA76023">
+			<attribute name="bio_display_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_name" value="wm_translationlist_list_form"/>
+			<attribute name="form_type_id" value="LIST"/>
+			<attribute name="masked_attributes" value="0"/>
+		</object>
+		<object type="form" primary-key="form_id" primary-key-value="EF086A196A524A67A6719E8E778603A2">
+			<attribute name="form_id" value="EF086A196A524A67A6719E8E778603A2"/>
+			<attribute name="form_name" value="wms_list_shell_translationlist_form Toolbar"/>
+			<attribute name="form_type_id" value="TOOLBAR"/>
+		</object>
+		<object type="form_placement" primary-key="form_placement_id" primary-key-value="7E69F8C922D946BFBCAEF7F3D330BE41">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="form_id" value="A5BB943BC60548D99322ABCA3F7B52AC"/>
+			<attribute name="form_placement_id" value="7E69F8C922D946BFBCAEF7F3D330BE41"/>
+			<attribute name="form_placement_name" value="wms_list_shell_translationlist_bio"/>
+		</object>
+		<object type="form_slot" primary-key="form_slot_id" primary-key-value="B8A254967405401A9889DD3BCD4A5E87">
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_slot_id" value="B8A254967405401A9889DD3BCD4A5E87"/>
+			<attribute name="form_slot_name" value="wm_translationlist_list_form Toolbar"/>
+			<attribute name="form_slot_usage_id" value="TOOLBARSlot"/>
+		</object>
+		<object type="form_slot_def" primary-key="form_slot_def_id" primary-key-value="45657888D9014B8AAEDD49A5BECBFD00">
+			<attribute name="form_slot_def_id" value="45657888D9014B8AAEDD49A5BECBFD00"/>
+			<attribute name="form_slot_def_listorder" value="1"/>
+			<attribute name="form_slot_def_name" value="wm_translationlist_list_form Toolbar"/>
+			<attribute name="form_slot_id" value="B8A254967405401A9889DD3BCD4A5E87"/>
+			<attribute name="perspective_id" value="37FD5D8513F246A8830D2889EBBCE827"/>
+		</object>
+		<object type="form_slot_def" primary-key="form_slot_def_id" primary-key-value="8D5A9730A55147B58D38A1C1401915E3">
+			<attribute name="form_placement_id" value="7E69F8C922D946BFBCAEF7F3D330BE41"/>
+			<attribute name="form_slot_def_id" value="8D5A9730A55147B58D38A1C1401915E3"/>
+			<attribute name="form_slot_def_listorder" value="92"/>
+			<attribute name="form_slot_def_name" value="wm_translationlist_toolbar"/>
+			<attribute name="form_slot_id" value="9696847CFDA94B448E77F381ED9F7E32"/>
+			<attribute name="special_form_type_id" value="53E8F9812DEE4EA4B48CDA3C6627BA00"/>
+			<attribute name="ui_handler_id" value="4510AEBACDF34EE493751DA0B4F484C2"/>
+		</object>
+		<object type="form_slot_def" primary-key="form_slot_def_id" primary-key-value="B359BBE2564940BB85C70B714F515712">
+			<attribute name="form_placement_id" value="7E69F8C922D946BFBCAEF7F3D330BE41"/>
+			<attribute name="form_slot_def_id" value="B359BBE2564940BB85C70B714F515712"/>
+			<attribute name="form_slot_def_listorder" value="101"/>
+			<attribute name="form_slot_def_name" value="wm_list_shell_translationlist"/>
+			<attribute name="form_slot_id" value="44DD4147D61D42B5A7276B73E189AE18"/>
+			<attribute name="perspective_id" value="C608D16C2EBB4A2E900252B38C29FC15"/>
+			<attribute name="ui_handler_id" value="ACC5185566054D9DABAEA92C436A27A4"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="0E7BCFF8282043628F2352BD0E5E6AA4">
+			<attribute name="form_id" value="EF086A196A524A67A6719E8E778603A2"/>
+			<attribute name="form_widget_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="form_widget_name" value="CAPTION"/>
+			<attribute name="widget_type_id" value="A3C0752022124A8E9FE06B9C71473F90"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="5C8D1741EB0C481890A4FAB8EFA9D388">
+			<attribute name="bio_display_attribute_id" value="4BA66691747040B5910FB9CA5EA6E7CE"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_widget_id" value="5C8D1741EB0C481890A4FAB8EFA9D388"/>
+			<attribute name="form_widget_name" value="TBLNAME"/>
+			<attribute name="widget_type_id" value="WIDG_dropdown"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="636289CA8F554439BD799FB4BF9CCE29">
+			<attribute name="bio_display_attribute_id" value="16A845D2399947DE939172A2B445B8DD"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_widget_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="form_widget_name" value="DESCRIPTION"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="8C26A0E6F75C4498812648D63D2A822D">
+			<attribute name="bio_display_attribute_id" value="42F977CDB925461FB5CED33F330935A6"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_widget_id" value="8C26A0E6F75C4498812648D63D2A822D"/>
+			<attribute name="form_widget_name" value="LOCALE"/>
+			<attribute name="widget_type_id" value="WIDG_dropdown"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="8DE9DAE8561A41AEA5AD14B25EBE73DE">
+			<attribute name="bio_display_attribute_id" value="A18FFF71179A4588889C10E5841762A3"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="form_widget_id" value="8DE9DAE8561A41AEA5AD14B25EBE73DE"/>
+			<attribute name="form_widget_name" value="COLUMNNAME"/>
+			<attribute name="widget_type_id" value="WIDG_text"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="D1554EE80CA54732878A08C54BC2BE01">
+			<attribute name="form_id" value="EF086A196A524A67A6719E8E778603A2"/>
+			<attribute name="form_widget_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="form_widget_name" value="SAVE"/>
+			<attribute name="widget_type_id" value="WIDG_toolbar_button"/>
+		</object>
+		<object type="form_widget" primary-key="form_widget_id" primary-key-value="D30AE5E6CB6D491AA07402DCC49DC685">
+			<attribute name="form_id" value="61BF4D6C00FE485F8D56BCF5C2C543F0"/>
+			<attribute name="form_widget_id" value="D30AE5E6CB6D491AA07402DCC49DC685"/>
+			<attribute name="form_widget_name" value="wm_translationlist_list_form Toolbar"/>
+			<attribute name="widget_type_id" value="A3C0752022124A8E9FE06B9C71473F90"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="0154944B656D4AAB97B33CB93B48C0EC">
+			<attribute name="label_id" value="0154944B656D4AAB97B33CB93B48C0EC"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Locale"/>
+			<attribute name="object_id" value="8C26A0E6F75C4498812648D63D2A822D"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Locale"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="24FBD207F57048BBBCBBD12312D8C087">
+			<attribute name="label_id" value="24FBD207F57048BBBCBBD12312D8C087"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Description"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Description"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2CA532C772D64DE3AEFBBA98AAB2EC3A">
+			<attribute name="label_id" value="2CA532C772D64DE3AEFBBA98AAB2EC3A"/>
+			<attribute name="label_type_lookup_id" value="title"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_translationlist_list_form"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="short_text" value="wm_translationlist_list_form"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="445A249139494D0BA160CEF7385EE2D2">
+			<attribute name="label_id" value="445A249139494D0BA160CEF7385EE2D2"/>
+			<attribute name="label_type_lookup_id" value="5DF52B9A577340D7B50E0026B851B714"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="3752B17C8B7E41C588058D24886BB5F2"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="short_text" value="Code Translation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="4488F3FF730D46B99EEE29D294AE78A9">
+			<attribute name="label_id" value="4488F3FF730D46B99EEE29D294AE78A9"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="object_id" value="8DE9DAE8561A41AEA5AD14B25EBE73DE"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Column Name"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="63BD13E80C1644618A118BEEB0975CD1">
+			<attribute name="label_id" value="63BD13E80C1644618A118BEEB0975CD1"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Code Translation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="7CD52221037444C0A87F11340027D474">
+			<attribute name="label_id" value="7CD52221037444C0A87F11340027D474"/>
+			<attribute name="label_type_lookup_id" value="5DF52B9A577340D7B50E0026B851B714"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="object_id" value="A505FB3697824E848CEA1E7AAF460B14"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="short_text" value="Code Translation"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="94F6653C10CD4C0C9AF36EF82A7E592C">
+			<attribute name="label_id" value="94F6653C10CD4C0C9AF36EF82A7E592C"/>
+			<attribute name="label_type_lookup_id" value="access key"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="S"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="S"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="99A85B3968F549F3B44D56ABAC4D34ED">
+			<attribute name="label_id" value="99A85B3968F549F3B44D56ABAC4D34ED"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Wm_translationlist"/>
+			<attribute name="object_id" value="D30AE5E6CB6D491AA07402DCC49DC685"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Wm_translationlist"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="9E5ABAFC614C42D1972EE6633A2A462A">
+			<attribute name="label_id" value="9E5ABAFC614C42D1972EE6633A2A462A"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_bio_class"/>
+			<attribute name="object_id" value="08DC916046EE47BCA9AAB2FB609C9366"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wm_bio_class"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="A9E45D648E46436A8BA6BB7D4741E238">
+			<attribute name="label_id" value="A9E45D648E46436A8BA6BB7D4741E238"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="Save"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Save"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="C2FAE9702443484799F906B7097FBEA8">
+			<attribute name="label_id" value="C2FAE9702443484799F906B7097FBEA8"/>
+			<attribute name="label_type_lookup_id" value="C659E66E77244AD29069A96F8AC3CC35"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_translationlist_list_form"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="short_text" value="wm_translationlist_list_form"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="CAC454541AB8457AB95B4A5AE9E20B80">
+			<attribute name="label_id" value="CAC454541AB8457AB95B4A5AE9E20B80"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_data_recordset"/>
+			<attribute name="object_id" value="D26CD60810AA438CB39DB8E18F359627"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wm_data_recordset"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="E8F03A67C51840D3A0880AD314236AB3">
+			<attribute name="label_id" value="E8F03A67C51840D3A0880AD314236AB3"/>
+			<attribute name="label_type_lookup_id" value="notes"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="wm_translationlist"/>
+			<attribute name="object_id" value="5C8E3939E3D04B0CA8CA7BEB937E95FA"/>
+			<attribute name="object_type_id" value="bio_display"/>
+			<attribute name="short_text" value="wm_translationlist"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="F5D696E9E86D4340AA0A165E0B8EDF5D">
+			<attribute name="label_id" value="F5D696E9E86D4340AA0A165E0B8EDF5D"/>
+			<attribute name="label_type_lookup_id" value="label"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="object_id" value="5C8D1741EB0C481890A4FAB8EFA9D388"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="short_text" value="Table Name"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="1BD4D5667AE3487DAE513C8A6F99608D">
+			<attribute name="event_type_id" value="listPrevEvent"/>
+			<attribute name="navigation_id" value="1BD4D5667AE3487DAE513C8A6F99608D"/>
+			<attribute name="navigation_listorder" value="5"/>
+			<attribute name="navigation_name" value="prev"/>
+			<attribute name="navigation_type_lookup_id" value="PARENT"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="23A06FF3306E4052BFBC086318514450">
+			<attribute name="event_type_id" value="listGotoEndEvent"/>
+			<attribute name="navigation_id" value="23A06FF3306E4052BFBC086318514450"/>
+			<attribute name="navigation_listorder" value="3"/>
+			<attribute name="navigation_name" value="end"/>
+			<attribute name="navigation_type_lookup_id" value="PARENT"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="3752B17C8B7E41C588058D24886BB5F2">
+			<attribute name="event_type_id" value="menuClickEvent"/>
+			<attribute name="navigation_id" value="3752B17C8B7E41C588058D24886BB5F2"/>
+			<attribute name="navigation_listorder" value="1"/>
+			<attribute name="navigation_name" value="menuClickEvent822"/>
+			<attribute name="navigation_type_lookup_id" value="INTERACTION"/>
+			<attribute name="object_id" value="3780AFDB40044C79975EC6FE8343789A"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="44A3EB8D28CC47FD8431A8C25FDC6EFD">
+			<attribute name="event_type_id" value="clickEvent"/>
+			<attribute name="navigation_id" value="44A3EB8D28CC47FD8431A8C25FDC6EFD"/>
+			<attribute name="navigation_listorder" value="1"/>
+			<attribute name="navigation_name" value="clickEvent2067"/>
+			<attribute name="navigation_type_lookup_id" value="FORMSLOT"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="7899756AF88C49E6884B6C91B82B659C">
+			<attribute name="event_type_id" value="96721E59D10D4370B9534B62A032D153"/>
+			<attribute name="navigation_id" value="7899756AF88C49E6884B6C91B82B659C"/>
+			<attribute name="navigation_listorder" value="2"/>
+			<attribute name="navigation_name" value="filter"/>
+			<attribute name="navigation_type_lookup_id" value="SELF"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="7D58633BC3CE45AD970C3F16423C5C86">
+			<attribute name="event_type_id" value="listSelectEvent"/>
+			<attribute name="navigation_id" value="7D58633BC3CE45AD970C3F16423C5C86"/>
+			<attribute name="navigation_listorder" value="7"/>
+			<attribute name="navigation_name" value="select"/>
+			<attribute name="navigation_type_lookup_id" value="SELF"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="9D7C5358DAE641F998103DA9529C9090">
+			<attribute name="event_type_id" value="listRefreshEvent"/>
+			<attribute name="navigation_id" value="9D7C5358DAE641F998103DA9529C9090"/>
+			<attribute name="navigation_listorder" value="6"/>
+			<attribute name="navigation_name" value="refresh"/>
+			<attribute name="navigation_type_lookup_id" value="PARENT"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="A505FB3697824E848CEA1E7AAF460B14">
+			<attribute name="event_type_id" value="menuClickEvent"/>
+			<attribute name="navigation_id" value="A505FB3697824E848CEA1E7AAF460B14"/>
+			<attribute name="navigation_listorder" value="1"/>
+			<attribute name="navigation_name" value="menuClickEvent821"/>
+			<attribute name="navigation_type_lookup_id" value="INTERACTION"/>
+			<attribute name="object_id" value="E6C51370FE7C49C5952920C0C1F2E96F"/>
+			<attribute name="object_type_id" value="menu_item"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="DE7BB536BCB44E5485E9F70BE2CFF719">
+			<attribute name="event_type_id" value="E762E9B00C0B499BA5C99C2110858E53"/>
+			<attribute name="navigation_id" value="DE7BB536BCB44E5485E9F70BE2CFF719"/>
+			<attribute name="navigation_listorder" value="1"/>
+			<attribute name="navigation_name" value="sort"/>
+			<attribute name="navigation_type_lookup_id" value="SELF"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="EB95D99C1C5E48FF8C14F1538AF98FB4">
+			<attribute name="event_type_id" value="listNextEvent"/>
+			<attribute name="navigation_id" value="EB95D99C1C5E48FF8C14F1538AF98FB4"/>
+			<attribute name="navigation_listorder" value="4"/>
+			<attribute name="navigation_name" value="next"/>
+			<attribute name="navigation_type_lookup_id" value="PARENT"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation" primary-key="navigation_id" primary-key-value="FB3C61C30320494F86A139D3B343A95C">
+			<attribute name="event_type_id" value="listGotoStartEvent"/>
+			<attribute name="navigation_id" value="FB3C61C30320494F86A139D3B343A95C"/>
+			<attribute name="navigation_listorder" value="8"/>
+			<attribute name="navigation_name" value="start"/>
+			<attribute name="navigation_type_lookup_id" value="PARENT"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="062B40EAC74443F5BF9652DE27436559">
+			<attribute name="is_reference_from_result" value="1"/>
+			<attribute name="navigation_def_id" value="062B40EAC74443F5BF9652DE27436559"/>
+			<attribute name="navigation_id" value="7D58633BC3CE45AD970C3F16423C5C86"/>
+			<attribute name="perspective_id" value="AC5764CE47494A118AF0D4C052479BF7"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="1BC21104EFA14B9DA89BA8FAF7962892">
+			<attribute name="is_reference_from_result" value="1"/>
+			<attribute name="navigation_def_id" value="1BC21104EFA14B9DA89BA8FAF7962892"/>
+			<attribute name="navigation_id" value="3752B17C8B7E41C588058D24886BB5F2"/>
+			<attribute name="perspective_id" value="25781258FA24400DA77C2678D79BD546"/>
+			<attribute name="screen_slot_id" value="MainSlot"/>
+			<attribute name="tab_listorder" value="0"/>
+			<attribute name="ui_handler_id" value="22587201DF1448B6B81ADCCC31505EFE"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="30EEB0FB33694F5F8E21B65D3DD88108">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="30EEB0FB33694F5F8E21B65D3DD88108"/>
+			<attribute name="navigation_id" value="FB3C61C30320494F86A139D3B343A95C"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="582F612E7E3C4506A4EBDCBF9EFD7B3F">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="582F612E7E3C4506A4EBDCBF9EFD7B3F"/>
+			<attribute name="navigation_id" value="DE7BB536BCB44E5485E9F70BE2CFF719"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="6AA066DE4D384D2188A2B6B79093ECFA">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="6AA066DE4D384D2188A2B6B79093ECFA"/>
+			<attribute name="navigation_id" value="1BD4D5667AE3487DAE513C8A6F99608D"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="9FCF1E77FE7847E48ABDFF180B8C57FE">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="9FCF1E77FE7847E48ABDFF180B8C57FE"/>
+			<attribute name="navigation_id" value="9D7C5358DAE641F998103DA9529C9090"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="A87170B493A1499B959E4AE52A962A01">
+			<attribute name="form_slot_id" value="44DD4147D61D42B5A7276B73E189AE18"/>
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="A87170B493A1499B959E4AE52A962A01"/>
+			<attribute name="navigation_id" value="44A3EB8D28CC47FD8431A8C25FDC6EFD"/>
+			<attribute name="perspective_id" value="C608D16C2EBB4A2E900252B38C29FC15"/>
+			<attribute name="tab_listorder" value="0"/>
+			<attribute name="ui_handler_id" value="ACC5185566054D9DABAEA92C436A27A4"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="AB9EA1E28FD74812BA28EA4EAAB06AB2">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="AB9EA1E28FD74812BA28EA4EAAB06AB2"/>
+			<attribute name="navigation_id" value="EB95D99C1C5E48FF8C14F1538AF98FB4"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="D0B8817252FC41E085FDE9FF533320B0">
+			<attribute name="is_reference_from_result" value="3"/>
+			<attribute name="navigation_def_id" value="D0B8817252FC41E085FDE9FF533320B0"/>
+			<attribute name="navigation_id" value="23A06FF3306E4052BFBC086318514450"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="E211166BADF9473F8B01030C294BA492">
+			<attribute name="is_reference_from_result" value="1"/>
+			<attribute name="navigation_def_id" value="E211166BADF9473F8B01030C294BA492"/>
+			<attribute name="navigation_id" value="A505FB3697824E848CEA1E7AAF460B14"/>
+			<attribute name="perspective_id" value="25781258FA24400DA77C2678D79BD546"/>
+			<attribute name="screen_slot_id" value="MainSlot"/>
+			<attribute name="tab_listorder" value="0"/>
+			<attribute name="ui_handler_id" value="22587201DF1448B6B81ADCCC31505EFE"/>
+		</object>
+		<object type="navigation_def" primary-key="navigation_def_id" primary-key-value="F1C14C2A65A8477791E99EB686A031AF">
+			<attribute name="is_reference_from_result" value="1"/>
+			<attribute name="navigation_def_id" value="F1C14C2A65A8477791E99EB686A031AF"/>
+			<attribute name="navigation_id" value="7899756AF88C49E6884B6C91B82B659C"/>
+			<attribute name="tab_listorder" value="0"/>
+		</object>
+		<object type="perspective" primary-key="perspective_id" primary-key-value="37FD5D8513F246A8830D2889EBBCE827">
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="perspective_id" value="37FD5D8513F246A8830D2889EBBCE827"/>
+			<attribute name="perspective_name" value="wm_translationlist_list_form Toolbar"/>
+		</object>
+		<object type="perspective" primary-key="perspective_id" primary-key-value="C608D16C2EBB4A2E900252B38C29FC15">
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="perspective_id" value="C608D16C2EBB4A2E900252B38C29FC15"/>
+			<attribute name="perspective_name" value="wm_translationlist_list_form"/>
+		</object>
+		<object type="perspective" primary-key="perspective_id" primary-key-value="FF8BC784F70D448A9C41A7620EC71095">
+			<attribute name="masked_attributes" value="0"/>
+			<attribute name="perspective_id" value="FF8BC784F70D448A9C41A7620EC71095"/>
+			<attribute name="perspective_name" value="wm_translationlist_shell_form Toolbar Toolbar"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="03F6494BA9E04B928DBAB8BEA5DCBA1A">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3752B17C8B7E41C588058D24886BB5F2"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="parameter_id" value="0C7D9FCA513B43BEAC5BB8A9098AA187"/>
+			<attribute name="property_value_id" value="03F6494BA9E04B928DBAB8BEA5DCBA1A"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="05AA00B3BEB44F14B89AF68773C7AF7A">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="A505FB3697824E848CEA1E7AAF460B14"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="parameter_id" value="0C7D9FCA513B43BEAC5BB8A9098AA187"/>
+			<attribute name="property_value_id" value="05AA00B3BEB44F14B89AF68773C7AF7A"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="0B4100DB9C2D4C1B93867BE8EF88B23C">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelColSpan6TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="0B4100DB9C2D4C1B93867BE8EF88B23C"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="0DD5FC61A5694134B1DD363D0991575D">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacolSpan2TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="0DD5FC61A5694134B1DD363D0991575D"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="13235E0144164EF892B17074770B8363">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="AAD1564143CC466BBBF86A9194279E63"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="095B7379A9C748FFBD3CB65CE93B920C"/>
+			<attribute name="property_value_id" value="13235E0144164EF892B17074770B8363"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="1575C9997B274816A950090533E53995">
+			<attribute name="display_text" value="left"/>
+			<attribute name="enumerated_value_id" value="LABEL_ALIGN_left"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelAlign7TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="1575C9997B274816A950090533E53995"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="1A7272BDBEE84D65952AB72DB832FFC4">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="572D7B22C8AC4395AA9DAE0673F6F761"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="2AB62800608A40AE93E28C2D21FC9066"/>
+			<attribute name="property_value_id" value="1A7272BDBEE84D65952AB72DB832FFC4"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="1C2F930684D941FE91B6EB2643BC75F0">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="8DE9DAE8561A41AEA5AD14B25EBE73DE"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="FD452B8FD7744C8184A126CC87B3CABF"/>
+			<attribute name="property_value_id" value="1C2F930684D941FE91B6EB2643BC75F0"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="2566052136B04D6EAC858D0318F0AD1F">
+			<attribute name="display_text" value="2"/>
+			<attribute name="int_value" value="4"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1LISTLIST"/>
+			<attribute name="property_value_id" value="2566052136B04D6EAC858D0318F0AD1F"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="3199841DE5D84DFAB508529D5D9664B2">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelColSpan6TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="3199841DE5D84DFAB508529D5D9664B2"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="3719993AA7FA41609BB7C6A40270C3F9">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="8C26A0E6F75C4498812648D63D2A822D"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="FD452B8FD7744C8184A126CC87B3CABF"/>
+			<attribute name="property_value_id" value="3719993AA7FA41609BB7C6A40270C3F9"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="3BEEDBC330554B06B1CEC8FAF0CC71D1">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="A83A1C202ACC4BEFB62118BAE4AD944D"/>
+			<attribute name="property_value_id" value="3BEEDBC330554B06B1CEC8FAF0CC71D1"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="3EFD357E58D3446E9D78EC314FB160AC">
+			<attribute name="display_text" value="3"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="8C26A0E6F75C4498812648D63D2A822D"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1LISTLIST"/>
+			<attribute name="property_value_id" value="3EFD357E58D3446E9D78EC314FB160AC"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="412A041089C346458899EBDFE296D278">
+			<attribute name="display_text" value="wm_locales"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="8C26A0E6F75C4498812648D63D2A822D"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="4440A95C682C42FFBD1B5CE6299113CF"/>
+			<attribute name="object_value_type" value="attribute_domain"/>
+			<attribute name="parameter_id" value="paattribute domain1dropdownWIDG_"/>
+			<attribute name="property_value_id" value="412A041089C346458899EBDFE296D278"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="45ABBF7D222242908DAF6F22B08DE7DF">
+			<attribute name="display_text" value="bold_text"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="413510B3D5414D0A893D900A29101AAD"/>
+			<attribute name="object_value_type" value="css_style"/>
+			<attribute name="parameter_id" value="7615C37A0147404CB201CF123E5591C4"/>
+			<attribute name="property_value_id" value="45ABBF7D222242908DAF6F22B08DE7DF"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="4BEDE1D7B72843C385E69CBCA67C4490">
+			<attribute name="display_text" value="wm_translationlist_tablename"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="5C8D1741EB0C481890A4FAB8EFA9D388"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="object_value_type" value="attribute_domain"/>
+			<attribute name="parameter_id" value="paattribute domain1dropdownWIDG_"/>
+			<attribute name="property_value_id" value="4BEDE1D7B72843C385E69CBCA67C4490"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="50888543F9EE403B8FDFD416DF2A3046">
+			<attribute name="display_text" value="top"/>
+			<attribute name="enumerated_value_id" value="LABELPOS_top"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelPos5TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="50888543F9EE403B8FDFD416DF2A3046"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="53BF8948DCF24DCA97DC2E3EEA3B5641">
+			<attribute name="display_text" value="left"/>
+			<attribute name="enumerated_value_id" value="LABEL_ALIGN_left"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelAlign7TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="53BF8948DCF24DCA97DC2E3EEA3B5641"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="547C5C0EEFB549FF807A3743D0B10354">
+			<attribute name="display_text" value="TBLNAME"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="8AFFED57FF174A8EBB2D20C3A378390A"/>
+			<attribute name="property_value_id" value="547C5C0EEFB549FF807A3743D0B10354"/>
+			<attribute name="string_value" value="TBLNAME"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="5DE7C78170F2402AB64C26E86C1D0225">
+			<attribute name="display_text" value="CSS_CLASS"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="027865CCECD345768121C7CDC2F63962"/>
+			<attribute name="object_value_type" value="CSS_CLASS"/>
+			<attribute name="parameter_id" value="palabel class4textWIDG_text"/>
+			<attribute name="property_value_id" value="5DE7C78170F2402AB64C26E86C1D0225"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="621AB548645343B9B2BBCCF3797DEE74">
+			<attribute name="display_text" value="false"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_false"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+			<attribute name="parameter_id" value="CA8FA9D3344349378637FA296BF15C75"/>
+			<attribute name="property_value_id" value="621AB548645343B9B2BBCCF3797DEE74"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="64F90B0496C0411183E7F66CDA11CF4C">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="61BF4D6C00FE485F8D56BCF5C2C543F0"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="pacolumns1TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="64F90B0496C0411183E7F66CDA11CF4C"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="654E7F0790BA42CDBEDEA149468F43D4">
+			<attribute name="display_text" value="40"/>
+			<attribute name="int_value" value="40"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="525C9DBE533C4A7AA3AC3ACBF67C2BAA"/>
+			<attribute name="property_value_id" value="654E7F0790BA42CDBEDEA149468F43D4"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="69F127F4EA4346A3A2466B466ADC780A">
+			<attribute name="display_text" value="4"/>
+			<attribute name="int_value" value="4"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="69F127F4EA4346A3A2466B466ADC780A"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="6FADC2C75C8D4080B711422E423D5190">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="5C8D1741EB0C481890A4FAB8EFA9D388"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="FD452B8FD7744C8184A126CC87B3CABF"/>
+			<attribute name="property_value_id" value="6FADC2C75C8D4080B711422E423D5190"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="7A8C3244D39D4946AB69137AFF0FEFB4">
+			<attribute name="display_text" value="Save Parent"/>
+			<attribute name="enumerated_value_id" value="STATE_HANDLING_Save Parent"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="9D7C5358DAE641F998103DA9529C9090"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="parameter_id" value="paState Handling1PARENTPARENT"/>
+			<attribute name="property_value_id" value="7A8C3244D39D4946AB69137AFF0FEFB4"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="81F5BEB5D8BF447AAC031E28BCD7BAF6">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="parowSpan3TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="81F5BEB5D8BF447AAC031E28BCD7BAF6"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="8991BE9C331240ABBFFB06905EB2C549">
+			<attribute name="display_text" value="TBLNAME"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="5BA8467693954B06BD3354B28F8ED0E1"/>
+			<attribute name="property_value_id" value="8991BE9C331240ABBFFB06905EB2C549"/>
+			<attribute name="string_value" value="TBLNAME"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="8CF01EC5D7B54733A6324DD96AD25938">
+			<attribute name="display_text" value="wm_translationlist"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="D49A0398BF264BD18E2D7B6F1583A22C"/>
+			<attribute name="property_value_id" value="8CF01EC5D7B54733A6324DD96AD25938"/>
+			<attribute name="string_value" value="wm_translationlist"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="90F0BBA1E8E341A18B11FC6268BA3A1E">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D30AE5E6CB6D491AA07402DCC49DC685"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pahidden9TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="90F0BBA1E8E341A18B11FC6268BA3A1E"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="93478BBFBA18480B8C4809BEBF236519">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="93478BBFBA18480B8C4809BEBF236519"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="950E12D07E1C48EF9C7717E076FE6E7B">
+			<attribute name="display_text" value="Actual Count"/>
+			<attribute name="enumerated_value_id" value="DC31235649D841E288BC3DBE86E8EE74"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="DF93A6CA3987402BA62C17A0CDB853BF"/>
+			<attribute name="property_value_id" value="950E12D07E1C48EF9C7717E076FE6E7B"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9846D8206CC44918A15CC33F55F3185E">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacolSpan2TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="9846D8206CC44918A15CC33F55F3185E"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="98CDE0BA247146A48A4C15CF95546D99">
+			<attribute name="display_text" value="4"/>
+			<attribute name="int_value" value="3"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="8DE9DAE8561A41AEA5AD14B25EBE73DE"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1LISTLIST"/>
+			<attribute name="property_value_id" value="98CDE0BA247146A48A4C15CF95546D99"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9BC242D4DBBA481299C6B71699ECE10F">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="3752B17C8B7E41C588058D24886BB5F2"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="parameter_id" value="6A113CC614C74ACDBAFD983E1EF6B8A7"/>
+			<attribute name="property_value_id" value="9BC242D4DBBA481299C6B71699ECE10F"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="9F4CA0FB8855419CBB8B5686852FB1DA">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="E64279FB350E4E6B900A7A75480E847C"/>
+			<attribute name="property_value_id" value="9F4CA0FB8855419CBB8B5686852FB1DA"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="A1E1A6DA89F6405780815D7C38076B08">
+			<attribute name="display_text" value="wm_translationlist"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="AAD1564143CC466BBBF86A9194279E63"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="object_value_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="object_value_type" value="bio_class"/>
+			<attribute name="parameter_id" value="patype1QueryActionQueryAction"/>
+			<attribute name="property_value_id" value="A1E1A6DA89F6405780815D7C38076B08"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="A4E7945F82D94794B586C97B4FB7A47B">
+			<attribute name="display_text" value="30"/>
+			<attribute name="int_value" value="30"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+			<attribute name="parameter_id" value="CE392CC9A2E00F44B36B9B0C111A4FF3"/>
+			<attribute name="property_value_id" value="A4E7945F82D94794B586C97B4FB7A47B"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="B1A1056286D54AAA883634B3DF9E5FC7">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D1554EE80CA54732878A08C54BC2BE01"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="parow4TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="B1A1056286D54AAA883634B3DF9E5FC7"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="B40566C83A89445BA8827151B37F5FFF">
+			<attribute name="display_text" value="CSS_CLASS"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="63282B9BC6AE495DBD33E874170DE125"/>
+			<attribute name="object_value_type" value="CSS_CLASS"/>
+			<attribute name="parameter_id" value="DB7196FFF7C5458C84627B639AE4C1EA"/>
+			<attribute name="property_value_id" value="B40566C83A89445BA8827151B37F5FFF"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="BF40AE7F0DA042808B8561B598AF4154">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="FB6B33B0B1364012AD29976C5AA903B3"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="E9A1A470B0294DDFABA3AFCFC2CD147F"/>
+			<attribute name="property_value_id" value="BF40AE7F0DA042808B8561B598AF4154"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="C365FF8A36784A438843D9A0A22B3122">
+			<attribute name="display_text" value="CSS_CLASS"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="object_value_id" value="80BA1697CDA047B49204B066329F85B6"/>
+			<attribute name="object_value_type" value="CSS_CLASS"/>
+			<attribute name="parameter_id" value="0C6057A117A3449F96929FCB790F716D"/>
+			<attribute name="property_value_id" value="C365FF8A36784A438843D9A0A22B3122"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="C580B56288024576AD9B62B57C274582">
+			<attribute name="display_text" value="40"/>
+			<attribute name="int_value" value="40"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="36329DBFF8F949FA9EEBEFD6C2A662C5"/>
+			<attribute name="property_value_id" value="C580B56288024576AD9B62B57C274582"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="CCBA0208855E4FA38360CA3C0DB18F87">
+			<attribute name="display_text" value="help_topic_pending"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="pahelpFile3LISTLIST"/>
+			<attribute name="property_value_id" value="CCBA0208855E4FA38360CA3C0DB18F87"/>
+			<attribute name="string_value" value="help_topic_pending"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D323C74AC34D408CBB95B7746C9F20F4">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="parow4TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="D323C74AC34D408CBB95B7746C9F20F4"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D4DC76EEA22946B6A85407DEA7B98433">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="2F21E77B2188474CB81D1F8A74CA1CE7"/>
+			<attribute name="object_type_id" value="attribute_domain"/>
+			<attribute name="parameter_id" value="6DACB8044F30471D871D8D28608F8700"/>
+			<attribute name="property_value_id" value="D4DC76EEA22946B6A85407DEA7B98433"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="D837FDB137D54641978E44316AF34938">
+			<attribute name="display_text" value="4"/>
+			<attribute name="int_value" value="4"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EF086A196A524A67A6719E8E778603A2"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="pacolumns1TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="D837FDB137D54641978E44316AF34938"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="DA071668D6F040989497D08A6A5566A9">
+			<attribute name="display_text" value="wm_translationlist"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D8CBC1A2ECAB4616995F2D533A5BF822"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="object_value_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="object_value_type" value="bio_class"/>
+			<attribute name="parameter_id" value="patype1QueryActionQueryAction"/>
+			<attribute name="property_value_id" value="DA071668D6F040989497D08A6A5566A9"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="DC5234A63EFC4BC08234133DC8BE4E26">
+			<attribute name="display_text" value="4"/>
+			<attribute name="int_value" value="4"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="object_type_id" value="form"/>
+			<attribute name="parameter_id" value="pacolumns1LISTLIST"/>
+			<attribute name="property_value_id" value="DC5234A63EFC4BC08234133DC8BE4E26"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="DE2A1C8671CD45B89BB4D7F6F88464B3">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="1"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="parowSpan3TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="DE2A1C8671CD45B89BB4D7F6F88464B3"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="E1DACD058C964274AB393BFCF6820EEB">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="D8CBC1A2ECAB4616995F2D533A5BF822"/>
+			<attribute name="object_type_id" value="extension_instance"/>
+			<attribute name="parameter_id" value="095B7379A9C748FFBD3CB65CE93B920C"/>
+			<attribute name="property_value_id" value="E1DACD058C964274AB393BFCF6820EEB"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="ECE965EDD4714B7FB229ED37239CE643">
+			<attribute name="display_text" value="1"/>
+			<attribute name="int_value" value="2"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="5C8D1741EB0C481890A4FAB8EFA9D388"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="pacol1LISTLIST"/>
+			<attribute name="property_value_id" value="ECE965EDD4714B7FB229ED37239CE643"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="EE275BAB334349B8BBCF21CC004CFE25">
+			<attribute name="display_text" value="required"/>
+			<attribute name="enumerated_value_id" value="E49A6F25C03D4243B5D7A1E22FF8487E"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="636289CA8F554439BD799FB4BF9CCE29"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="97522BC48FA54774A2A28B029EBB79AE"/>
+			<attribute name="property_value_id" value="EE275BAB334349B8BBCF21CC004CFE25"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="F35F9B46D6B2416BB7AF613053A66321">
+			<attribute name="display_text" value="true"/>
+			<attribute name="enumerated_value_id" value="BOOLEAN_true"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="A505FB3697824E848CEA1E7AAF460B14"/>
+			<attribute name="object_type_id" value="navigation"/>
+			<attribute name="parameter_id" value="6A113CC614C74ACDBAFD983E1EF6B8A7"/>
+			<attribute name="property_value_id" value="F35F9B46D6B2416BB7AF613053A66321"/>
+		</object>
+		<object type="property_value" primary-key="property_value_id" primary-key-value="FA1074B345E542F9862AA0FC468E8E94">
+			<attribute name="display_text" value="top"/>
+			<attribute name="enumerated_value_id" value="LABELPOS_top"/>
+			<attribute name="is_map_flag" value="0"/>
+			<attribute name="is_vector_flag" value="0"/>
+			<attribute name="object_id" value="0E7BCFF8282043628F2352BD0E5E6AA4"/>
+			<attribute name="object_type_id" value="form_widget"/>
+			<attribute name="parameter_id" value="palabelPos5TOOLBARTOOLBAR"/>
+			<attribute name="property_value_id" value="FA1074B345E542F9862AA0FC468E8E94"/>
+		</object>
+		<object type="special_form_type" primary-key="special_form_type_id" primary-key-value="53E8F9812DEE4EA4B48CDA3C6627BA00">
+			<attribute name="special_form_type_id" value="53E8F9812DEE4EA4B48CDA3C6627BA00"/>
+			<attribute name="special_form_type_name" value="wms_list_shell_translationlist_form Toolbar"/>
+		</object>
+		<object type="ui_handler" primary-key="ui_handler_id" primary-key-value="22587201DF1448B6B81ADCCC31505EFE">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="form_id" value="A5BB943BC60548D99322ABCA3F7B52AC"/>
+			<attribute name="perspective_id" value="25781258FA24400DA77C2678D79BD546"/>
+			<attribute name="ui_handler_id" value="22587201DF1448B6B81ADCCC31505EFE"/>
+		</object>
+		<object type="ui_handler" primary-key="ui_handler_id" primary-key-value="4510AEBACDF34EE493751DA0B4F484C2">
+			<attribute name="form_id" value="EF086A196A524A67A6719E8E778603A2"/>
+			<attribute name="special_form_type_id" value="53E8F9812DEE4EA4B48CDA3C6627BA00"/>
+			<attribute name="ui_handler_id" value="4510AEBACDF34EE493751DA0B4F484C2"/>
+		</object>
+		<object type="ui_handler" primary-key="ui_handler_id" primary-key-value="6237DF262F96466E8DB8D1B154B00D1E">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="form_id" value="61BF4D6C00FE485F8D56BCF5C2C543F0"/>
+			<attribute name="perspective_id" value="37FD5D8513F246A8830D2889EBBCE827"/>
+			<attribute name="ui_handler_id" value="6237DF262F96466E8DB8D1B154B00D1E"/>
+		</object>
+		<object type="ui_handler" primary-key="ui_handler_id" primary-key-value="ACC5185566054D9DABAEA92C436A27A4">
+			<attribute name="bio_class_id" value="C516F6C68BA2429199F541CCCDE45B07"/>
+			<attribute name="form_id" value="EECA0D29F4A94AD18C823F9D9FA76023"/>
+			<attribute name="perspective_id" value="C608D16C2EBB4A2E900252B38C29FC15"/>
+			<attribute name="ui_handler_id" value="ACC5185566054D9DABAEA92C436A27A4"/>
+		</object>
+	</module>
+</root>

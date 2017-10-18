@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wave_ext" id="273E5C8EF4784F67AB4023F6C0D8149C" version="658" row_count="4" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="273E5C8EF4784F67AB4023F6C0D8149C">
+			<attribute name="app_module_id" value="273E5C8EF4784F67AB4023F6C0D8149C"/>
+			<attribute name="app_module_name" value="wp_wave_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="69808"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="83B72B35874C46F481B42CEAD2C772AE">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_wave.action.WPWaveAddOrdersToWave"/>
+			<attribute name="extension_id" value="83B72B35874C46F481B42CEAD2C772AE"/>
+			<attribute name="extension_name" value="WPWaveAddOrdersToWave"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_wave.action"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="5EC721D0BD19429B93DCA0EA0AE3DD58">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="5EC721D0BD19429B93DCA0EA0AE3DD58"/>
+			<attribute name="extension_id" value="83B72B35874C46F481B42CEAD2C772AE"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="5213EBAB52B4435C8FB56F7191CFB4B2">
+			<attribute name="label_id" value="5213EBAB52B4435C8FB56F7191CFB4B2"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="WPWaveAddOrdersToWave"/>
+			<attribute name="object_id" value="83B72B35874C46F481B42CEAD2C772AE"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="WPWaveAddOrdersToWave"/>
+		</object>
+	</module>
+</root>

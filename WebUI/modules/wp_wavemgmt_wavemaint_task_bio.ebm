@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_wavemgmt_wavemaint_task_bio" id="3B769A67AD1C4EED87036942ACB4FD4F" version="658" row_count="12" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="3B769A67AD1C4EED87036942ACB4FD4F">
+			<attribute name="app_module_id" value="3B769A67AD1C4EED87036942ACB4FD4F"/>
+			<attribute name="app_module_name" value="wp_wavemgmt_wavemaint_task_bio"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="181"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="287C6F9D11A94CC4A4B20930A36F6804">
+			<attribute name="bio_attribute_id" value="287C6F9D11A94CC4A4B20930A36F6804"/>
+			<attribute name="bio_attribute_name" value="TASKCOLLECTION"/>
+			<attribute name="bio_attribute_type" value="BIOCOLLECTION"/>
+			<attribute name="bio_class_id" value="89E0078CE7D64BC1B6A2AAB39EDE6B76"/>
+			<attribute name="destination_bio_id" value="1934927709004CB097D5A463102F9181"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="mapped_field" value="wm_taskdetail_wp_orderheader_rel"/>
+			<attribute name="mapping_type" value="RELATION"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="bio_attribute" primary-key="bio_attribute_id" primary-key-value="D70BFCC0C77340D9AD3C2FB3D52C1258">
+			<attribute name="bio_attribute_id" value="D70BFCC0C77340D9AD3C2FB3D52C1258"/>
+			<attribute name="bio_attribute_name" value="TASKCOLLECTION"/>
+			<attribute name="bio_attribute_type" value="BIOCOLLECTION"/>
+			<attribute name="bio_class_id" value="7DEA33BD7F8E44198DE66784EF3F46E6"/>
+			<attribute name="destination_bio_id" value="1934927709004CB097D5A463102F9181"/>
+			<attribute name="field_level_audit_flag" value="0"/>
+			<attribute name="mapped_field" value="WPWMTaskDetailBioCollection"/>
+			<attribute name="mapping_type" value="COMPUTED"/>
+			<attribute name="queryable_flag" value="1"/>
+			<attribute name="updateable_flag" value="1"/>
+		</object>
+		<object type="computed_attribute" primary-key="computed_attribute_id" primary-key-value="222892ED28AA469B94EFF277DD03BDCD">
+			<attribute name="bio_attribute_id" value="D70BFCC0C77340D9AD3C2FB3D52C1258"/>
+			<attribute name="cached_flag" value="0"/>
+			<attribute name="computed_attribute_id" value="222892ED28AA469B94EFF277DD03BDCD"/>
+			<attribute name="extension_id" value="38033F8F5EF04CD69CB7B678D13C507B"/>
+			<attribute name="implementation_class_name" value="com.infor.scm.waveplanning.wp_wavemgmt_wavemaint.computed.WPWMTaskDetailBioCollection"/>
+		</object>
+		<object type="data_source_view" primary-key="data_source_view_id" primary-key-value="33527088CC824B05924CECCDF76E7073">
+			<attribute name="data_source_view_id" value="33527088CC824B05924CECCDF76E7073"/>
+			<attribute name="object_id" value="2EAFAFE948C3413F99463F120E17CD6F"/>
+			<attribute name="object_type_id" value="relationship"/>
+		</object>
+		<object type="data_source_view_node" primary-key="data_source_view_node_id" primary-key-value="387F2E2F94DC40E9820AC24B73743E23">
+			<attribute name="data_recordset_id" value="382A9508D2624DABA3BD51046D7CA6F0"/>
+			<attribute name="data_source_view_id" value="33527088CC824B05924CECCDF76E7073"/>
+			<attribute name="data_source_view_node_id" value="387F2E2F94DC40E9820AC24B73743E23"/>
+			<attribute name="x_pos" value="735"/>
+			<attribute name="y_pos" value="3435"/>
+		</object>
+		<object type="data_source_view_node" primary-key="data_source_view_node_id" primary-key-value="44D1E23CCE254A968FB7F8E4C36627F8">
+			<attribute name="data_recordset_id" value="6309F039F8F84D38851FFBEB120465F2"/>
+			<attribute name="data_source_view_id" value="33527088CC824B05924CECCDF76E7073"/>
+			<attribute name="data_source_view_node_id" value="44D1E23CCE254A968FB7F8E4C36627F8"/>
+			<attribute name="x_pos" value="780"/>
+			<attribute name="y_pos" value="8970"/>
+		</object>
+		<object type="data_source_view_rel" primary-key="data_source_view_rel_id" primary-key-value="5F83261AA1D541CA8C8158F64471FBEE">
+			<attribute name="data_source_view_id" value="33527088CC824B05924CECCDF76E7073"/>
+			<attribute name="data_source_view_rel_id" value="5F83261AA1D541CA8C8158F64471FBEE"/>
+			<attribute name="relationship_id" value="2EAFAFE948C3413F99463F120E17CD6F"/>
+		</object>
+		<object type="field_set" primary-key="field_set_id" primary-key-value="3F89F1C16C474DD8A15029B23E53C8DA">
+			<attribute name="data_recordset_id" value="6309F039F8F84D38851FFBEB120465F2"/>
+			<attribute name="field_set_id" value="3F89F1C16C474DD8A15029B23E53C8DA"/>
+			<attribute name="field_set_name" value="AK_wm_taskdetail"/>
+			<attribute name="index_flag" value="0"/>
+			<attribute name="key_type" value="ALTERNATE_KEY"/>
+		</object>
+		<object type="field_set_def" primary-key="field_set_def_id" primary-key-value="6D4EAB443CE04205AB3A03E2BC0BC23D">
+			<attribute name="data_field_id" value="F491C3D353B949E4AB76AC1DEF767188"/>
+			<attribute name="field_set_def_id" value="6D4EAB443CE04205AB3A03E2BC0BC23D"/>
+			<attribute name="field_set_def_listorder" value="1"/>
+			<attribute name="field_set_id" value="3F89F1C16C474DD8A15029B23E53C8DA"/>
+		</object>
+		<object type="rel_mapped_bio" primary-key="rel_mapped_bio_id" primary-key-value="D1D430C8F8F24D61BEFBEBA32646A507">
+			<attribute name="bio_attribute_id" value="287C6F9D11A94CC4A4B20930A36F6804"/>
+			<attribute name="cascade_delete_flag" value="0"/>
+			<attribute name="left_to_right_flag" value="0"/>
+			<attribute name="rel_mapped_bio_id" value="D1D430C8F8F24D61BEFBEBA32646A507"/>
+			<attribute name="relationship_id" value="2EAFAFE948C3413F99463F120E17CD6F"/>
+		</object>
+		<object type="relationship" primary-key="relationship_id" primary-key-value="2EAFAFE948C3413F99463F120E17CD6F">
+			<attribute name="enforced_constraints_flag" value="0"/>
+			<attribute name="is_one_one_flag" value="0"/>
+			<attribute name="left_side_field_set_id" value="6CE0249F8E5F43FF931061276383800C"/>
+			<attribute name="left_unjoined_flag" value="0"/>
+			<attribute name="relationship_id" value="2EAFAFE948C3413F99463F120E17CD6F"/>
+			<attribute name="right_side_field_set_id" value="3F89F1C16C474DD8A15029B23E53C8DA"/>
+			<attribute name="right_unjoined_flag" value="0"/>
+			<attribute name="role_name" value="wm_taskdetail_wp_orderheader_rel"/>
+		</object>
+	</module>
+</root>

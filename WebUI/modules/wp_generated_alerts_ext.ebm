@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<module name="wp_generated_alerts_ext" id="BD692214418D483D9ABFECDC6B7F80FE" version="658" row_count="8" module-type="0">
+		<object type="app_module" primary-key="app_module_id" primary-key-value="BD692214418D483D9ABFECDC6B7F80FE">
+			<attribute name="app_module_id" value="BD692214418D483D9ABFECDC6B7F80FE"/>
+			<attribute name="app_module_name" value="wp_generated_alerts_ext"/>
+			<attribute name="is_system_module_flag" value="0"/>
+			<attribute name="module_version" value="1"/>
+			<attribute name="transaction_id" value="0"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="40E8CD28DEB849AAB0F2AAC441A4022A">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_generated_alerts.ui.GeneratedAlertsOnChangeCreateDateFilter"/>
+			<attribute name="extension_id" value="40E8CD28DEB849AAB0F2AAC441A4022A"/>
+			<attribute name="extension_name" value="GeneratedAlertsOnChangeCreateDateFilter"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_generated_alerts.ui"/>
+		</object>
+		<object type="extension" primary-key="extension_id" primary-key-value="925B73164AF84EF1B3EBD56D75ECF5C5">
+			<attribute name="extension_code" value="com.infor.scm.waveplanning.wp_generated_alerts.ui.GeneratedAlertsFilterQuery"/>
+			<attribute name="extension_id" value="925B73164AF84EF1B3EBD56D75ECF5C5"/>
+			<attribute name="extension_name" value="GeneratedAlertsFilterQuery"/>
+			<attribute name="extension_type" value="JAVA_CLASS"/>
+			<attribute name="package_name" value="com.infor.scm.waveplanning.wp_generated_alerts.ui"/>
+		</object>
+		<object type="extension_event_category" primary-key="extension_event_category_id" primary-key-value="10116852095C4755BE1B8D8E8AE31741">
+			<attribute name="event_category_id" value="CC3B89F6F86741758503168579A3B700"/>
+			<attribute name="extension_event_category_id" value="10116852095C4755BE1B8D8E8AE31741"/>
+			<attribute name="extension_id" value="925B73164AF84EF1B3EBD56D75ECF5C5"/>
+		</object>
+		<object type="extension_instance" primary-key="extension_instance_id" primary-key-value="B0DDD0A1C5024F179B2E0B846C18C08A">
+			<attribute name="extension_id" value="925B73164AF84EF1B3EBD56D75ECF5C5"/>
+			<attribute name="extension_instance_id" value="B0DDD0A1C5024F179B2E0B846C18C08A"/>
+			<attribute name="object_id" value="3872B952C20741AB8088DC7E14F73042"/>
+			<attribute name="object_type_id" value="form"/>
+		</object>
+		<object type="extension_instance_event" primary-key="extension_instance_event_id" primary-key-value="5667BF67816448BA96C94955DBC75A3B">
+			<attribute name="event_type_mapping_id" value="9F2565F7893F4DE7854701A575AA9A17"/>
+			<attribute name="extension_instance_event_id" value="5667BF67816448BA96C94955DBC75A3B"/>
+			<attribute name="extension_instance_id" value="B0DDD0A1C5024F179B2E0B846C18C08A"/>
+			<attribute name="extension_instance_priority" value="115"/>
+			<attribute name="is_dflt_value" value="0"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="2E757A9D007745C6B177B0AEB444A2CA">
+			<attribute name="label_id" value="2E757A9D007745C6B177B0AEB444A2CA"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="GeneratedAlertsOnChangeCreateDateFilter"/>
+			<attribute name="object_id" value="40E8CD28DEB849AAB0F2AAC441A4022A"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="GeneratedAlertsOnChangeCreateDateFilter"/>
+		</object>
+		<object type="label" primary-key="label_id" primary-key-value="D393B91F66EB4E2F98B2CBC5410605FC">
+			<attribute name="label_id" value="D393B91F66EB4E2F98B2CBC5410605FC"/>
+			<attribute name="label_type_lookup_id" value="description"/>
+			<attribute name="locale_id" value="en"/>
+			<attribute name="long_text" value="GeneratedAlertsFilterQuery"/>
+			<attribute name="object_id" value="925B73164AF84EF1B3EBD56D75ECF5C5"/>
+			<attribute name="object_type_id" value="extension"/>
+			<attribute name="short_text" value="GeneratedAlertsFilterQuery"/>
+		</object>
+	</module>
+</root>
